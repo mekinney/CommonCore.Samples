@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{5151AE98-A0AA-40FC-9C25-3E1755ADD69F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="providersearch/readme.txt">
+    <Files>
+      <File FileName="providersearch/readme.txt" Line="7" Column="51" />
+      <File FileName="Droid/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Personal 240/CommonCore/Core Projects/Xamarin.Forms.CommonCore/Controls/RankingControl.cs" line="146" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.providersearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
+  <MonoDevelop.Ide.ItemProperties.providersearch.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>

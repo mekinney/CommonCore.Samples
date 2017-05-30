@@ -1,0 +1,53 @@
+﻿{
+  "AzureSettings": {
+    "AzureServiceBusName": "busname",
+    "AzureServiceBusUrl": "busurl",
+    "AzureKey": "key",
+    "AzureHubName": "hubname",
+    "AzureListenConnection": "listenconnection"
+  },
+  "HttpSettings": {
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "GoogleSettings": {
+    "GoogleSenderId": ""
+  },
+  "SqliteSettings": {
+    "SQLiteDatabase": "providersearch.db3",
+    "TableNames": [
+      { "tableName": "providersearch.FavoriteSearch" }
+    ]
+  },
+  "MobileCenter_HockeyApp": {
+    "IOSAppId": "guid",
+    "AndroidAppId": "guid",
+    "UWPAppId": "guid"
+  },
+  "WebApi": [
+    {
+      "name": "spcialtylist",
+      "url": "https://api.betterdoctor.com/2016-03-01/specialties?user_key={0}"
+    },
+    {
+      "name": "insurancelist",
+      "url": "https://api.betterdoctor.com/2016-03-01/insurances?user_key={0}"
+    },
+    {
+      "name": "googlecitysearch",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?address={0}"
+    },
+    {
+      "name": "providerlist",
+      "url": "https://api.betterdoctor.com/2016-03-01/doctors?location={0}&user_location={1}&skip={2}&limit={3}&user_key={4}"
+    }
+  ],
+  "CustomSettings": [
+    {
+      "name": "user_key",
+      "value": "62b6093677e4f5591e978ce010990cc2"
+    }
+  ]
+}
