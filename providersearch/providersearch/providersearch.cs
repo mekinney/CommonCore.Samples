@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using Xamarin.Forms.CommonCore;
 
 namespace providersearch
 {

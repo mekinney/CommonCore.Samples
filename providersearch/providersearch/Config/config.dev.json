@@ -1,19 +1,9 @@
 ﻿{
-  "AzureSettings": {
-    "AzureServiceBusName": "busname",
-    "AzureServiceBusUrl": "busurl",
-    "AzureKey": "key",
-    "AzureHubName": "hubname",
-    "AzureListenConnection": "listenconnection"
-  },
   "HttpSettings": {
     "HttpTimeOut": 0,
     "HttpAllowAutoRedirect": false,
     "IOSHttpHandler": "ModernHttpClient",
     "AndroidHttpHandler": "ModernHttpClient"
-  },
-  "GoogleSettings": {
-    "GoogleSenderId": ""
   },
   "SqliteSettings": {
     "SQLiteDatabase": "providersearch.db3",
