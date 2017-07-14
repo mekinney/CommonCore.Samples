@@ -138,3 +138,17 @@
 /Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/obj/Debug/res/drawable/star_selected.png
 /Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/obj/Debug/R.cs.flag
 /Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/obj/Debug/uploadflags.txt
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FormsViewGroup.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FFImageLoading.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FFImageLoading.Platform.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FFImageLoading.Forms.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FFImageLoading.Forms.Droid.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/FFImageLoading.Transformations.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Microsoft.Practices.ServiceLocation.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Plugin.Connectivity.Abstractions.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Plugin.Connectivity.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Refractored.FloatingActionButton.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/providersearch/Droid/bin/Debug/Xamarin.Auth.dll.mdb

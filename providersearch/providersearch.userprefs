@@ -1,12 +1,15 @@
-﻿<Properties StartupConfiguration="{5151AE98-A0AA-40FC-9C25-3E1755ADD69F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/Services/readme.authentication.txt">
+﻿<Properties StartupConfiguration="{B6E392A5-D8A5-4105-B66E-A4FD78674D4C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="providersearch/ViewModels/ProviderSearchViewModel.cs">
     <Files>
-      <File FileName="providersearch/readme.txt" Line="7" Column="51" />
-      <File FileName="Droid/packages.config" Line="1" Column="1" />
-      <File FileName="providersearch/providersearch.cs" Line="12" Column="49" />
       <File FileName="providersearch/Views/Tabbed/MainTabPage.cs" Line="9" Column="16" />
-      <File FileName="providersearch/Models/APIClasses.cs" Line="1" Column="1" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/readme.authentication.txt" Line="3" Column="1" />
+      <File FileName="providersearch/Models/APIClasses.cs" Line="9" Column="2" />
+      <File FileName="providersearch/Config/config.dev.json" Line="17" Column="15" />
+      <File FileName="providersearch/Models/FavoriteSearch.cs" Line="1" Column="1" />
+      <File FileName="providersearch/ViewModels/ProviderSearchViewModel.cs" Line="11" Column="1" />
+      <File FileName="providersearch/Models/Specialities.cs" Line="1" Column="1" />
+      <File FileName="providersearch/Extensions/AppExtensions.cs" Line="28" Column="1" />
+      <File FileName="providersearch/providersearch.cs" Line="1" Column="1" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Utilities/SynchronizationContextRemover.cs" Line="5" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

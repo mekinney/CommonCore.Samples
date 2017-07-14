@@ -11,11 +11,6 @@
       { "tableName": "providersearch.FavoriteSearch" }
     ]
   },
-  "MobileCenter_HockeyApp": {
-    "IOSAppId": "guid",
-    "AndroidAppId": "guid",
-    "UWPAppId": "guid"
-  },
   "WebApi": [
     {
       "name": "spcialtylist",

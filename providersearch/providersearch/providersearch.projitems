@@ -16,6 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\HomePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\FavoritesPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ProviderSearchViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Specialities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\AppExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Config\" />
@@ -23,6 +26,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\Tabbed\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />

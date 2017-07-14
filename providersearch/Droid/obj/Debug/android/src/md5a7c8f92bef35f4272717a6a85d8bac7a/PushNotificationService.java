@@ -14,6 +14,7 @@ public class PushNotificationService
 			"n_onStartCommand:(Landroid/content/Intent;II)I:GetOnStartCommand_Landroid_content_Intent_IIHandler\n" +
 			"n_onBind:(Landroid/content/Intent;)Landroid/os/IBinder;:GetOnBind_Landroid_content_Intent_Handler\n" +
 			"n_onDestroy:()V:GetOnDestroyHandler\n" +
+			"n_onTaskRemoved:(Landroid/content/Intent;)V:GetOnTaskRemoved_Landroid_content_Intent_Handler\n" +
 			"";
 		mono.android.Runtime.register ("PushNotification.Plugin.PushNotificationService, providersearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", PushNotificationService.class, __md_methods);
 	}
@@ -57,6 +58,14 @@ public class PushNotificationService
 	}
 
 	private native void n_onDestroy ();
+
+
+	public void onTaskRemoved (android.content.Intent p0)
+	{
+		n_onTaskRemoved (p0);
+	}
+
+	private native void n_onTaskRemoved (android.content.Intent p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
