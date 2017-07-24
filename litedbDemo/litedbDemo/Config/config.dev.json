@@ -1,0 +1,27 @@
+﻿{
+  "AESEncryptionKey": "123",
+  "AzureSettings": {
+    "AzureHubName": "hubname",
+    "AzureListenConnection": ""
+  },
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "MobileCenter_HockeyApp": {
+    "IOSAppId": "",
+    "AndroidAppId": "",
+    "UWPAppId": ""
+  },
+  "WebApi": {
+    "customName": "https://someurl.com",
+    "customName2": "https://someurl2.com"
+  },
+  "CustomSettings": {
+    "CustomName": "somevalue",
+    "customName2": "somevalue2"
+  }
+}

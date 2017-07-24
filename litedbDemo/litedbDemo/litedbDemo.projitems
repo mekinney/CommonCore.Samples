@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{FF26737F-D799-4CCD-837A-606DB950F41F}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>litedbDemo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)litedbDemo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Person.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\LiteDbObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageOne.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwoCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LiteDb\ILiteNoSql.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LiteDb\LiteNoSql.cs">
+      <DependentUpon>ILiteNoSql.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)LiteDb\" />
+  </ItemGroup>
+</Project>
