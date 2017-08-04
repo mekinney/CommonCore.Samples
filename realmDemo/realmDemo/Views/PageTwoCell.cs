@@ -1,10 +1,8 @@
 ﻿using System;
-using realmDemo.Models;
-using realmDemo.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.CommonCore;
 
-namespace realmDemo.Views
+namespace realmDemo
 {
     public class PageTwoCell: ViewCell
     {

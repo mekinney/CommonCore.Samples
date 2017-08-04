@@ -1,7 +1,7 @@
 ﻿using System;
 using Realms;
 
-namespace realmDemo.Models
+namespace realmDemo
 {
     public class Person : RealmObject
     {

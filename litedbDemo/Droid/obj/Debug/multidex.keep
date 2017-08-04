@@ -315,6 +315,7 @@ android/support/v4/media/session/MediaSessionCompat$QueueItem.class
 android/support/v7/media/MediaRouteProviderService$ProviderCallback.class
 android/support/v7/widget/DefaultItemAnimator.class
 com/google/android/gms/gcm/zza.class
+md5a7903531ac28e2eb4c8576cdf2655bda/ConnectivityChangeBroadcastReceiver.class
 android/support/v4/media/TransportMediator.class
 com/microsoft/azure/mobile/utils/AsyncTaskUtils.class
 com/google/android/gms/common/zzh.class
@@ -620,7 +621,6 @@ android/support/v7/widget/ViewUtils.class
 android/support/v7/app/AppCompatDelegateImplV11.class
 android/support/v4/media/MediaBrowserServiceCompat$3.class
 android/support/design/widget/FloatingActionButton$ShadowDelegateImpl.class
-md5c503aba5a949febe272c915bf7b398c6/ConnectivityChangeBroadcastReceiver.class
 android/support/v4/media/MediaBrowserCompat.class
 android/support/v7/widget/RecyclerView$RecyclerViewDataObserver.class
 android/support/v7/widget/RecyclerView$ChildDrawingOrderCallback.class

@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid PreferredExecutionTarget="Android.N424" />
+  <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/ObservableViewModel.cs">
+    <Files>
+      <File FileName="tabbedReference/Views/HomePage.cs" Line="37" Column="9" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Controls/ListControl.cs" Line="52" Column="10" />
+      <File FileName="tabbedReference/Views/HomeDetailPage.cs" Line="1" Column="1" />
+      <File FileName="tabbedReference/Views/Common/RandomUserCell.cs" Line="67" Column="45" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Pages/BoundPage.cs" Line="14" Column="30" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Extensions/CoreExtensions.cs" Line="31" Column="1" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/ObservableViewModel.cs" Line="126" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.tabbedReference HideGettingStarted="True" />
+</Properties>

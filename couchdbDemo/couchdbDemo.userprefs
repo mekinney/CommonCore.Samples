@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="couchdbDemo/ViewModels/AppViewModel.cs">
+    <Files>
+      <File FileName="couchdbDemo/ViewModels/AppViewModel.cs" Line="81" Column="1" />
+      <File FileName="couchdbDemo/Models/Person.cs" Line="15" Column="48" />
+      <File FileName="couchdbDemo/Views/PageTwoCell.cs" Line="25" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.couchdbDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.couchdbDemo.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

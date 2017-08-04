@@ -1,0 +1,31 @@
+﻿{
+  "AnalyticsEnabled": false,
+  "AESEncryptionKey": "123",
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "SqliteSettings": {
+    "SQLiteDatabase": "app.db3",
+    "EncryptionEnabled": true,
+    "TableNames": [
+      {
+        "Name": "namespace.tableName",
+      },
+      {
+        "Name": "namespace.tableName2",
+        "EncryptedProperties": [ "PropertyName" ]
+      }
+    ]
+  },
+  "WebApi": {
+    "randomuser": "https://randomuser.me/api/?results=200"
+  },
+  "CustomSettings": {
+    "CustomName": "somevalue",
+    "customName2": "somevalue2"
+  }
+}

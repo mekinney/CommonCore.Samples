@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C73F8230-7DD6-48BB-BE02-7D3B4F9B7214}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.litedbDemo.Droid PreferredExecutionTarget="Android.192.168.57.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.litedbDemo.Droid PreferredExecutionTarget="Android.N424" />
   <MonoDevelop.Ide.Workbench ActiveDocument="litedbDemo/Views/PageTwoCell.cs">
     <Files>
       <File FileName="litedbDemo/ViewModels/AppViewModel.cs" Line="48" Column="58" />

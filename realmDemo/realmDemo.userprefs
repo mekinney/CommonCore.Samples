@@ -1,29 +1,15 @@
-﻿<Properties StartupConfiguration="{1998CDC5-97A9-4A5C-83CD-59E02F6E04DA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FodyWeavers.xml">
+﻿<Properties StartupConfiguration="{72B92A5C-6E94-448D-8BB8-ADF0C4B4A115}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="realmDemo/Views/PageOne.cs">
     <Files>
-      <File FileName="realmDemo/Partials/RealmObservableViewModel.cs" Line="16" Column="1" />
-      <File FileName="realmDemo/Config/config.dev.json" Line="13" Column="5" />
-      <File FileName="realmDemo/ViewModels/AppViewModel.cs" Line="48" Column="44" />
-      <File FileName="realmDemo/Views/PageOne.cs" Line="8" Column="42" />
-      <File FileName="realmDemo/Models/Person.cs" Line="7" Column="6" />
-      <File FileName="realmDemo/Views/PageTwoCell.cs" Line="36" Column="37" />
-      <File FileName="realmDemo/realmDemo.cs" Line="11" Column="2" />
-      <File FileName="realmDemo/Config/AppSettings.cs" Line="6" Column="18" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/AccountService.cs" Line="21" Column="16" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Settings/CoreSettings.cs" Line="48" Column="17" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Config/InjectionManager.cs" Line="39" Column="1" />
-      <File FileName="Droid/FodyWeavers.xml" Line="3" Column="18" />
-      <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="realmDemo/realmDemo.cs" Line="11" Column="39" />
+      <File FileName="realmDemo/Views/PageOne.cs" Line="9" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.realmDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.realmDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.realmDemo.iOS>
+  <MonoDevelop.Ide.ItemProperties.realmDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
   <MultiItemStartupConfigurations />
 </Properties>

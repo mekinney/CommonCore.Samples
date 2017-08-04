@@ -1,9 +1,8 @@
 ﻿using System;
-using realmDemo.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.CommonCore;
 
-namespace realmDemo.Views
+namespace realmDemo
 {
     public class PageTwo: BoundPage<AppViewModel>
     {
