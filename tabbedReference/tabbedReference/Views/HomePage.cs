@@ -13,14 +13,14 @@ namespace tabbedReference
 			var lstView = new ListControl(ListViewCachingStrategy.RecycleElement)
 			{
 				HasUnevenRows = true,
-				ItemTemplate = new DataTemplate(typeof(RandomUserCell)),
+				ItemTemplate = new DataTemplate(typeof(UsersCell)),
 				AutomationId = "lstView",
                 ItemClickCommand= new Command(async(obj) => {
                     await AppSettings.AppNav.PushAsync(new HomeDetailPage());
                 })
 			};
 			lstView.SetBinding(ListControl.ItemsSourceProperty, "RandomUsers");
-
+            lstView.SetBinding(ListControl.SelectedItemProperty, "SelectedRandomUser");
 
 			Content = new StackLayout()
 			{

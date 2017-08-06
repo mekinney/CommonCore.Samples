@@ -10,14 +10,10 @@
   },
   "SqliteSettings": {
     "SQLiteDatabase": "app.db3",
-    "EncryptionEnabled": true,
+    "EncryptionEnabled": false,
     "TableNames": [
       {
-        "Name": "namespace.tableName",
-      },
-      {
-        "Name": "namespace.tableName2",
-        "EncryptedProperties": [ "PropertyName" ]
+        "Name": "tabbedReference.RandomUser",
       }
     ]
   },

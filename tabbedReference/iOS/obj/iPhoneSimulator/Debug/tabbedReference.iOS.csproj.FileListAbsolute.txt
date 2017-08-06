@@ -146,3 +146,4 @@
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csproj.CoreCompileInputs.cache
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.exe
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.pdb
+/Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csprojResolveAssemblyReference.cache

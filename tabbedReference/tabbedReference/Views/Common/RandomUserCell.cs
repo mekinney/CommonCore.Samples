@@ -47,20 +47,6 @@ namespace tabbedReference
                 Children = { lblFullName, lblFullAddress }
             };
 
-            ContextActions.Add(new MenuItem()
-            {
-                Text = "More Info",
-                IsDestructive = true,
-                Command = new Command((obj) =>
-                {
-                    DependencyService.Get<IDialogPrompt>().ShowMessage(new Prompt()
-                    {
-                        Title = "Row Selected",
-                        Message = $"You chose {((RandomUser)BindingContext).FullName}"
-                    });
-                })
-            });
-
             View = new StackLayout()
             {
                 Orientation = StackOrientation.Horizontal,
@@ -79,4 +65,37 @@ namespace tabbedReference
             base.OnBindingContextChanged();
         }
     }
+
+    public class FavoritesCell :RandomUserCell
+    {
+        public FavoritesCell():base()
+        {
+			ContextActions.Add(new MenuItem()
+			{
+				Text = "Delete",
+                IsDestructive=true,
+				Command = new Command(async (obj) =>
+				{
+					var item = ((RandomUser)BindingContext);
+					await InjectionManager.GetViewModel<AppViewModel>().RemoveFavorites(item);
+				})
+			});
+        }
+    }
+
+	public class UsersCell : RandomUserCell
+	{
+		public UsersCell() : base()
+		{
+			ContextActions.Add(new MenuItem()
+			{
+				Text = "Make Favorite",
+				Command = new Command(async (obj) =>
+				{
+					var item = ((RandomUser)BindingContext);
+					await InjectionManager.GetViewModel<AppViewModel>().AddToFavorites(item);
+				})
+			});
+		}
+	}
 }
