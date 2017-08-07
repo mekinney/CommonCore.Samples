@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SQLite.Net.Interop;
+using SQLite.Net.Platform.XamarinAndroid;
 using SQLiteDemo.Data;
 using SQLiteDemo.Droid.Services;
 using Xamarin.Forms;
@@ -36,6 +38,10 @@ namespace SQLiteDemo.Droid.Services
             return conn;
         }
 
+        public ISQLitePlatform GetPlatform()
+        {
+            return new SQLitePlatformAndroid();
+        }
         #endregion
 
 
