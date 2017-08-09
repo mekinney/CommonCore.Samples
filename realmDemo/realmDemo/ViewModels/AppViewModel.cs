@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Windows.Input;
-using realmDemo.Models;
 using Xamarin.Forms.CommonCore;
 using System.Linq;
 using Realms;
-using realmDemo.Config;
-using realmDemo.Views;
 using System.Collections.ObjectModel;
 
-namespace realmDemo.ViewModels
+namespace realmDemo
 {
     public class AppViewModel: ObservableViewModel
     {

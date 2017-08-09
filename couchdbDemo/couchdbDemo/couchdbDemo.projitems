@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{29AA21A0-FD70-4F08-A72E-0E7BF8A02F03}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>couchdbDemo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)couchdbDemo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Person.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\CouchDbObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageOne.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwoCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CouchDb\CouchDb.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)CouchDb\" />
+  </ItemGroup>
+</Project>

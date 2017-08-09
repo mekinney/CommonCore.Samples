@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid PreferredExecutionTarget="Android.N424" />
+  <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Personal 240/CommonCore.Samples/tabbedReference/tabbedReference/ViewModels/AppViewModel.cs" relfile="tabbedReference/ViewModels/AppViewModel.cs" line="93" column="1" />
+      <Breakpoint file="/Volumes/Personal 240/CommonCore.Samples/tabbedReference/tabbedReference/ViewModels/AppViewModel.cs" relfile="tabbedReference/ViewModels/AppViewModel.cs" line="92" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.tabbedReference HideGettingStarted="True" />
+</Properties>

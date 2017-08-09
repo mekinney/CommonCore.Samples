@@ -52,29 +52,17 @@
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.DataBinding.pdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.pdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.pdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.dll.mdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/ModernHttpClient.dll.mdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.pdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll.mdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.Unity.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/WebP.Touch.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.pdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.xml
@@ -98,11 +86,22 @@
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.xml
-/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.pdb
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Validation.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.pdb
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.DataBinding.pdb
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.xml
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.pdb
+/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.xml
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
@@ -141,8 +140,156 @@
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csprojResolveAssemblyReference.cache
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csproj.realmDemo.iOS.exe.config
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csproj.CoreCompileInputs.cache
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.exe
 /Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.pdb
-/Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csprojResolveAssemblyReference.cache
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/realmDemo.iOS.exe.config
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/realmDemo.iOS.exe
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/realmDemo.iOS.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/BTProgressHUD.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Touch.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Analytics.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Crashes.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.iOS.Bindings.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Graph.Core.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Graph.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.Unity.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ModernHttpClient.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.DataBinding.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/TTGSnackbar.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Validation.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.XamarinForms.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Azure.NotificationHubs.iOS.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.CarouselView.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ModernHttpClient.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.Unity.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PCLCrypto.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/WebP.Touch.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Touch.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Touch.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/SQLite-net.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Validation.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.DataBinding.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.pdb
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/Realm.Sync.xml
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csprojResolveAssemblyReference.cache
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csproj.realmDemo.iOS.exe.config
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.csproj.CoreCompileInputs.cache
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.exe
+/Volumes/Personal 240/CommonCore.Samples/realmDemo/iOS/obj/iPhoneSimulator/Debug/realmDemo.iOS.pdb

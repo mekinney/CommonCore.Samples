@@ -1,11 +1,12 @@
-# Version: 10.11.0.126 (master: 7571635e)
+# Version: 10.10.0.36 (d15-2: d2270eec)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/mtouch/mtouch.exe \
 	/Users/Les/Desktop/realmDemo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache \
 	--sim \
 	/Users/Les/Desktop/realmDemo/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/realmDemo.iOS.app \
 	--executable \
 	realmDemo.iOS \
+	--fastdev \
 	--debug \
 	--profiling \
 	--nolink \
@@ -15,7 +16,6 @@
 	10.3 \
 	--targetver \
 	8.0 \
-	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
@@ -69,17 +69,17 @@
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/PCLCrypto.2.0.147/lib/xamarinios10/PCLCrypto.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.BCrypt.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.BCrypt.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.BCrypt.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.BCrypt.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.Kernel32.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.Kernel32.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.Kernel32.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.Kernel32.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.NCrypt.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.NCrypt.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.NCrypt.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.NCrypt.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.Windows.Core.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.Windows.Core.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.Windows.Core.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.Windows.Core.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.1/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
+	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.1/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
+	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll \
 	-r \
@@ -91,17 +91,17 @@
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/Realm.DataBinding.1.1.0/lib/Xamarin.iOS10/Realm.DataBinding.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Remotion.Linq.2.1.2/lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll \
+	/Users/Les/Desktop/realmDemo/packages/Remotion.Linq.2.1.1/lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/sqlite-net-pcl.1.3.3/lib/netstandard1.1/SQLite-net.dll \
+	/Users/Les/Desktop/realmDemo/packages/sqlite-net-pcl.1.4.118/lib/netstandard1.1/SQLite-net.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.core.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.core.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -451,17 +451,17 @@
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/PCLCrypto.2.0.147/lib/xamarinios10/PCLCrypto.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.BCrypt.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.BCrypt.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.BCrypt.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.BCrypt.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.Kernel32.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.Kernel32.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.Kernel32.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.Kernel32.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.NCrypt.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.NCrypt.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.NCrypt.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.NCrypt.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/PInvoke.Windows.Core.0.5.86/lib/portable-net45+win8+wpa81/PInvoke.Windows.Core.dll \
+	/Users/Les/Desktop/realmDemo/packages/PInvoke.Windows.Core.0.5.97/lib/portable-net45+win8+wpa81/PInvoke.Windows.Core.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.1/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
+	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.1/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
+	/Users/Les/Desktop/realmDemo/packages/Xam.Plugin.Connectivity.3.0.2/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll \
 	-r \
@@ -473,17 +473,17 @@
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/Realm.DataBinding.1.1.0/lib/Xamarin.iOS10/Realm.DataBinding.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/Remotion.Linq.2.1.2/lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll \
+	/Users/Les/Desktop/realmDemo/packages/Remotion.Linq.2.1.1/lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/sqlite-net-pcl.1.3.3/lib/netstandard1.1/SQLite-net.dll \
+	/Users/Les/Desktop/realmDemo/packages/sqlite-net-pcl.1.4.118/lib/netstandard1.1/SQLite-net.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.bundle_green.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.core.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.core.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
 	-r \
-	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.7/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
+	/Users/Les/Desktop/realmDemo/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.8/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Users/Les/Desktop/realmDemo/packages/System.Runtime.CompilerServices.Unsafe.4.3.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll \
 	-r \

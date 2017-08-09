@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms.CommonCore;
 
-namespace realmDemo.Config
+namespace realmDemo
 {
     public class AppSettings : CoreSettings
     {
