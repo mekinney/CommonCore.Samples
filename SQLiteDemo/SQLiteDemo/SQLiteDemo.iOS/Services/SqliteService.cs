@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
-using SQLite.Net.Interop;
-using SQLite.Net.Platform.XamarinIOS;
+using SQLite;
 using SQLiteDemo.Data;
 using SQLiteDemo.iOS.Services;
 using Xamarin.Forms;
@@ -12,7 +11,7 @@ namespace SQLiteDemo.iOS.Services
     public class SqliteService : ISQLiteData
     {
         #region ISQLite implementation
-        public SQLite.Net.SQLiteConnection GetConnection()
+        public SQLiteConnection GetConnection()
         {
             var sqliteFilename = "SQLiteDemo.db3";
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
@@ -25,16 +24,12 @@ namespace SQLiteDemo.iOS.Services
             {
                 File.Create(path);
             }
-            var plat = new SQLite.Net.Platform.XamarinIOS.SQLitePlatformIOS();
-            var conn = new SQLite.Net.SQLiteConnection(plat, path);
+            var conn = new SQLiteConnection(path);
 
             // Return the database connection 
             return conn;
         }
-        public ISQLitePlatform GetPlatform()
-        {
-            return new SQLitePlatformIOS();
-        }
+        
         #endregion
     }
 }

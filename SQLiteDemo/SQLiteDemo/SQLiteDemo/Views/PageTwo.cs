@@ -11,7 +11,8 @@ namespace SQLiteDemo.Views
         {
             var lst = new ListView()
             {
-                ItemTemplate = new DataTemplate(typeof(PageTwoCell))
+                ItemTemplate = new DataTemplate(typeof(PageTwoCell)),
+                ItemsSource = VM.People
             };
             lst.SetBinding(ListView.ItemsSourceProperty, "People");
 

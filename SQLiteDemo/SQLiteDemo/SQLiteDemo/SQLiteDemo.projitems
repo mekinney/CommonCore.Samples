@@ -28,7 +28,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Partials\" />

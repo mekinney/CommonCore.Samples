@@ -13,31 +13,40 @@ namespace SQLiteDemo.Views
 
         public PageTwoCell()
         {
-            lblName = new Label()
+            try
             {
-                FontSize = 12
-            };
-            lblPhone = new Label()
-            {
-                TextColor = Color.Gray,
-                FontSize = 10
-            };
+                lblName = new Label()
+                {
+                    FontSize = 12
+                };
+                lblPhone = new Label()
+                {
+                    TextColor = Color.Gray,
+                    FontSize = 10
+                };
 
 
-            ContextActions.Add(new MenuItem(){
-                Text="Delete", 
-                IsDestructive=true,
-                Command = new Command((obj) => {
-                    var p = (Person)this.BindingContext;
-                    InjectionManager.SendViewModelMessage<AppViewModel>("deletePerson", p.Id);
-                })
-            });
+                ContextActions.Add(new MenuItem()
+                {
+                    Text = "Delete",
+                    IsDestructive = true,
+                    Command = new Command((obj) =>
+                    {
+                        var p = (Person) this.BindingContext;
+                        InjectionManager.SendViewModelMessage<AppViewModel>("deletePerson", p.Id);
+                    })
+                });
 
-            View = new StackLayout()
+                View = new StackLayout()
+                {
+                    Padding = new Thickness(10, 5, 0, 5),
+                    Children = {lblName, lblPhone}
+                };
+            }
+            catch (Exception ex)
             {
-                Padding = new Thickness(10,5,0,5),
-                Children = { lblName, lblPhone }
-            };
+                throw;
+            }
         }
         protected override void OnBindingContextChanged()
         {

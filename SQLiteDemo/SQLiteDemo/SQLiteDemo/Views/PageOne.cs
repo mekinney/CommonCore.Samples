@@ -38,6 +38,7 @@ namespace SQLiteDemo.Views
                 Keyboard = Keyboard.Telephone
             };
             txtPhone.SetBinding(Entry.TextProperty, "NewPerson.PhoneNumber");
+            txtPhone.BindingContextChanged += TxtPhone_BindingContextChanged;
 
 
             var btnAdd = new Button()
@@ -59,5 +60,9 @@ namespace SQLiteDemo.Views
             };
         }
 
+        private void TxtPhone_BindingContextChanged(object sender, System.EventArgs e)
+        {
+            VM.NewPerson.PhoneNumber = e.ToString();
+        }
     }
 }
