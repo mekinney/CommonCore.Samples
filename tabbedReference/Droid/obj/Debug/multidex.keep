@@ -59,6 +59,7 @@ android/support/design/widget/TabLayout$OnTabSelectedListener.class
 android/support/v7/media/MediaRouteProviderService$1.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/google/android/gms/gcm/Task.class
+android/support/v4/media/MediaBrowserCompat$CustomActionResultReceiver.class
 android/support/customtabs/PostMessageService.class
 android/support/design/widget/FloatingActionButtonLollipop.class
 android/support/v4/widget/MaterialProgressDrawable.class
@@ -182,6 +183,7 @@ android/support/design/R$dimen.class
 android/support/v7/view/menu/CascadingMenuPopup$HorizPosition.class
 android/support/design/widget/CoordinatorLayout.class
 android/support/v4/view/ViewPager$SavedState.class
+android/support/v4/app/ActionBarDrawerToggle$Delegate.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
 android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback.class
 android/support/v4/app/NotificationCompatApi24.class
@@ -209,7 +211,6 @@ android/support/v4/view/AccessibilityDelegateCompat.class
 android/support/v4/media/MediaBrowserCompatUtils.class
 android/support/v4/widget/ScrollerCompat.class
 android/support/v4/view/ViewCompat$HCViewCompatImpl.class
-android/support/v4/media/MediaBrowserServiceCompatApi24$ServiceCompatProxy.class
 android/support/v7/widget/ChildHelper.class
 android/support/v4/app/NotificationCompatBase$UnreadConversation$Factory.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
@@ -258,7 +259,6 @@ com/google/android/gms/internal/zzabt.class
 android/support/v4/app/FragmentManagerImpl$2.class
 android/support/customtabs/ICustomTabsService$Stub$Proxy.class
 mono/MonoPackageManager.class
-android/support/v4/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi24.class
 android/support/v7/widget/RecyclerView$OnFlingListener.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 android/support/v7/widget/RecyclerView$AdapterDataObserver.class
@@ -329,6 +329,7 @@ android/support/v7/media/MediaRouteProviderProtocol.class
 android/support/v4/view/ViewCompat$LollipopViewCompatImpl$1.class
 md5e2173992372a84e4bac2488e55fc204b/MainActivity.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.class
+android/support/v4/media/MediaBrowserServiceCompat$ServiceBinderImpl$9.class
 android/support/v4/media/MediaMetadataCompat$BitmapKey.class
 android/support/v4/app/FragmentManagerImpl$PopBackStackState.class
 android/support/customtabs/CustomTabsService$Result.class
@@ -596,6 +597,7 @@ android/support/v7/widget/GapWorker.class
 com/google/android/gms/common/data/AbstractDataBuffer.class
 android/support/v4/widget/ResourceCursorAdapter.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
+android/support/v4/media/MediaBrowserServiceCompat$4.class
 android/support/v7/app/ActionBar$DisplayOptions.class
 android/support/v4/app/NotificationCompat$CarExtender.class
 android/support/design/widget/ViewUtils.class
@@ -611,6 +613,7 @@ android/support/v4/media/session/MediaSessionCompat$SessionFlags.class
 android/support/v4/app/NotificationCompat$NotificationCompatImplApi24.class
 android/support/v4/app/NotificationCompat$MessagingStyle$Message.class
 android/support/v4/view/ViewCompat$ICSMr1ViewCompatImpl.class
+android/support/v4/media/MediaBrowserCompat$CustomActionCallback.class
 android/support/design/widget/CoordinatorLayout$OnPreDrawListener.class
 android/support/v4/app/NotificationCompat$Builder.class
 android/support/v4/app/NotificationCompatApi21$Builder.class
@@ -665,7 +668,6 @@ android/support/v4/app/ServiceCompat$BaseServiceCompatImpl.class
 android/support/v4/view/VelocityTrackerCompat.class
 android/support/v4/media/VolumeProviderCompat$1.class
 android/support/v4/app/NotificationCompat$NotificationCompatImplIceCreamSandwich.class
-android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi24.class
 android/support/design/widget/SnackbarManager$Callback.class
 android/support/v4/view/GravityCompat.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorFinishedListener.class
@@ -690,6 +692,7 @@ android/support/v4/view/MotionEventCompat.class
 android/support/v4/app/RemoteInput.class
 android/support/v4/app/ServiceCompatApi24.class
 com/google/android/gms/common/internal/safeparcel/SafeParcelable.class
+android/support/v4/app/ActionBarDrawerToggle$DelegateProvider.class
 android/support/v4/util/PatternsCompat.class
 android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
 android/support/v4/view/ViewPager.class

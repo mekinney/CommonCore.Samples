@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="couchdbDemo/Config/AppSettings.cs">
+    <Files>
+      <File FileName="couchdbDemo/ViewModels/AppViewModel.cs" Line="66" Column="21" />
+      <File FileName="couchdbDemo/Models/Person.cs" Line="15" Column="48" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/ReadMe.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Settings/CoreSettings.cs" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Services/ISqliteDb.cs" Line="1" Column="1" />
+      <File FileName="couchdbDemo/couchdbDemo.cs" Line="1" Column="1" />
+      <File FileName="couchdbDemo/Views/PageTwoCell.cs" Line="30" Column="100" />
+      <File FileName="couchdbDemo/Config/AppSettings.cs" Line="8" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="couchdbDemo" expanded="True">
+            <Node name="couchdbDemo" expanded="True">
+              <Node name="Config" expanded="True">
+                <Node name="AppSettings.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.couchdbDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.couchdbDemo.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

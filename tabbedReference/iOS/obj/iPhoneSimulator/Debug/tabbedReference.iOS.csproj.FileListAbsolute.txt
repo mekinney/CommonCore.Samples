@@ -142,8 +142,8 @@
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/star@3x.png
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/placeholder.png
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csprojResolveAssemblyReference.cache
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csproj.tabbedReference.iOS.exe.config
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csproj.CoreCompileInputs.cache
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.exe
 /Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.pdb
-/Volumes/Personal 240/CommonCore.Samples/tabbedReference/iOS/obj/iPhoneSimulator/Debug/tabbedReference.iOS.csprojResolveAssemblyReference.cache

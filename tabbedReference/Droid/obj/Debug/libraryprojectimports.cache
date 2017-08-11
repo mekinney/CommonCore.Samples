@@ -27,6 +27,7 @@
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.CardView/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.MediaRouter/library_project_imports/res</ResolvedResourceDirectory>
@@ -64,6 +65,7 @@
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.core/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Auth/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Auth.XamarinForms/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Azure.NotificationHubs.Android/library_project_imports/assets</ResolvedAssetDirectory>
@@ -98,6 +100,7 @@
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Volumes/Personal 240/CommonCore.Samples/tabbedReference/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>
