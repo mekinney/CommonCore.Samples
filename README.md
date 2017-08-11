@@ -6,8 +6,8 @@ TabbedReference - Demonstrates the use of tabs using the same webapi calls provi
 
 Database Frameworks -
 * Couchbase - uses a NOSql/KeyValue db which can be found at: 
-			https://components.xamarin.com/view/couchbase-lite-net
+.. https://components.xamarin.com/view/couchbase-lite-net
 * LiteDb 	  - uses a NOSql instance which can be found at: 
-			http://www.litedb.org/
+.. http://www.litedb.org/
 * Realm     - uses 
-			https://realm.io/docs/xamarin/latest/
+.. https://realm.io/docs/xamarin/latest/
