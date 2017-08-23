@@ -9,20 +9,9 @@ namespace litedbDemo
 {
     public class AppViewModel : ObservableViewModel
     {
-        private Person newPerson;
-        private ObservableCollection<Person> people;
 
-        public Person NewPerson
-        {
-            get { return newPerson ?? (newPerson = new Person()); }
-            set { SetProperty(ref newPerson, value); }
-        }
-
-        public ObservableCollection<Person> People
-        {
-            get { return people ?? (people = new ObservableCollection<Person>()); }
-            set { SetProperty(ref people, value); }
-        }
+        public Person NewPerson { get; set; } = new Person();
+        public ObservableCollection<Person> People { get; set; } = new ObservableCollection<Person>();
 
         public ICommand AddPerson { get; set; }
         public ICommand ViewPeople { get; set; }

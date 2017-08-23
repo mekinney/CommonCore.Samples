@@ -1,23 +1,25 @@
 ﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid PreferredExecutionTarget="Android.N424" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/ViewModels/AppViewModel.cs">
+    <Files>
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Config/FodyWeavers.txt" Line="2" Column="1" />
+      <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="tabbedReference/Models/RandomUserServiceModel.cs" Line="1" Column="1" />
+      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="70" Column="10" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="tabbedReference" expanded="True" selected="True">
-            <Node name="tabbedReference.iOS" expanded="True" />
-          </Node>
+          <Node name="tabbedReference" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Volumes/Personal 240/CommonCore.Samples/tabbedReference/tabbedReference/ViewModels/AppViewModel.cs" relfile="tabbedReference/ViewModels/AppViewModel.cs" line="93" column="1" />
-      <Breakpoint file="/Volumes/Personal 240/CommonCore.Samples/tabbedReference/tabbedReference/ViewModels/AppViewModel.cs" relfile="tabbedReference/ViewModels/AppViewModel.cs" line="92" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

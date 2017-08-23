@@ -8,27 +8,9 @@ namespace tabbedReference
 {
     public class AppViewModel : ObservableViewModel
     {
-        private ObservableCollection<RandomUser> randomUsers;
-        private ObservableCollection<RandomUser> favorites;
-        private RandomUser selectedRandomUser;
-
-        public RandomUser SelectedRandomUser
-        {
-            get { return selectedRandomUser ?? (selectedRandomUser = new RandomUser()); }
-            set { SetProperty(ref selectedRandomUser, value); }
-        }
-
-        public ObservableCollection<RandomUser> RandomUsers
-        {
-            get { return randomUsers ?? (randomUsers = new ObservableCollection<RandomUser>()); }
-            set { SetProperty(ref randomUsers, value); }
-        }
-
-        public ObservableCollection<RandomUser> Favorites
-        {
-            get { return favorites ?? (favorites = new ObservableCollection<RandomUser>()); }
-            set { SetProperty(ref favorites, value); }
-        }
+        public RandomUser SelectedRandomUser { get; set; } = new RandomUser();
+        public ObservableCollection<RandomUser> RandomUsers { get; set; } = new ObservableCollection<RandomUser>();
+        public ObservableCollection<RandomUser> Favorites { get; set; } = new ObservableCollection<RandomUser>();
 
         public AppViewModel()
         {
