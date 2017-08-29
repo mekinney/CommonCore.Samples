@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{72B92A5C-6E94-448D-8BB8-ADF0C4B4A115}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="realmDemo/ViewModels/AppViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FodyWeavers.xml">
     <Files>
       <File FileName="realmDemo/realmDemo.cs" Line="11" Column="39" />
       <File FileName="realmDemo/Views/PageOne.cs" Line="9" Column="16" />
@@ -8,13 +8,14 @@
       <File FileName="realmDemo/Views/PageTwoCell.cs" Line="23" Column="13" />
       <File FileName="iOS/FodyWeavers.xml" Line="3" Column="1" />
       <File FileName="Droid/FodyWeavers.xml" Line="5" Column="11" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Config/FodyWeavers.txt" Line="3" Column="5" />
       <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Extensions/CoreExtensions.cs" Line="591" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="realmDemo" expanded="True">
+            <Node name="realmDemo.iOS" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

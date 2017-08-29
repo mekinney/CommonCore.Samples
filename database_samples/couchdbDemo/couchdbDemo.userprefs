@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="couchdbDemo/ViewModels/AppViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/FodyWeavers.xml">
     <Files>
       <File FileName="couchdbDemo/ViewModels/AppViewModel.cs" Line="13" Column="9" />
       <File FileName="couchdbDemo/Models/Person.cs" Line="15" Column="48" />
@@ -10,16 +10,12 @@
       <File FileName="couchdbDemo/Views/PageTwoCell.cs" Line="30" Column="100" />
       <File FileName="couchdbDemo/Config/AppSettings.cs" Line="8" Column="9" />
       <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Config/FodyWeavers.txt" Line="2" Column="1" />
       <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="couchdbDemo" expanded="True">
-            <Node name="couchdbDemo" expanded="True">
-              <Node name="ViewModels" expanded="True" />
-            </Node>
             <Node name="couchdbDemo.iOS" selected="True" />
           </Node>
         </State>

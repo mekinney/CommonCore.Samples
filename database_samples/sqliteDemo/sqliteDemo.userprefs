@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{E269C53E-C068-48C0-AAFE-F20CD6686DEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/ViewModels/AppViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FodyWeavers.xml">
     <Files>
       <File FileName="sqliteDemo/Settings/AppSettings.cs" Line="6" Column="29" />
       <File FileName="sqliteDemo/Styles/AppStyles.cs" Line="8" Column="33" />
@@ -9,7 +9,6 @@
       <File FileName="sqliteDemo/Views/PageTwo.cs" Line="1" Column="14" />
       <File FileName="sqliteDemo/Views/PageOne.cs" Line="7" Column="31" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Config/FodyWeavers.txt" Line="2" Column="1" />
       <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
       <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
       <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/BoundPage.cs" Line="20" Column="4" />
@@ -19,15 +18,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sqliteDemo" expanded="True">
-            <Node name="sqliteDemo" expanded="True">
-              <Node name="ViewModels" expanded="True">
-                <Node name="AppViewModel.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="Xamarin.Forms.CommonCore" expanded="True">
-              <Node name="Pages" expanded="True" />
-            </Node>
+            <Node name="sqliteDemo.iOS" selected="True" />
           </Node>
         </State>
       </Pad>
