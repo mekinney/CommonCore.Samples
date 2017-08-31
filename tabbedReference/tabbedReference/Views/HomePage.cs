@@ -10,7 +10,7 @@ namespace tabbedReference
         {
 			this.Title = "Home Page";
 
-			var lstView = new ListControl(ListViewCachingStrategy.RecycleElement)
+			var lstView = new CoreListView(ListViewCachingStrategy.RecycleElement)
 			{
 				HasUnevenRows = true,
 				ItemTemplate = new DataTemplate(typeof(UsersCell)),
@@ -19,8 +19,8 @@ namespace tabbedReference
                     await AppSettings.AppNav.PushAsync(new HomeDetailPage());
                 })
 			};
-			lstView.SetBinding(ListControl.ItemsSourceProperty, "RandomUsers");
-            lstView.SetBinding(ListControl.SelectedItemProperty, "SelectedRandomUser");
+			lstView.SetBinding(CoreListView.ItemsSourceProperty, "RandomUsers");
+            lstView.SetBinding(CoreListView.SelectedItemProperty, "SelectedRandomUser");
 
 			Content = new StackLayout()
 			{

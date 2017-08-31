@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid PreferredExecutionTarget="Android.N424" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/FodyWeavers.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/Views/FavoritesPage.cs">
     <Files>
       <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
       <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="tabbedReference/Views/HomePage.cs" Line="16" Column="56" />
+      <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="9" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="tabbedReference" expanded="True">
-            <Node name="tabbedReference.iOS" selected="True" />
+            <Node name="tabbedReference.Droid" selected="True" />
           </Node>
         </State>
       </Pad>

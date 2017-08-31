@@ -8,13 +8,13 @@ namespace tabbedReference
     {
         public FavoritesPage()
         {
-			var lstView = new ListControl(ListViewCachingStrategy.RecycleElement)
+			var lstView = new CoreListView(ListViewCachingStrategy.RecycleElement)
 			{
 				HasUnevenRows = true,
 				ItemTemplate = new DataTemplate(typeof(FavoritesCell)),
 				AutomationId = "lstView",
 			};
-			lstView.SetBinding(ListControl.ItemsSourceProperty, "Favorites");
+			lstView.SetBinding(CoreListView.ItemsSourceProperty, "Favorites");
 
 			Content = new StackLayout()
 			{
