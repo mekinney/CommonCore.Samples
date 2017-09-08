@@ -1,0 +1,11 @@
+﻿{
+  "InAppPurchaseProductId": "myapplicationSKU",
+  "Admob": {
+    "IOSApp": "ca-app-pub-4200971902109518~3037350558",
+    "IOSBanner": "ca-app-pub-3940256099942544/2934735716",
+    "IOSInterstitial": "ca-app-pub-3940256099942544/4411468910",
+    "DroidApp": "ca-app-pub-4200971902109518~7168823796",
+    "DroidBanner": "ca-app-pub-3940256099942544/6300978111",
+    "DroidInterstitial": "ca-app-pub-3940256099942544/1033173712"
+  }
+}
