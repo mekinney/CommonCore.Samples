@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:core="clr-namespace:Xamarin.Forms.CommonCore;assembly=CommonCore.XamlReferenceGuide" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CommonCore.XamlReferenceGuide.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="LightOrange" TargetType="core:CoreButton">
+                <Setter Property="StartColor" Value="#DF8049" />
+                <Setter Property="EndColor" Value="#E8A47D" />
+                <Setter Property="ShadowColor" Value="Gray" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="ShadowOffset" Value="1" />
+                <Setter Property="ShadowOpacity" Value="1" />
+                <Setter Property="ShadowRadius" Value="6" />
+                <Setter Property="CornerRadius" Value="6" />
+            </Style>
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>

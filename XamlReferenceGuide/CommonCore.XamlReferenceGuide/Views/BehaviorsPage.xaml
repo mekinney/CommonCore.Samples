@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core:BoundPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    ViewModel="CommonCore.XamlReferenceGuide.AppViewModel" 
+    xmlns:core="clr-namespace:Xamarin.Forms.CommonCore;assembly=CommonCore.XamlReferenceGuide" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CommonCore.XamlReferenceGuide.Views.BehaviorsPage" 
+    Title="Core Behaviors">
+	<StackLayout>
+    </StackLayout>
+</core:BoundPage>

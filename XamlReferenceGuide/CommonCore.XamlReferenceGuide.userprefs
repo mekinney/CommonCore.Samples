@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{A6C43323-AC54-48B5-A661-B4D1CA9FF6E1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml">
+    <Files>
+      <File FileName="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml" Line="13" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CommonCore.XamlReferenceGuide" expanded="True">
+            <Node name="CommonCore.XamlReferenceGuide.Droid" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CommonCore.XamlReferenceGuide.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
