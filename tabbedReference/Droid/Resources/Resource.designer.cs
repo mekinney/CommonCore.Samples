@@ -6517,8 +6517,8 @@ namespace tabbedReference.Droid
 			// aapt resource value: 0x7f0b0010
 			public const int adjust_width = 2131427344;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int agentWebView = 2131427520;
+			// aapt resource value: 0x7f0b00c1
+			public const int agentWebView = 2131427521;
 			
 			// aapt resource value: 0x7f0b005f
 			public const int alertTitle = 2131427423;
@@ -6703,8 +6703,8 @@ namespace tabbedReference.Droid
 			// aapt resource value: 0x7f0b008c
 			public const int loadingProgressWheel = 2131427468;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int masked = 2131427522;
+			// aapt resource value: 0x7f0b00c3
+			public const int masked = 2131427523;
 			
 			// aapt resource value: 0x7f0b00ad
 			public const int media_actions = 2131427501;
@@ -6858,6 +6858,9 @@ namespace tabbedReference.Droid
 			
 			// aapt resource value: 0x7f0b0047
 			public const int scrollable = 2131427399;
+			
+			// aapt resource value: 0x7f0b00c0
+			public const int searchView = 2131427520;
 			
 			// aapt resource value: 0x7f0b006f
 			public const int search_badge = 2131427439;
@@ -7015,8 +7018,8 @@ namespace tabbedReference.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int visible = 2131427521;
+			// aapt resource value: 0x7f0b00c2
+			public const int visible = 2131427522;
 			
 			// aapt resource value: 0x7f0b009f
 			public const int volume_item_container = 2131427487;

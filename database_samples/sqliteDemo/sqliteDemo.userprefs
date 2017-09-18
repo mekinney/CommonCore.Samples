@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{E269C53E-C068-48C0-AAFE-F20CD6686DEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/Config/config.dev.json">
+    <Files>
+      <File FileName="sqliteDemo/Config/config.dev.json" Line="3" Column="37" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sqliteDemo" expanded="True">
-            <Node name="sqliteDemo.Droid" selected="True" />
+            <Node name="sqliteDemo" expanded="True">
+              <Node name="Config" expanded="True" />
+            </Node>
+            <Node name="sqliteDemo.iOS" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -17,4 +23,5 @@
   <MonoDevelop.Ide.ItemProperties.sqliteDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.sqliteDemo.Droid PreferredExecutionTarget="Android.SelectDevice" />
 </Properties>

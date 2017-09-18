@@ -2,15 +2,21 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms.CommonCore;
 
 namespace tabbedReference
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : ObservableViewModel, ISearchProvider
     {
         public RandomUser SelectedRandomUser { get; set; } = new RandomUser();
         public ObservableCollection<RandomUser> RandomUsers { get; set; } = new ObservableCollection<RandomUser>();
         public ObservableCollection<RandomUser> Favorites { get; set; } = new ObservableCollection<RandomUser>();
+
+        public ICommand SearchCommand { get; set; }
+
+        public bool SearchIsDefaultAction { get; set; } = false;
+        public string QueryHint { get; set; } = "Last Name";
 
         public AppViewModel()
         {
@@ -19,6 +25,8 @@ namespace tabbedReference
             GetRandomUsers().ContinueWith((t) => { });
 
             GetFavorites().ContinueWith((t) => { });
+
+            SearchCommand = new RelayCommand((obj) => { });
         }
 
 

@@ -2,13 +2,36 @@
   <MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS>
-  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.N424" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="monetizationDemo/Views/HomePage.cs">
+    <Files>
+      <File FileName="monetizationDemo/Admob/AdBanner.cs" Line="1" Column="1" />
+      <File FileName="monetizationDemo/Admob/AdBanneRenderer.iOS.cs" Line="50" Column="74" />
+      <File FileName="monetizationDemo/Partials/PartialConfigurationModel.cs" Line="16" Column="23" />
+      <File FileName="monetizationDemo/Admob/AdBanneRenderer.Droid.cs" Line="52" Column="33" />
+      <File FileName="monetizationDemo/Views/HomePage.cs" Line="69" Column="15" />
+      <File FileName="monetizationDemo/Admob/IAdInterstitial.cs" Line="10" Column="6" />
+      <File FileName="monetizationDemo/Admob/AdInterstitial.iOS.cs" Line="38" Column="1" />
+      <File FileName="monetizationDemo/ViewModels/AppViewModel.cs" Line="48" Column="51" />
+      <File FileName="monetizationDemo/Partials/PartialObservableViewModel.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="monetizationDemo" expanded="True">
-            <Node name="monetizationDemo.iOS" selected="True" />
+            <Node name="monetizationDemo" expanded="True">
+              <Node name="Admob" expanded="True">
+                <Node name="AdBanner.cs" expanded="True" />
+                <Node name="IAdInterstitial.cs" expanded="True" />
+              </Node>
+              <Node name="Config" expanded="True" />
+              <Node name="Partials" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HomePage.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="monetizationDemo.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

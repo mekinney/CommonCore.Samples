@@ -7,7 +7,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-            <Node name="CommonCore.XamlReferenceGuide.Droid" selected="True" />
+            <Node name="CommonCore.XamlReferenceGuide.iOS" selected="True" />
           </Node>
         </State>
       </Pad>

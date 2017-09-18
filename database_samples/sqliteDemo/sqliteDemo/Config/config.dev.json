@@ -1,7 +1,6 @@
 ﻿{
   "SqliteSettings": {
     "SQLiteDatabase": "sqlDemo.db3",
-    "EncryptionEnabled": false,
     "TableNames": [
       {
         "Name": "sqliteDemo.Person",

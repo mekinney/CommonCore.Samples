@@ -24,14 +24,12 @@
   },
   "SqliteSettings": {
     "SQLiteDatabase": "app.db3",
-    "EncryptionEnabled": true,
     "TableNames": [
       {
         "Name": "namespace.tableName",
       },
       {
         "Name": "namespace.tableName2",
-        "EncryptedProperties": [ "PropertyName" ]
       }
     ]
   },

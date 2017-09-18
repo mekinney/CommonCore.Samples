@@ -10,7 +10,6 @@
   },
   "SqliteSettings": {
     "SQLiteDatabase": "app.db3",
-    "EncryptionEnabled": false,
     "TableNames": [
       {
         "Name": "tabbedReference.RandomUser",

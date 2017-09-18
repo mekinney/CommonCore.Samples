@@ -1,12 +1,14 @@
-﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid PreferredExecutionTarget="Android.N424" />
+﻿<Properties StartupConfiguration="{E7AC2360-B0FF-41F5-BE4F-FA6A51A63D93}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/Views/FavoritesPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/Config/config.dev.json">
     <Files>
       <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
       <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
       <File FileName="tabbedReference/Views/HomePage.cs" Line="16" Column="56" />
       <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="9" Column="31" />
+      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="17" Column="9" />
+      <File FileName="tabbedReference/Config/config.dev.json" Line="12" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

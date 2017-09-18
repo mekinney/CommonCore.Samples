@@ -25,6 +25,8 @@ namespace tabbedReference.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
+            CoreSettings.SearchView = Resource.Id.searchView;
+
             LoadApplication(new App());
         }
 
