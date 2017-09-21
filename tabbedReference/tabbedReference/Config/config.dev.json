@@ -1,4 +1,5 @@
 ﻿{
+  "NavStyle": "Tabbed",
   "AnalyticsEnabled": false,
   "AESEncryptionKey": "123",
   "HttpSettings": {

@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{E7AC2360-B0FF-41F5-BE4F-FA6A51A63D93}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
   <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/Config/config.dev.json">
@@ -8,13 +8,21 @@
       <File FileName="tabbedReference/Views/HomePage.cs" Line="16" Column="56" />
       <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="9" Column="31" />
       <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="17" Column="9" />
-      <File FileName="tabbedReference/Config/config.dev.json" Line="12" Column="33" />
+      <File FileName="tabbedReference/Config/config.dev.json" Line="2" Column="22" />
+      <File FileName="tabbedReference/tabbedReference.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainApplication.cs" Line="81" Column="4" />
+      <File FileName="tabbedReference/Config/AppSettings.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="41" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="tabbedReference" expanded="True">
-            <Node name="tabbedReference.Droid" selected="True" />
+            <Node name="tabbedReference" expanded="True">
+              <Node name="Config" expanded="True" />
+            </Node>
+            <Node name="tabbedReference.iOS" selected="True" />
           </Node>
         </State>
       </Pad>

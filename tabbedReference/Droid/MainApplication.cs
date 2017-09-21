@@ -79,7 +79,6 @@ namespace tabbedReference.Droid
 
 		private void InitGlobalLibraries()
 		{
-			AppSettings.NavStyle = NavType.Tabbed;
 			AppSettings.AppIcon = Resource.Drawable.icon;
 			AppContext = this.ApplicationContext;
 			LocalNotify.MainType = typeof(MainActivity);

@@ -34,7 +34,6 @@ namespace tabbedReference.iOS
 
 		private void InitGlobalLibraries()
 		{
-            AppSettings.NavStyle = NavType.Tabbed;
 			CachedImageRenderer.Init();
 		}
     }
