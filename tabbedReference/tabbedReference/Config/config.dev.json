@@ -10,12 +10,7 @@
     "AndroidHttpHandler": "ModernHttpClient"
   },
   "SqliteSettings": {
-    "SQLiteDatabase": "app.db3",
-    "TableNames": [
-      {
-        "Name": "tabbedReference.RandomUser",
-      }
-    ]
+    "SQLiteDatabase": "app.db3"
   },
   "WebApi": {
     "randomuser": "https://randomuser.me/api/?results=200"

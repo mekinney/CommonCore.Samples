@@ -1,23 +1,13 @@
 ﻿<Properties StartupConfiguration="{A6C43323-AC54-48B5-A661-B4D1CA9FF6E1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/_init/ReadMe.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml">
     <Files>
       <File FileName="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml" Line="13" Column="18" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/_init/ReadMe.txt" Line="155" Column="123" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-            <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-              <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="Xamarin.Forms.CommonCore" expanded="True">
-              <Node name="_init" expanded="True">
-                <Node name="Settings" expanded="True" />
-                <Node name="Styles" expanded="True" />
-                <Node name="ReadMe.txt" selected="True" />
-              </Node>
-            </Node>
+            <Node name="CommonCore.XamlReferenceGuide.iOS" selected="True" />
           </Node>
         </State>
       </Pad>

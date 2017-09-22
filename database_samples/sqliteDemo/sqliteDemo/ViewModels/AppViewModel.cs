@@ -34,7 +34,6 @@ namespace sqliteDemo
                 }
 				else
 				{
-					this.Log.LogResponse(result, "AddPerson - SqliteDb.AddOrUpdate ");
 					DialogPrompt.ShowMessage(new Prompt()
 					{
 						Title = "Error",
@@ -71,7 +70,6 @@ namespace sqliteDemo
                     }
 					else
 					{
-						this.Log.LogResponse(deleteResult, "OnViewMessageReceived - SqliteDb.DeleteByQuery ");
 						DialogPrompt.ShowMessage(new Prompt()
 						{
 							Title = "Error",
@@ -85,14 +83,13 @@ namespace sqliteDemo
 		private async Task LoadAllPeople(string caller, Action callBack)
 		{
 			var allResult = await SqliteDb.GetAll<Person>();
-			if (allResult.Success)
+			if (allResult.Error==null)
 			{
 				People = allResult.Response.ToObservable<Person>();
                 callBack?.Invoke();
 			}
 			else
 			{
-				this.Log.LogResponse(allResult, $"{caller} - SqliteDb.GetAll ");
 				DialogPrompt.ShowMessage(new Prompt()
 				{
 					Title = "Error",

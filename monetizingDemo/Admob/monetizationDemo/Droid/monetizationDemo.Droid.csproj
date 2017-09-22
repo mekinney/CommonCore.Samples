@@ -216,15 +216,6 @@
     <Reference Include="Xamarin.Auth.XamarinForms">
       <HintPath>..\packages\Xamarin.Auth.XamarinForms.1.5.0.3\lib\MonoAndroid10\Xamarin.Auth.XamarinForms.dll</HintPath>
     </Reference>
-    <Reference Include="FFImageLoading">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.11\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Platform">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.11\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Transformations">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Transformations.2.2.11\lib\MonoAndroid10\FFImageLoading.Transformations.dll</HintPath>
-    </Reference>
     <Reference Include="FormsViewGroup">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.270\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
     </Reference>
@@ -239,12 +230,6 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.270\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Forms">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.11\lib\MonoAndroid10\FFImageLoading.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Forms.Droid">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.11\lib\MonoAndroid10\FFImageLoading.Forms.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.InAppBilling.Abstractions">
       <HintPath>..\packages\Plugin.InAppBilling.1.2.2\lib\MonoAndroid10\Plugin.InAppBilling.Abstractions.dll</HintPath>
@@ -266,6 +251,21 @@
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Ads">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.15\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Platform">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.15\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Transformations">
+      <HintPath>..\packages\Xamarin.FFImageLoading.Transformations.2.2.15\lib\MonoAndroid10\FFImageLoading.Transformations.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Forms">
+      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.15\lib\MonoAndroid10\FFImageLoading.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Forms.Droid">
+      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.15\lib\MonoAndroid10\FFImageLoading.Forms.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -292,7 +292,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\tigger.png" />
   </ItemGroup>
-  <Import Project="..\..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
+  <Import Project="..\..\..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\monetizationDemo\monetizationDemo.projitems" Label="Shared" Condition="Exists('..\monetizationDemo\monetizationDemo.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets')" />

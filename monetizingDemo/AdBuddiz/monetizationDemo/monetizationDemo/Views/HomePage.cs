@@ -64,7 +64,7 @@ namespace monetizationDemo.Views
             var fileSrv = InjectionManager.GetService<IFileStore, FileStore>();
             fileSrv?.GetAsync<InAppBillingPurchase>("adsRemoved").ContinueWith((t) => {
                 var result = t.Result;
-                if(!result.Success){
+                if(result.Error!=null){
                     if (AdBuddizHandler.Instance.IsReadyToShowAd)
                     {
                         AdBuddizHandler.Instance.ShowAd();

@@ -14,8 +14,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="realmDemo" expanded="True">
-            <Node name="realmDemo.Droid" selected="True" />
-            <Node name="realmDemo.iOS" expanded="True" />
+            <Node name="realmDemo.iOS" selected="True" />
           </Node>
         </State>
       </Pad>

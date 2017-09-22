@@ -23,33 +23,32 @@ namespace litedbDemo
             db = new LiteDatabase(filePath);
         }
 
-        public async Task<GenericResponse<List<T>>> GetAll<T>() where T : LiteDbModel, new()
+        public async Task<(List<T> Response, Exception Error)> GetAll<T>() where T : LiteDbModel, new()
         {
-            var response = new GenericResponse<List<T>>();
-
+            (List<T> Response, Exception Error) response = (null, null);
             await semaphore.WaitAsync();
             try
             {
                 return await Task.Run(() =>
                 {
                     response.Response = db.GetCollection<T>(typeof(T).Name).FindAll().ToList();
-                    response.Success = true;
                     return response;
                 });
             }
 			catch (Exception ex)
 			{
-				response.Error = ex;
-				return response;
+				ex.LogException("LiteNoSql - GetAll");
+                response.Error = ex;
+                return response;
 			}
             finally{
                 semaphore.Release();
             }
         }
 
-		public async Task<GenericResponse<List<T>>> Get<T>(Expression<Func<T, bool>> exp) where T : LiteDbModel, new()
+		public async Task<(List<T> Response, Exception Error)> Get<T>(Expression<Func<T, bool>> exp) where T : LiteDbModel, new()
 		{
-            var response = new GenericResponse<List<T>>();
+            (List<T> Response, Exception Error) response = (null, null);
 
 			await semaphore.WaitAsync();
 			try
@@ -58,7 +57,6 @@ namespace litedbDemo
 				{
                     var collection = db.GetCollection<T>(typeof(T).Name);
                     response.Response = collection.Find(exp).ToList();
-					response.Success = true;
 					return response;
 				});
 			}
@@ -73,9 +71,9 @@ namespace litedbDemo
 			}
 		}
 
-		public async Task<BooleanResponse> Insert<T>(T obj) where T : LiteDbModel, new()
+		public async Task<(bool Success, Exception Error)> Insert<T>(T obj) where T : LiteDbModel, new()
 		{
-            var response = new BooleanResponse();
+            (bool Success, Exception Error) response = (false, null);
 
 			await semaphore.WaitAsync();
 			try
@@ -99,9 +97,9 @@ namespace litedbDemo
 			}
 		}
 
-		public async Task<BooleanResponse> Update<T>(T obj) where T : LiteDbModel, new()
+		public async Task<(bool Success, Exception Error)> Update<T>(T obj) where T : LiteDbModel, new()
 		{
-			var response = new BooleanResponse();
+			(bool Success, Exception Error) response = (false, null);
 
 			await semaphore.WaitAsync();
 			try
@@ -124,9 +122,9 @@ namespace litedbDemo
 			}
 		}
 
-		public async Task<BooleanResponse> Delete<T>(T obj) where T : LiteDbModel, new()
+		public async Task<(bool Success, Exception Error)> Delete<T>(T obj) where T : LiteDbModel, new()
 		{
-            var response = new BooleanResponse();
+			(bool Success, Exception Error) response = (false, null);
 
 			await semaphore.WaitAsync();
 			try
@@ -150,9 +148,9 @@ namespace litedbDemo
 			}
 		}
 
-		public async Task<BooleanResponse> Delete<T>(string id) where T : LiteDbModel, new()
+		public async Task<(bool Success, Exception Error)> Delete<T>(string id) where T : LiteDbModel, new()
 		{
-            var response = new BooleanResponse();
+			(bool Success, Exception Error) response = (false, null);
 
 			await semaphore.WaitAsync();
 			try

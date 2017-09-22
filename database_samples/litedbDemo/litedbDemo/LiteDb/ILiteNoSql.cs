@@ -34,11 +34,11 @@ namespace litedbDemo
 
     public interface ILiteNoSql
     {
-        Task<GenericResponse<List<T>>> GetAll<T>() where T : LiteDbModel, new();
-        Task<BooleanResponse> Insert<T>(T obj) where T : LiteDbModel, new();
-        Task<BooleanResponse> Delete<T>(T obj) where T : LiteDbModel, new();
-        Task<BooleanResponse> Delete<T>(string id) where T : LiteDbModel, new();
-        Task<BooleanResponse> Update<T>(T obj) where T : LiteDbModel, new();
-        Task<GenericResponse<List<T>>> Get<T>(Expression<Func<T, bool>> exp) where T : LiteDbModel, new();
+        Task<(List<T> Response, Exception Error)> GetAll<T>() where T : LiteDbModel, new();
+        Task<(bool Success, Exception Error)> Insert<T>(T obj) where T : LiteDbModel, new();
+        Task<(bool Success, Exception Error)> Delete<T>(T obj) where T : LiteDbModel, new();
+        Task<(bool Success, Exception Error)> Delete<T>(string id) where T : LiteDbModel, new();
+        Task<(bool Success, Exception Error)> Update<T>(T obj) where T : LiteDbModel, new();
+        Task<(List<T> Response, Exception Error)> Get<T>(Expression<Func<T, bool>> exp) where T : LiteDbModel, new();
     }
 }

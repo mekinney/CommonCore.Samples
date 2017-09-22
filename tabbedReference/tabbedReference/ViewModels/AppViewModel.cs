@@ -38,10 +38,10 @@ namespace tabbedReference
             var url = this.WebApis["randomuser"];
 
             var result = await this.HttpService.Get<RootObject>(url);
-            Log.LogResponse(result);
+            result.Error?.LogException();
 
             this.IsLoadingHUD = false;
-            if (result.Success)
+            if (result.Error==null)
             {
                 RandomUsers = result.Response.results.ToRandomUserObservableCollection();
             }
@@ -51,8 +51,8 @@ namespace tabbedReference
         private async Task GetFavorites()
         {
             var result = await this.SqliteDb.GetAll<RandomUser>();
-            Log.LogResponse(result);
-            if (result.Success)
+            result.Error?.LogException();
+            if (result.Error == null)
             {
                 Favorites = result.Response.ToObservable<RandomUser>();
             }
@@ -61,7 +61,7 @@ namespace tabbedReference
         public async Task AddToFavorites(RandomUser user)
         {
             var result = await this.SqliteDb.AddOrUpdate<RandomUser>(user);
-            Log.LogResponse(result);
+			result.Error?.LogException();
             if (!result.Success)
             {
                 DialogPrompt.ShowMessage(new Prompt()
@@ -80,7 +80,7 @@ namespace tabbedReference
         public async Task RemoveFavorites(RandomUser user)
         {
             var result = await this.SqliteDb.DeleteByInternalID<RandomUser>(user.CorrelationID);
-            Log.LogResponse(result);
+			result.Error?.LogException();
             if (!result.Success)
             {
                 DialogPrompt.ShowMessage(new Prompt()
@@ -109,7 +109,7 @@ namespace tabbedReference
             Task.Run(async () =>
             {
                 var temp = await this.FileStore.GetAsync<List<RandomUser>>("RandomUser");
-                if (temp.Success)
+                if (temp.Error==null)
                 {
                     RandomUsers = temp.Response.ToObservable<RandomUser>();
                 }

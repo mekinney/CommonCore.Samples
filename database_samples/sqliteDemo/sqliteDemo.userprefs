@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{E269C53E-C068-48C0-AAFE-F20CD6686DEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/ViewModels/AppViewModel.cs">
+    <Files>
+      <File FileName="sqliteDemo/Config/config.dev.json" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Config/config.dev.json.txt" Line="1" Column="1" />
+      <File FileName="sqliteDemo/ViewModels/AppViewModel.cs" Line="92" Column="5" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

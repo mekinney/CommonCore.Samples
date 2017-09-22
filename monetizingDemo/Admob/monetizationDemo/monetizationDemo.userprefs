@@ -19,19 +19,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="monetizationDemo" expanded="True">
-            <Node name="monetizationDemo" expanded="True">
-              <Node name="Admob" expanded="True">
-                <Node name="AdBanner.cs" expanded="True" />
-                <Node name="IAdInterstitial.cs" expanded="True" />
-              </Node>
-              <Node name="Config" expanded="True" />
-              <Node name="Partials" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="HomePage.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="monetizationDemo.iOS" expanded="True" />
+            <Node name="monetizationDemo.iOS" selected="True" />
           </Node>
         </State>
       </Pad>

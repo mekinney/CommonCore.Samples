@@ -33,7 +33,6 @@ namespace litedbDemo
                 }
                 else
                 {
-                    this.Log.LogResponse(result, "AddPerson - LiteNoSqlService.Insert ");
                     DialogPrompt.ShowMessage(new Prompt()
                     {
                         Title = "Error",
@@ -61,7 +60,7 @@ namespace litedbDemo
                         await LoadAllPeople("OnViewMessageReceived",null);
                     }
                     else{
-						this.Log.LogResponse(t.Result, "OnViewMessageReceived - LiteNoSqlService.Delete ");
+
 						DialogPrompt.ShowMessage(new Prompt()
 						{
 							Title = "Error",
@@ -76,14 +75,14 @@ namespace litedbDemo
         private async Task LoadAllPeople(string caller, Action callBack)
         {
 			var allResult = await this.LiteNoSqlService.GetAll<Person>();
-			if (allResult.Success)
+			if (allResult.Error==null)
 			{
 				People = allResult.Response.ToObservable<Person>();
                 callBack?.Invoke();
 			}
 			else
 			{
-                this.Log.LogResponse(allResult, $"{caller} - LiteNoSqlService.GetAll ");
+  
 				DialogPrompt.ShowMessage(new Prompt()
 				{
 					Title = "Error",
