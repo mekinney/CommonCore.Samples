@@ -9,7 +9,7 @@ namespace tabbedReference
         public HomePage()
         {
 			this.Title = "Home Page";
-
+            this.BackgroundColor = Color.White;
 			var lstView = new CoreListView(ListViewCachingStrategy.RecycleElement)
 			{
 				HasUnevenRows = true,

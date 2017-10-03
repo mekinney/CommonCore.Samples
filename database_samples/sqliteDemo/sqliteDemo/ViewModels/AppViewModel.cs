@@ -27,9 +27,9 @@ namespace sqliteDemo
                 if (result.Success)
                 {
                     NewPerson = new Person();
-					await LoadAllPeople("AddPerson", async () =>
+					await LoadAllPeople("AddPerson", () =>
 					{
-						await Navigation.PushAsync(new PageTwo());
+                        Navigation.PushNonAwaited<PageTwo>();
 					});
                 }
 				else
@@ -48,8 +48,8 @@ namespace sqliteDemo
 
             ViewPeople = new Command(async (obj) =>
             {
-                await LoadAllPeople("ViewPeople", async()=>{
-                    await Navigation.PushAsync(new PageTwo());
+                await LoadAllPeople("ViewPeople", ()=>{
+                    Navigation.PushNonAwaited<PageTwo>();
                 });
 
             });

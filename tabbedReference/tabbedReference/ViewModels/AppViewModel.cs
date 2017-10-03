@@ -26,7 +26,10 @@ namespace tabbedReference
 
             GetFavorites().ContinueWith((t) => { });
 
-            SearchCommand = new RelayCommand((obj) => { });
+            SearchCommand = new RelayCommand((obj) => {
+
+                var search = obj;
+            });
         }
 
 

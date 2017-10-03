@@ -3,32 +3,19 @@
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
   <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/ViewModels/AppViewModel.cs">
     <Files>
-      <File FileName="iOS/FodyWeavers.xml" Line="4" Column="11" />
-      <File FileName="Droid/FodyWeavers.xml" Line="4" Column="11" />
-      <File FileName="tabbedReference/Views/HomePage.cs" Line="16" Column="56" />
-      <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="9" Column="31" />
-      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="120" Column="16" />
-      <File FileName="tabbedReference/Config/config.dev.json" Line="11" Column="5" />
-      <File FileName="tabbedReference/tabbedReference.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainApplication.cs" Line="81" Column="4" />
-      <File FileName="tabbedReference/Config/AppSettings.cs" Line="1" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="41" Column="13" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/ObservableViewModel.cs" Line="26" Column="107" />
+      <File FileName="tabbedReference/Config/config.dev.json" Line="6" Column="22" />
+      <File FileName="tabbedReference/Views/HomePage.cs" Line="12" Column="13" />
+      <File FileName="tabbedReference/Views/HomeDetailPage.cs" Line="18" Column="15" />
+      <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="11" Column="38" />
+      <File FileName="tabbedReference/Views/AboutPage.cs" Line="14" Column="1" />
+      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="31" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="tabbedReference" expanded="True">
-            <Node name="tabbedReference.iOS" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Personal240/CommonCore.Samples/tabbedReference/tabbedReference/ViewModels/AppViewModel.cs" relfile="tabbedReference/ViewModels/AppViewModel.cs" line="31" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

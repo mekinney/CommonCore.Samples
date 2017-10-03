@@ -28,19 +28,18 @@ namespace realmDemo
                 People = RealmDb.All<Person>().ToObservable();
             });
 
-            AddPerson = new RelayCommand(async (obj) => {
+            AddPerson = new RelayCommand((obj) => {
 
 				RealmDb.Write(() =>
                 {
                     RealmDb.Add(NewPerson);
                     NewPerson = new Person();
                 });
-
-                await Navigation.PushAsync(new PageTwo());
+                Navigation.PushNonAwaited<PageTwo>();
             });
 
-            ViewPeople = new RelayCommand(async(obj) => { 
-                await Navigation.PushAsync(new PageTwo());
+            ViewPeople = new RelayCommand((obj) => { 
+                Navigation.PushNonAwaited<PageTwo>();
             });
 
         }

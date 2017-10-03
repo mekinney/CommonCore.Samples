@@ -8,6 +8,8 @@ namespace tabbedReference
     {
         public FavoritesPage()
         {
+            this.Title = "Favorites";
+            this.BackgroundColor = Color.White;
 			var lstView = new CoreListView(ListViewCachingStrategy.RecycleElement)
 			{
 				HasUnevenRows = true,

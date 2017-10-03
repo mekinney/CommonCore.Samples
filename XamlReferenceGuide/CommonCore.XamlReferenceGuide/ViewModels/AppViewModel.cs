@@ -20,11 +20,11 @@ namespace CommonCore.XamlReferenceGuide
         {
             PopulateData();
 
-            ViewListControl = new RelayCommand(async(obj) => { 
-               await CoreSettings.AppNav.PushAsync(new ListControlPage());
+            ViewListControl = new RelayCommand((obj) => {
+                Navigation.PushNonAwaited<ListControlPage>();
             });
-            ViewBehaviors = new RelayCommand(async(obj) => { 
-                await CoreSettings.AppNav.PushAsync(new BehaviorsPage());
+            ViewBehaviors = new RelayCommand((obj) => { 
+                Navigation.PushNonAwaited<BehaviorsPage>();
             });
 
             ViewSelectedDisplay = new RelayCommand((obj) => {

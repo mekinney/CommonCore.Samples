@@ -39,12 +39,12 @@ namespace couchdbDemo
                 {
                     NewPerson = new Person();
                     People = await CouchDb.GetAll<Person>().ToObservable();
-                    await Navigation.PushAsync(new PageTwo());
+                    Navigation.PushNonAwaited<PageTwo>();
                 }
             });
 
-            ViewPeople = new RelayCommand(async(obj) => { 
-                await Navigation.PushAsync(new PageTwo());
+            ViewPeople = new RelayCommand((obj) => { 
+                Navigation.PushNonAwaited<PageTwo>();
             });
 
         }
