@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.couchdbdemo">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <application android:label="couchdbDemo" android:name="md53c0977419f6ae048c4f00c8cc015d3f0.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <receiver android:name="md5a0fb9849d084dabd582eb9c767148693.AppUpdateReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+    <service android:exported="false" android:name="pushnotification.plugin.PushNotificationGcmListener">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="com.companyname.couchdbdemo" />
+      </intent-filter>
+    </service>
+    <service android:exported="false" android:name="md5a0fb9849d084dabd582eb9c767148693.PushNotificationInstanceIDListenerService">
+      <intent-filter>
+        <action android:name="com.google.android.gms.iid.InstanceID" />
+      </intent-filter>
+    </service>
+    <service android:exported="false" android:name="md5a0fb9849d084dabd582eb9c767148693.PushNotificationRegistrationIntentService" />
+    <service android:name="md5a0fb9849d084dabd582eb9c767148693.PushNotificationService" />
+    <receiver android:exported="true" android:permission="com.google.android.c2dm.permission.SEND" android:name="md5a0fb9849d084dabd582eb9c767148693.PushNotificationsReceiver">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="com.companyname.couchdbdemo" />
+      </intent-filter>
+    </receiver>
+    <service android:name="md52915aa36b16555e7579b3eb52a274973.TimerBackgroundService">
+      <intent-filter>
+        <action android:name="Xamarin.Forms.CommonCore.TimerBackgroundService" />
+      </intent-filter>
+    </service>
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="couchdbDemo.Droid" android:theme="@style/MyTheme" android:name="md53c0977419f6ae048c4f00c8cc015d3f0.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="microsoft.identity.client.AuthenticationActivity" />
+    <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md55acd92097db1193d6a1e7330cb14252a.ConnectivityChangeBroadcastReceiver" />
+    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
+    <activity android:label="Web Authenticator" android:name="md53c585be971e02235139fd1aef11fc0c1.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md53c585be971e02235139fd1aef11fc0c1.WebAuthenticatorActivity" />
+    <activity android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" android:name="md53c585be971e02235139fd1aef11fc0c1.WebViewActivity" />
+    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:noHistory="true" android:name="md53c585be971e02235139fd1aef11fc0c1.WebAuthenticatorNativeBrowserActivity" />
+    <receiver android:name="md53c585be971e02235139fd1aef11fc0c1.CustomTabsActionsBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.couchdbdemo.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.couchdbdemo" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+</manifest>

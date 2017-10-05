@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{E458D841-351B-4446-B80E-2150DAA66CB5}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>charts.commoncore.demo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)charts.commoncore.demo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialConfigurationModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles\AppStyles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\RandomUserLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RandomUserApiObjects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RandomUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\AppExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Nationality.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\NationalitySelectionPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\NationalityChartPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ChartsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Cells\RandomUserCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Cells\NationalityCell.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Partials\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Styles\" />
+    <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Cells\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿{
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "SqliteSettings": {
+    "SQLiteDatabase": "app.db3"
+  },
+  "WebApi": {
+    "randomuser": "https://randomuser.me/api/?results=1000"
+  }
+}
