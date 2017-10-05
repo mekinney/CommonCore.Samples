@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCore.XamlReferenceGui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCore.XamlReferenceGuide.Droid", "Droid\CommonCore.XamlReferenceGuide.Droid.csproj", "{B0283CE5-F45A-41C7-82F3-0C3989680F35}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

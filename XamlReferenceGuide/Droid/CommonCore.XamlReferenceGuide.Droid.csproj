@@ -78,9 +78,6 @@
     <Reference Include="Xamarin.Azure.NotificationHubs.Android">
       <HintPath>..\packages\Xamarin.Azure.NotificationHubs.Android.0.4.0\lib\MonoAndroid403\Xamarin.Azure.NotificationHubs.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Refractored.FloatingActionButton">
-      <HintPath>..\packages\Refractored.FloatingActionButton.1.4.0\lib\MonoAndroid10\Refractored.FloatingActionButton.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Auth">
       <HintPath>..\packages\Xamarin.Auth.1.5.0.3\lib\MonoAndroid10\Xamarin.Auth.dll</HintPath>
     </Reference>
@@ -193,38 +190,11 @@
     <Reference Include="Xamarin.Auth.XamarinForms">
       <HintPath>..\packages\Xamarin.Auth.XamarinForms.1.5.0.3\lib\MonoAndroid10\Xamarin.Auth.XamarinForms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Android.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.Android.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Analytics.Android.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.Analytics.Android.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Analytics">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Crashes.Android.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Crashes">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.15.2\lib\MonoAndroid403\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
-    </Reference>
     <Reference Include="Plugin.Connectivity.Abstractions">
       <HintPath>..\packages\Xam.Plugin.Connectivity.3.0.3\lib\MonoAndroid10\Plugin.Connectivity.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\packages\Xam.Plugin.Connectivity.3.0.3\lib\MonoAndroid10\Plugin.Connectivity.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.19\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Platform">
-      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.19\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="FFImageLoading.Transformations">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Transformations.2.2.19\lib\MonoAndroid10\FFImageLoading.Transformations.dll</HintPath>
     </Reference>
     <Reference Include="FormsViewGroup">
       <HintPath>..\packages\Xamarin.Forms.2.4.0.282\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
@@ -241,11 +211,41 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.4.0.282\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Android.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.Android.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics.Android.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.Analytics.Android.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes.Android.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.16.0\lib\MonoAndroid403\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
+    </Reference>
+    <Reference Include="Refractored.Fab">
+      <HintPath>..\packages\Refractored.FloatingActionButton.2.0.0.9\lib\MonoAndroid10\Refractored.Fab.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.20\lib\MonoAndroid10\FFImageLoading.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Platform">
+      <HintPath>..\packages\Xamarin.FFImageLoading.2.2.20\lib\MonoAndroid10\FFImageLoading.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="FFImageLoading.Transformations">
+      <HintPath>..\packages\Xamarin.FFImageLoading.Transformations.2.2.20\lib\MonoAndroid10\FFImageLoading.Transformations.dll</HintPath>
+    </Reference>
     <Reference Include="FFImageLoading.Forms">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.19\lib\MonoAndroid10\FFImageLoading.Forms.dll</HintPath>
+      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.20\lib\MonoAndroid10\FFImageLoading.Forms.dll</HintPath>
     </Reference>
     <Reference Include="FFImageLoading.Forms.Droid">
-      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.19\lib\MonoAndroid10\FFImageLoading.Forms.Droid.dll</HintPath>
+      <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.20\lib\MonoAndroid10\FFImageLoading.Forms.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

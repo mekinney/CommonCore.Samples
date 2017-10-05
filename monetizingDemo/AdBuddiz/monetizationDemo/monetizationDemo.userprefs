@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" identitySerialNumber="35BB4CE0D53F35B3">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="N4VY6BQV5D" TeamId="BY726TB2DL" />
   </MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS>
-  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.192.168.57.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../../CommonCore/Xamarin.Forms.CommonCore/Services/FileStore.cs">
     <Files>
       <File FileName="monetizationDemo/Views/HomePage.cs" Line="66" Column="39" />

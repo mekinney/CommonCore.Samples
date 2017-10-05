@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charts.commoncore.demo.iOS"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charts.commoncore.demo.Droid", "Droid\charts.commoncore.demo.Droid.csproj", "{2D75FC15-E4C0-4D0B-807F-D06DE8C0AB72}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

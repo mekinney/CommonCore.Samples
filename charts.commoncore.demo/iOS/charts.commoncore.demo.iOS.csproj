@@ -127,24 +127,6 @@
     <Reference Include="Microcharts.Forms">
       <HintPath>..\packages\Microcharts.Forms.0.7.1\lib\netstandard1.4\Microcharts.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Azure.Mobile">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.iOS.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.iOS.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Analytics">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Analytics.iOS.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Crashes">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Mobile.Crashes.iOS.Bindings">
-      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</HintPath>
-    </Reference>
     <Reference Include="PInvoke.Windows.Core">
       <HintPath>..\packages\PInvoke.Windows.Core.0.5.97\lib\portable-net45+win8+wpa81\PInvoke.Windows.Core.dll</HintPath>
     </Reference>
@@ -229,6 +211,24 @@
     <Reference Include="Microcharts.iOS">
       <HintPath>..\packages\Microcharts.0.7.1\lib\Xamarin.iOS10\Microcharts.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Mobile">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.iOS.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.iOS.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics.iOS.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes.iOS.Bindings">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.16.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -256,7 +256,7 @@
     <BundleResource Include="Resources\checked.png" />
     <BundleResource Include="Resources\unchecked.png" />
   </ItemGroup>
-  <Import Project="..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
+  <Import Project="..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\charts.commoncore.demo\charts.commoncore.demo.projitems" Label="Shared" Condition="Exists('..\charts.commoncore.demo\charts.commoncore.demo.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
