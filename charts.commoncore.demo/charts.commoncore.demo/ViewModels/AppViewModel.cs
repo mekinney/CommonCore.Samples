@@ -18,7 +18,7 @@ namespace charts.commoncore.demo
         public LineChart NationalitiesChart { get; set; }
         public PointChart NationalitiesPointChart { get; set; }
 
-        public ICommand GetNationalityData { get; set; }
+        public ICommand GetNationalityData { get; private set; } 
 
         public AppViewModel()
         {

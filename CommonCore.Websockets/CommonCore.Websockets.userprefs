@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{C5F7DCE8-8951-4836-95B8-2EEBF4F21161}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.Websockets/ViewModels/AppViewModel.cs">
+    <Files>
+      <File FileName="CommonCore.Websockets/Views/ChatPage.cs" Line="7" Column="42" />
+      <File FileName="CommonCore.Websockets/Config/config.dev.json" Line="12" Column="2" />
+      <File FileName="CommonCore.Websockets/ViewModels/AppViewModel.cs" Line="24" Column="59" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Controls/CoreListView.cs" Line="38" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.219C58B0-A263-47C2-AE09-283CDAC6032B" />
+  <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.Droid PreferredExecutionTarget="Android.192.168.57.101:5555" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.WebApp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

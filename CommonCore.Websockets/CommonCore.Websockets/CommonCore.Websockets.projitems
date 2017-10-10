@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{2792B663-642F-4CD0-9A1A-46B67F031DF2}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CommonCore.Websockets</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CommonCore.Websockets.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IChatService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ChatService.cs">
+      <DependentUpon>IChatService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialConfigurationModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ChatPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Cells\MessageViewCell.cs">
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Partials\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Cells\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+</Project>

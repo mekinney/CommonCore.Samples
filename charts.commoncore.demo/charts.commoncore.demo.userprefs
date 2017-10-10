@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{2D75FC15-E4C0-4D0B-807F-D06DE8C0AB72}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="charts.commoncore.demo/Views/Cells/NationalityCell.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/RelayCommand.cs">
     <Files>
-      <File FileName="charts.commoncore.demo/Views/ChartsPage.cs" Line="23" Column="1" />
-      <File FileName="charts.commoncore.demo/Views/HomePage.cs" Line="13" Column="1" />
-      <File FileName="charts.commoncore.demo/Views/NationalityChartPage.cs" Line="40" Column="62" />
-      <File FileName="charts.commoncore.demo/BusinessLogic/RandomUserLogic.cs" Line="20" Column="23" />
-      <File FileName="iOS/AppDelegate.cs" Line="23" Column="1" />
-      <File FileName="Droid/MainApplication.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="28" Column="40" />
-      <File FileName="charts.commoncore.demo/Views/Cells/NationalityCell.cs" Line="14" Column="52" />
-      <File FileName="charts.commoncore.demo/Views/Cells/RandomUserCell.cs" Line="19" Column="1" />
+      <File FileName="charts.commoncore.demo/ViewModels/AppViewModel.cs" Line="25" Column="43" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/RelayCommand.cs" Line="40" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

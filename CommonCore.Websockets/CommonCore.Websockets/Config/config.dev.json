@@ -1,0 +1,12 @@
+﻿{
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "WebApi": {
+    "websocket": "ws://azdevelopeasychat.azurewebsites.net",
+  }
+}
