@@ -16,3 +16,11 @@ Database Frameworks -
 * Realm     - uses 
 
   https://realm.io/docs/xamarin/latest/
+  
+  
+Misc Examples Include:
+* Charting for data visualization
+* Tabs instead of slide menu
+* Admob for monetization
+* Using XAML instead of Code
+* Websockets for Duplex Communication
