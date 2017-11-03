@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{B0DB29A9-7037-4F01-8D35-7EE8519F41C9}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>todo.mobile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)todo.mobile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\TodoBusinessLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Todo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialConfigurationModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialObservableViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles\AppStyles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LandingPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\UserBusinessLogic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Partials\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Styles\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+</Project>

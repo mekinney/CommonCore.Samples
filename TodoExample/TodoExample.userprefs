@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo.mobile/todo.mobile/BusinessLogic/UserBusinessLogic.cs">
+    <Files>
+      <File FileName="../../../../Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Services/AccountService.cs" Line="195" Column="9" />
+      <File FileName="todo.mobile/todo.mobile/ViewModels/AppViewModel.cs" Line="32" Column="1" />
+      <File FileName="../../../../Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Services/HttpService.cs" Line="130" Column="9" />
+      <File FileName="todo.mobile/iOS/Info.plist" />
+      <File FileName="todo.mobile/iOS/Entitlements.plist" />
+      <File FileName="../../../../Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Services/IAccountService.cs" Line="14" Column="1" />
+      <File FileName="../../../../Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Services/IHttpService.cs" Line="18" Column="11" />
+      <File FileName="todo.mobile/todo.mobile/BusinessLogic/UserBusinessLogic.cs" Line="87" Column="2" />
+      <File FileName="todo.webapi/todo.webapi/Controllers/UserController.cs" Line="29" Column="30" />
+      <File FileName="../../../../Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Settings/CoreSettings.cs" Line="104" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/TodoController.cs" line="40" column="1" />
+      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/TodoController.cs" line="42" column="1" />
+      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.mobile/todo.mobile/ViewModels/AppViewModel.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

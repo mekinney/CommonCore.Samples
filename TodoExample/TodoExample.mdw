@@ -1,0 +1,8 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>todo.webapi/todo.webapi.sln</Item>
+    <Item>todo.mobile/todo.mobile.sln</Item>
+    <Item>todo.design/todo.design.sln</Item>
+    <Item>todo.webclient/todo.webclient.sln</Item>
+  </Items>
+</WorkspaceItem>
