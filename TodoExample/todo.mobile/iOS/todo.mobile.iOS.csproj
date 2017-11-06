@@ -220,6 +220,14 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Helpers\Settings.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\loginheader.png" />
+    <BundleResource Include="Resources\loginheader%402x.png" />
+    <BundleResource Include="Resources\loginheader%403x.png" />
+    <BundleResource Include="Resources\registerheader.png" />
+    <BundleResource Include="Resources\registerheader%402x.png" />
+    <BundleResource Include="Resources\registerheader%403x.png" />
+  </ItemGroup>
   <Import Project="..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\todo.mobile\todo.mobile.projitems" Label="Shared" Condition="Exists('..\todo.mobile\todo.mobile.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

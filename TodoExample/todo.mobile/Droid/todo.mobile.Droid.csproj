@@ -262,6 +262,21 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\loginheader.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\registerheader.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_clear_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_clear_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_clear_icon.png" />
   </ItemGroup>
   <Import Project="..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\todo.mobile\todo.mobile.projitems" Label="Shared" Condition="Exists('..\todo.mobile\todo.mobile.projitems')" />

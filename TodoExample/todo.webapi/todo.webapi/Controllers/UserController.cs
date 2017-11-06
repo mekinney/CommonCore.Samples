@@ -86,6 +86,27 @@ namespace todo.webapi.Controllers
 
         [AllowAnonymous]
         [HttpGet]
+        [Route("api/User/CreateAccount")]
+        public async Task<IActionResult> CreateAccount(OAuthParams oAuth)
+        {
+            var response = await _userRepo.AddOrUpdate(new Data.User()
+            {
+                UserName = oAuth.username,
+                Password = oAuth.password,
+                CorrelationID = Guid.NewGuid().ToString(),
+                UTCTickStamp = DateTime.UtcNow.Ticks
+            });
+
+            if (response.error != null)
+                return BadRequest(response.error);
+            else
+                return Ok(response.dict);
+
+        }
+
+
+        [AllowAnonymous]
+        [HttpGet]
         [Route("api/User/Authorize")]
         public async Task<IActionResult> Authorize( OAuthParams oAuth)
         {

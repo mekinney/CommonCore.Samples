@@ -8,7 +8,7 @@ namespace todo.mobile
     {
         public App()
         {
-            MainPage = new NavigationPage(new LandingPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

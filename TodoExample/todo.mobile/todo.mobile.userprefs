@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{CD41DC3E-2A5A-467C-9BEC-92718F8078A3}|Default">
+  <MonoDevelop.Ide.ItemProperties.todo.mobile.Droid PreferredExecutionTarget="Android.N624" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.todo.mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.219C58B0-A263-47C2-AE09-283CDAC6032B">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />

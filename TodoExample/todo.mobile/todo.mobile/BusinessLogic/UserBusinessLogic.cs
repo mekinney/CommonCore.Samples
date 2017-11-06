@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms.CommonCore;
 using Newtonsoft.Json;
-
+using System.Linq;
 namespace todo.mobile
 {
     public class UserBusinessLogic : BusinessBase
@@ -23,15 +23,44 @@ namespace todo.mobile
             }
         }
 
+        public async Task<bool> RegisterNewUser(string userName, string password)
+        {
+            var hashedPwd = this.EncryptionService.GetHashString(password);
+            var url = $"{UserBase}/CreateAccount?username={userName}&password={hashedPwd}";
+            var httpResult = await HttpService.GetRaw(url);
+            var success = httpResult.Success;
+            if (success)
+            {
+                var dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(httpResult.Response);
+                var guid = dict.Keys.First();
+                var id = dict[guid].ToString();
+                var obj = new User()
+                {
+                    CorrelationID = Guid.Parse(guid),
+                    Id = int.Parse(id),
+                    UTCTickStamp = DateTime.UtcNow.Ticks,
+                    UserName = userName,
+                    Password = hashedPwd
+                };
+                var sqlResult = await this.SqliteDb.AddOrUpdate<User>(obj);
+                success = sqlResult.Success;
+            }
+            else
+            {
+                httpResult.Error?.ConsoleWrite();
+                httpResult.Error?.LogException();
+            }
+            return success;
+        }
 
         public async Task<bool> Login(string userName, string password)
         {
             var success = false;
             var acct = await this.AccountService.GetAccountStore<AuthenticationToken>(userName, password);
-            if(acct.Success && acct.Response!=null)
+            if (acct.Success && acct.Response != null)
             {
                 CoreSettings.TokenBearer = acct.Response;
-                if(!CoreSettings.TokenIsValid)
+                if (!CoreSettings.TokenIsValid)
                 {
                     success = await RefreshToken(userName, password);
                 }
@@ -82,6 +111,6 @@ namespace todo.mobile
 
             return success;
         }
-       
+
     }
 }

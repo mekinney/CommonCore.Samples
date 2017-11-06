@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 using Xamarin.Forms.CommonCore;
 
 namespace todo.mobile
@@ -7,5 +8,6 @@ namespace todo.mobile
     {
         public const string TodoAPIBase = "todoAPI";
         public const string UserAPIBase = "userAPI";
+
     }
 }

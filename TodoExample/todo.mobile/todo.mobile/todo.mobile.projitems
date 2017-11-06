@@ -16,10 +16,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)Partials\PartialObservableViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Settings\AppSettings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Styles\AppStyles.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\LandingPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\UserBusinessLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RegisterPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AccountViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TodoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AppMasterDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MasterDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AppMenuPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />

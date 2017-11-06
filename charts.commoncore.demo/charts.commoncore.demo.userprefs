@@ -1,9 +1,21 @@
 ﻿<Properties StartupConfiguration="{2D75FC15-E4C0-4D0B-807F-D06DE8C0AB72}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/RelayCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="charts.commoncore.demo/ViewModels/AppViewModel.cs">
     <Files>
-      <File FileName="charts.commoncore.demo/ViewModels/AppViewModel.cs" Line="25" Column="43" />
+      <File FileName="charts.commoncore.demo/ViewModels/AppViewModel.cs" Line="39" Column="1" />
       <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/ViewModels/RelayCommand.cs" Line="40" Column="10" />
+      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="3" Column="51" />
+      <File FileName="charts.commoncore.demo/BusinessLogic/RandomUserLogic.cs" Line="37" Column="1" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/IHttpService.cs" Line="11" Column="59" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/HttpService.cs" Line="213" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="charts.commoncore.demo" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -14,5 +26,5 @@
   <MonoDevelop.Ide.ItemProperties.charts.commoncore.demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.219C58B0-A263-47C2-AE09-283CDAC6032B">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.charts.commoncore.demo.iOS>
-  <MonoDevelop.Ide.ItemProperties.charts.commoncore.demo.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.charts.commoncore.demo.Droid PreferredExecutionTarget="Android.N624" />
 </Properties>
