@@ -10,6 +10,7 @@ namespace CommonCore.Websockets
     {
         public App()
         {
+            CoreSettings.CurrentUser.UserId = Guid.NewGuid().ToString();
             MainPage = new NavigationPage(new HomePage());
         }
 

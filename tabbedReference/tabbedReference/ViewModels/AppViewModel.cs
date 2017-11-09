@@ -82,7 +82,7 @@ namespace tabbedReference
 
         public async Task RemoveFavorites(RandomUser user)
         {
-            var result = await this.SqliteDb.DeleteByInternalID<RandomUser>(user.CorrelationID);
+            var result = await this.SqliteDb.DeleteByCorrelationID<RandomUser>(user.CorrelationID);
 			result.Error?.LogException();
             if (!result.Success)
             {

@@ -17,7 +17,7 @@ namespace CommonCore.Websockets
         public DateTime MessagDateTime { get; set; }
         public bool IsIncoming => UserId != CoreSettings.InstallationId;
         public string Name { get; set; }
-        public string UserId { get; set; } = CoreSettings.UserId;
+        public string UserId { get; set; } = CoreSettings.CurrentUser.UserId;
     }
 
     public class ChatService : IChatService

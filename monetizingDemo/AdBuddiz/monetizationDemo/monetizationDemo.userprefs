@@ -1,29 +1,17 @@
-﻿<Properties StartupConfiguration="{120FA61B-DFA4-4C34-B844-53B3238EA936}|Default">
-  <MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" identitySerialNumber="35BB4CE0D53F35B3">
+﻿<Properties StartupConfiguration="{9DB99B1E-5943-4CBD-A988-F388BDA50238}|Default">
+  <MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.53510EE6-45BE-4275-A7F4-A61ECDAD416A" identitySerialNumber="35BB4CE0D53F35B3">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="N4VY6BQV5D" TeamId="BY726TB2DL" />
   </MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS>
-  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.N624" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../../CommonCore/Xamarin.Forms.CommonCore/Services/FileStore.cs">
     <Files>
       <File FileName="monetizationDemo/Views/HomePage.cs" Line="66" Column="39" />
       <File FileName="../../../../CommonCore/Xamarin.Forms.CommonCore/Services/FileStore.cs" Line="55" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="monetizationDemo" expanded="True">
-            <Node name="monetizationDemo.iOS" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Volumes/Personal240/CommonCore.Samples/monetizingDemo/AdBuddiz/monetizationDemo/monetizationDemo/ViewModels/AppViewModel.cs" relfile="monetizationDemo/ViewModels/AppViewModel.cs" line="69" column="1" />
-      <Breakpoint file="/Volumes/Personal240/CommonCore/Xamarin.Forms.CommonCore/Services/FileStore.cs" line="43" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
