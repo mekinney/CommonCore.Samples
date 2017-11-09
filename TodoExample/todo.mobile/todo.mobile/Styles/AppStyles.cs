@@ -7,7 +7,8 @@ namespace todo.mobile
 {
 	public class AppStyles: CoreStyles
 	{
-        public static Color LightOrangeBackground { get; set; } = Color.FromHex("#EDEBDE");
+        public static Color NavigationBarColor { get; set; } = Color.FromHex("#AD9255");
+        public static Color LightOrangeBackground { get; set; } = Color.FromHex("#EDEBDE"); 
 
         public static Style LightOrangeButton { get; } = new Style(typeof(CoreButton))
         {

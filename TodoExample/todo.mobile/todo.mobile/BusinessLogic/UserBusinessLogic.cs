@@ -34,6 +34,10 @@ namespace todo.mobile
                 var dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(httpResult.Response);
                 var guid = dict.Keys.First();
                 var id = dict[guid].ToString();
+
+                CoreSettings.CurrentUser.UserId = id;
+                CoreSettings.CurrentUser.UserName = userName;
+
                 var obj = new User()
                 {
                     CorrelationID = Guid.Parse(guid),
@@ -42,6 +46,7 @@ namespace todo.mobile
                     UserName = userName,
                     Password = hashedPwd
                 };
+
                 var sqlResult = await this.SqliteDb.AddOrUpdate<User>(obj);
                 success = sqlResult.Success;
             }
@@ -56,18 +61,18 @@ namespace todo.mobile
         public async Task<bool> Login(string userName, string password)
         {
             var success = false;
-            var acct = await this.AccountService.GetAccountStore<AuthenticationToken>(userName, password);
-            if (acct.Success && acct.Response != null)
+            var usr = await this.AccountService.GetAccountStore<AppUser>(userName, password);
+            if (usr.Success && usr.Response != null)
             {
-                CoreSettings.TokenBearer = acct.Response;
-                if (!CoreSettings.TokenIsValid)
+                CoreSettings.CurrentUser = usr.Response;
+                if (!CoreSettings.CurrentUser.TokenIsValid)
                 {
                     success = await RefreshToken(userName, password);
                 }
                 else
                 {
                     success = true;
-                    this.HttpService.Client.AddTokenHeader(CoreSettings.TokenBearer.Token);
+                    this.HttpService.Client.AddTokenHeader(CoreSettings.CurrentUser.AuthToken.Token);
                 }
             }
             else
@@ -78,17 +83,18 @@ namespace todo.mobile
                 success = httpResult.Success;
                 if (success)
                 {
+                    CoreSettings.CurrentUser.UserName = userName;
                     var dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(httpResult.Response);
-                    CoreSettings.TokenBearer = new AuthenticationToken()
+                    CoreSettings.CurrentUser.AuthToken = new AuthenticationToken()
                     {
                         Token = dict["access_token"].ToString(),
                         RefreshToken = dict["refresh_token"].ToString(),
                         ExpiresIn = int.Parse(dict["expires_in"].ToString())
                     };
-                    CoreSettings.TokenBearer.UTCExpiration = DateTime.UtcNow.AddSeconds(CoreSettings.TokenBearer.ExpiresIn).Ticks;
+                    CoreSettings.CurrentUser.AuthToken.UTCExpiration = DateTime.UtcNow.AddSeconds(CoreSettings.CurrentUser.AuthToken.ExpiresIn).Ticks;
 
-                    this.HttpService.Client.AddTokenHeader(CoreSettings.TokenBearer.Token);
-                    var acctResult = await this.AccountService.SaveAccountStore<AuthenticationToken>(userName, password, AppSettings.TokenBearer);
+                    this.HttpService.Client.AddTokenHeader(CoreSettings.CurrentUser.AuthToken.Token);
+                    var acctResult = await this.AccountService.SaveAccountStore<AppUser>(userName, password, CoreSettings.CurrentUser);
                     success = acctResult.Success;
                 }
             }
@@ -98,14 +104,14 @@ namespace todo.mobile
         private async Task<bool> RefreshToken(string userName, string password)
         {
             bool success = false;
-            var url = $"{UserBase}/Authorize?grant_type=refresh_token&refresh_token={CoreSettings.TokenBearer.RefreshToken}";
+            var url = $"{UserBase}/Authorize?grant_type=refresh_token&refresh_token={CoreSettings.CurrentUser.AuthToken.RefreshToken}";
             var httpResult = await HttpService.GetRaw(url);
             success = httpResult.Success;
             if (success)
             {
-                CoreSettings.TokenBearer = JsonConvert.DeserializeObject<AuthenticationToken>(httpResult.Response);
-                this.HttpService.Client.AddTokenHeader(CoreSettings.TokenBearer.Token);
-                var acctResult = await this.AccountService.SaveAccountStore<AuthenticationToken>(userName, password, AppSettings.TokenBearer);
+                CoreSettings.CurrentUser.AuthToken = JsonConvert.DeserializeObject<AuthenticationToken>(httpResult.Response);
+                this.HttpService.Client.AddTokenHeader(CoreSettings.CurrentUser.AuthToken.Token);
+                var acctResult = await this.AccountService.SaveAccountStore<AppUser>(userName, password, AppSettings.CurrentUser);
                 success = acctResult.Success;
             }
 

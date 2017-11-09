@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace todo.mobile
 {
-    public class AppMasterDetailPage:BoundMasterDetailPage<MasterDetailViewModel>
+    public class AppMasterDetailPage : BoundMasterDetailPage<MasterDetailViewModel>
     {
         public static Page CurrentDetail { get; set; }
         public AppMasterDetailPage()
@@ -15,7 +15,7 @@ namespace todo.mobile
                 Master = new AppMenuPage();
                 Detail = new NavigationPage(new TodoPage())
                 {
-                    BarBackgroundColor = Color.FromHex("#b85921"),
+                    BarBackgroundColor = AppStyles.NavigationBarColor,
                     BarTextColor = Color.White
                 };
                 AppSettings.AppNav = Detail.Navigation;

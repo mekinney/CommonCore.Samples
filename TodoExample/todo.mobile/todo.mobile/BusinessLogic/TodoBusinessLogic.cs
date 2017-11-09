@@ -55,7 +55,7 @@ namespace todo.mobile
         public async Task<List<Todo>> SyncOfflineData()
         {
 
-            var result = await this.HttpService.Get<List<Todo>>($"{TodoBase}/GetAllUpdatedByUser?userId={CoreSettings.UserId}&utcTickStamp={CoreSettings.SyncTimeStamp}");
+            var result = await this.HttpService.Get<List<Todo>>($"{TodoBase}/GetAllUpdatedByUser?userId={CoreSettings.CurrentUser.UserId}&utcTickStamp={CoreSettings.SyncTimeStamp}");
             if(result.Success){
                 var updates = await CreateUpdateLists(result.Response);
                 await this.SqliteDb.AddOrUpdate<Todo>(updates.localUpdates);

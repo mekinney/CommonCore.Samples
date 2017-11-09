@@ -277,6 +277,43 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_clear_icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_clear_icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_clear_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\aboutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\featherImage.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logoutMenuImage.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\paperStackImage.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\personPlaceholder.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\profilemenuImage.png" />
+    <AndroidResource Include="Resources\drawable\hamburger.png" />
   </ItemGroup>
   <Import Project="..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\todo.mobile\todo.mobile.projitems" Label="Shared" Condition="Exists('..\todo.mobile\todo.mobile.projitems')" />

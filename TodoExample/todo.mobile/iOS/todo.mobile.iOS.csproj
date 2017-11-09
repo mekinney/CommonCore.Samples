@@ -227,6 +227,29 @@
     <BundleResource Include="Resources\registerheader.png" />
     <BundleResource Include="Resources\registerheader%402x.png" />
     <BundleResource Include="Resources\registerheader%403x.png" />
+    <BundleResource Include="Resources\featherImage.png" />
+    <BundleResource Include="Resources\featherImage%402x.png" />
+    <BundleResource Include="Resources\featherImage%403x.png" />
+    <BundleResource Include="Resources\logoutMenuImage.png" />
+    <BundleResource Include="Resources\logoutMenuImage%402x.png" />
+    <BundleResource Include="Resources\logoutMenuImage%403x.png" />
+    <BundleResource Include="Resources\paperStackImage.png" />
+    <BundleResource Include="Resources\paperStackImage%402x.png" />
+    <BundleResource Include="Resources\paperStackImage%403x.png" />
+    <BundleResource Include="Resources\personPlaceholder.png" />
+    <BundleResource Include="Resources\personPlaceholder%402x.png" />
+    <BundleResource Include="Resources\personPlaceholder%403x.png" />
+    <BundleResource Include="Resources\profilemenuImage.png" />
+    <BundleResource Include="Resources\profilemenuImage%402x.png" />
+    <BundleResource Include="Resources\profilemenuImage%403x.png" />
+    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\hamburger%402x.png" />
+    <BundleResource Include="Resources\aboutMenuImage.png" />
+    <BundleResource Include="Resources\aboutMenuImage%402x.png" />
+    <BundleResource Include="Resources\aboutMenuImage%403x.png" />
+    <BundleResource Include="Resources\personMenuPlaceholder.png" />
+    <BundleResource Include="Resources\personMenuPlaceholder%402x.png" />
+    <BundleResource Include="Resources\personMenuPlaceholder%403x.png" />
   </ItemGroup>
   <Import Project="..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\..\..\Volumes\Personal240\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\todo.mobile\todo.mobile.projitems" Label="Shared" Condition="Exists('..\todo.mobile\todo.mobile.projitems')" />

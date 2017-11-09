@@ -22,9 +22,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\RegisterPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AccountViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\TodoPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\AppMasterDetailPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MasterDetailViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\AppMenuPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Nav\AppMasterDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Nav\AppMenuPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Nav\AppMenuCell.cs">
+      <DependentUpon>AppMenuPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ProfilePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
@@ -35,6 +40,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)Styles\" />
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Nav\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
