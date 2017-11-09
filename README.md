@@ -17,6 +17,11 @@ Database Frameworks -
 
   https://realm.io/docs/xamarin/latest/
   
+  Offline Sync with Bearer Token
+  * WebApi Core 2.0 using JWT and EntityFramework against Sqlite
+  * UX Design examples with AdobeXD
+  * Mobile using CommonCore
+  * WebClient using Angular 4 SPA
   
 Misc Examples Include:
 * Charting for data visualization
