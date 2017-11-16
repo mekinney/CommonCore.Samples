@@ -3,7 +3,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace sqliteDemo
 {
-    public class Person : SqlDataModel
+    public class Person : CoreSqlModel
     {
         public string Id { get; set; } = Guid.NewGuid().ToString();
         public string FirstName { get; set; }

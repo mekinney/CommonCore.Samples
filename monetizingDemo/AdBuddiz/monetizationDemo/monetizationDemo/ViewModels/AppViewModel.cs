@@ -8,14 +8,14 @@ using Xamarin.Forms.CommonCore;
 
 namespace monetizationDemo.ViewModels
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
         public ICommand RemoveAds { get; set; }
 
         public AppViewModel()
         {
 
-            RemoveAds = new RelayCommand(async(obj) => {
+            RemoveAds = new CoreCommand(async(obj) => {
                 await MakePurchase();
             });
         }

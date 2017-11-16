@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace tabbedReference
 {
-    public class FavoritesPage: BoundPage<AppViewModel>
+    public class FavoritesPage: CorePage<AppViewModel>
     {
         public FavoritesPage()
         {

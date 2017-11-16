@@ -6,7 +6,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace CommonCore.XamlReferenceGuide.Views
 {
-    public partial class BehaviorsPage : BoundPage
+    public partial class BehaviorsPage : CorePage
     {
         public BehaviorsPage()
         {

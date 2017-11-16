@@ -6,7 +6,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace monetizationDemo.Views
 {
-    public class HomePage : BoundPage<AppViewModel>
+    public class HomePage : CorePage<AppViewModel>
     {
         public HomePage()
         {

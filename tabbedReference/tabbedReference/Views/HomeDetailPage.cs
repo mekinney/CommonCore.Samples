@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace tabbedReference
 {
-    public class HomeDetailPage : BoundPage<AppViewModel>
+    public class HomeDetailPage : CorePage<AppViewModel>
     {
         public HomeDetailPage()
         {

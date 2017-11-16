@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace realmDemo
 {
-    public class AppViewModel: ObservableViewModel
+    public class AppViewModel: CoreViewModel
     {
         private IDisposable queryToken;
  
@@ -28,7 +28,7 @@ namespace realmDemo
                 People = RealmDb.All<Person>().ToObservable();
             });
 
-            AddPerson = new RelayCommand((obj) => {
+            AddPerson = new CoreCommand((obj) => {
 
 				RealmDb.Write(() =>
                 {
@@ -38,7 +38,7 @@ namespace realmDemo
                 Navigation.PushNonAwaited<PageTwo>();
             });
 
-            ViewPeople = new RelayCommand((obj) => { 
+            ViewPeople = new CoreCommand((obj) => { 
                 Navigation.PushNonAwaited<PageTwo>();
             });
 

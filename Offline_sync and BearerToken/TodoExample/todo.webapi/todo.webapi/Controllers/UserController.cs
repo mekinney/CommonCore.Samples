@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 using todo.webapi.Data;
 
 namespace todo.webapi.Controllers
@@ -28,6 +29,7 @@ namespace todo.webapi.Controllers
         public string access_token { get; set; }
         public int expires_in { get; set; }
         public string refresh_token { get; set; }
+        public string meta_data { get; set; }
     }
 
 
@@ -137,6 +139,7 @@ namespace todo.webapi.Controllers
             var obj = await _userRepo.GetByLogin(oAuth.username, oAuth.password);
             if (obj != null)
             {
+                obj.Password = string.Empty;
                 var claims = new[]
                 {
                     new Claim(JwtRegisteredClaimNames.Sub, oAuth.username),
@@ -149,8 +152,7 @@ namespace todo.webapi.Controllers
                       claims,
                       expires: DateTime.Now.AddMinutes(30),
                       signingCredentials: creds);
-
-              
+  
                 var refreshToken = Guid.NewGuid().ToString().Replace("-", string.Empty).Trim();
                 var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(45));
                 _cache.Set(refreshToken, oAuth.username, cacheEntryOptions);
@@ -160,6 +162,7 @@ namespace todo.webapi.Controllers
                     access_token = new JwtSecurityTokenHandler().WriteToken(token),
                     expires_in = (int)TimeSpan.FromMinutes(30).TotalSeconds,
                     refresh_token = refreshToken,
+                    meta_data = JsonConvert.SerializeObject(obj)
                 };
 
             }

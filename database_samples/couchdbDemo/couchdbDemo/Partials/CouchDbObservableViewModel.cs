@@ -3,13 +3,13 @@ using couchdbDemo;
 
 namespace Xamarin.Forms.CommonCore
 {
-    public partial class ObservableViewModel
+    public partial class CoreViewModel
     {
         private ICouchDb couchDb;
 
         protected ICouchDb CouchDb
         {
-            get { return couchDb ?? (couchDb = InjectionManager.GetService<ICouchDb, CouchDb>(true)); }
+            get { return couchDb ?? (couchDb = CoreDependencyService.GetService<ICouchDb, CouchDb>(true)); }
         }
     }
 }

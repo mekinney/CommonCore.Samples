@@ -7,9 +7,8 @@ using Xamarin.Forms.CommonCore;
 
 namespace charts.commoncore.demo
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
-
         public ObservableCollection<Nationality> Nationalities { get; set; }
         public ObservableCollection<RandomUser> Users { get; set; }
 
@@ -22,7 +21,7 @@ namespace charts.commoncore.demo
 
         public AppViewModel()
         {
-            GetNationalityData = new RelayCommand((obj) => { LoadNationalityData(); });
+            GetNationalityData = new CoreCommand(LoadNationalityData);
         }
 
         public override void LoadResources(string parameter = null)
@@ -70,7 +69,7 @@ namespace charts.commoncore.demo
                 AgeChart = null;
         }
 
-        private void LoadNationalityData()
+        private void LoadNationalityData(object obj)
         {
             var selected = Nationalities.Where((x => x.IsSelected == true)).ToArray();
             var entries = this.AppLogic.GetUserByNationality(selected);

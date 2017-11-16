@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms.CommonCore;
 
@@ -15,33 +16,7 @@ namespace todo.mobile
 
         public AccountViewModel()
         {
-            LoginUser = new RelayCommand(async (obj) =>
-            {
-                if (!string.IsNullOrEmpty(UserName) 
-                    && !string.IsNullOrEmpty(Password))
-                {
-                    this.LoadingMessageHUD = "Logging in...";
-                    this.IsLoadingHUD = true;
-                    var result = await this.UserLogic.Login(UserName, Password);
-                    this.IsLoadingHUD = false;
-                    Password = string.Empty;
-                    Password = string.Empty;
-                    if (result)
-                    {
-                        App.Current.MainPage = new AppMasterDetailPage();
-                        await Navigation.PushAsync(new TodoPage());
-                    }
-                    else
-                    {
-                        this.DialogPrompt.ShowMessage(new Prompt()
-                        {
-                            Title = "Error",
-                            Message = "There was an issue logging into your account."
-                        });
-                    }
-                }
-
-            });
+            LoginUser = new RelayCommand(async(obj) => { await LoginUserMethod(); });
 
             RegisterUser = new RelayCommand(async (obj) =>
             {
@@ -49,16 +24,17 @@ namespace todo.mobile
                     && !string.IsNullOrEmpty(Password)
                     && Password.Equals(ConfirmPassword))
                 {
-
+                    bool success = false;
                     this.LoadingMessageHUD = "Creating account...";
                     this.IsLoadingHUD = true;
 
-                    var result = await this.UserLogic.RegisterNewUser(UserName, Password);
+                    var registerResult = await this.UserLogic.RegisterNewUser(UserName, Password);
+                    success = registerResult.Success;
                     string errorMessage = string.Empty;
-                    if (result)
+                    if (success)
                     {
                         this.LoadingMessageHUD = "Logging in...";
-                        result = await this.UserLogic.Login(UserName, Password);
+                        success = await this.UserLogic.Login(UserName, Password);
                         errorMessage = "There was an issue logging into your account.";
                     }
                     else{
@@ -69,7 +45,7 @@ namespace todo.mobile
                     Password = string.Empty;
                     Password = string.Empty;
                     ConfirmPassword = string.Empty;
-                    if (result)
+                    if (success)
                     {
                         App.Current.MainPage = new AppMasterDetailPage();
                     }
@@ -83,6 +59,32 @@ namespace todo.mobile
                     }
                 }
             });
+        }
+
+
+        private async Task LoginUserMethod()
+        {
+            if (!string.IsNullOrEmpty(UserName) && !string.IsNullOrEmpty(Password))
+            {
+                this.LoadingMessageHUD = "Logging in...";
+                this.IsLoadingHUD = true;
+                var result = await this.UserLogic.Login(UserName, Password);
+                this.IsLoadingHUD = false;
+                Password = string.Empty;
+                Password = string.Empty;
+                if (result)
+                {
+                    App.Current.MainPage = new AppMasterDetailPage();
+                }
+                else
+                {
+                    this.DialogPrompt.ShowMessage(new Prompt()
+                    {
+                        Title = "Error",
+                        Message = "There was an issue logging into your account."
+                    });
+                }
+            }
         }
     }
 }

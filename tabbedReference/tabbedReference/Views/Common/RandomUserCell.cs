@@ -77,7 +77,7 @@ namespace tabbedReference
 				Command = new Command(async (obj) =>
 				{
 					var item = ((RandomUser)BindingContext);
-					await InjectionManager.GetViewModel<AppViewModel>().RemoveFavorites(item);
+					await CoreDependencyService.GetViewModel<AppViewModel>().RemoveFavorites(item);
 				})
 			});
         }
@@ -93,7 +93,7 @@ namespace tabbedReference
 				Command = new Command(async (obj) =>
 				{
 					var item = ((RandomUser)BindingContext);
-					await InjectionManager.GetViewModel<AppViewModel>().AddToFavorites(item);
+					await CoreDependencyService.GetViewModel<AppViewModel>().AddToFavorites(item);
 				})
 			});
 		}

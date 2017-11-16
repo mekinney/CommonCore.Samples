@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace CommonCore.Websockets
 {
-    public class ChatPage : BoundPage<AppViewModel>
+    public class ChatPage : CorePage<AppViewModel>
     {
         public ChatPage()
         {

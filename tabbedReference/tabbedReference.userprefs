@@ -1,17 +1,11 @@
-﻿<Properties StartupConfiguration="{FE7692D0-1C3A-4AED-B608-070E0DB6A886}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{E7AC2360-B0FF-41F5-BE4F-FA6A51A63D93}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.N624" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/Views/MainTabPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainApplication.cs">
     <Files>
-      <File FileName="tabbedReference/Config/config.dev.json" Line="6" Column="22" />
-      <File FileName="tabbedReference/Views/HomePage.cs" Line="12" Column="13" />
-      <File FileName="tabbedReference/Views/HomeDetailPage.cs" Line="18" Column="15" />
-      <File FileName="tabbedReference/Views/FavoritesPage.cs" Line="11" Column="38" />
-      <File FileName="tabbedReference/Views/AboutPage.cs" Line="14" Column="1" />
-      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="30" Column="17" />
-      <File FileName="tabbedReference/Models/RandomUserServiceModel.cs" Line="79" Column="33" />
-      <File FileName="tabbedReference/tabbedReference.cs" Line="11" Column="51" />
-      <File FileName="tabbedReference/Views/MainTabPage.cs" Line="10" Column="16" />
+      <File FileName="tabbedReference/Views/HomePage.cs" Line="7" Column="41" />
+      <File FileName="tabbedReference/Views/MainTabPage.cs" Line="30" Column="49" />
+      <File FileName="Droid/MainApplication.cs" Line="43" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

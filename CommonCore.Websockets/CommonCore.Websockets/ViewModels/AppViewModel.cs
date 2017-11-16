@@ -5,7 +5,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace CommonCore.Websockets
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
         public ObservableCollection<Message> Messages { get; set; } = new ObservableCollection<Message>();
         public ICommand SendMessage { get; set; }
@@ -19,12 +19,12 @@ namespace CommonCore.Websockets
         {
             this.Chat.ConnectToServerAsync().ContinueOn();
 
-            StartSession = new RelayCommand((obj) => {
+            StartSession = new CoreCommand((obj) => {
                 if (!string.IsNullOrEmpty(FriendlyName))
                     Navigation.PushNonAwaited<ChatPage>();
             });
 
-            SendMessage = new RelayCommand(async (obj) => {
+            SendMessage = new CoreCommand(async (obj) => {
                 await this.Chat.SendMessageAsync(TextMessage, FriendlyName);
                 TextMessage = string.Empty;
             }, () => { return IsConnect && !string.IsNullOrEmpty(TextMessage); }, this);

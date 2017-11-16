@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace charts.commoncore.demo
 {
-    public class RandomUser: BindableObject
+    public class RandomUser: CoreModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

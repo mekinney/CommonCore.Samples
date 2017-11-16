@@ -7,7 +7,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace sqliteDemo
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
         
         public Person NewPerson { get; set; } = new Person();
@@ -21,7 +21,7 @@ namespace sqliteDemo
             
             LoadAllPeople("AppViewModel", null).ContinueWith((t) => { });
 
-            AddPerson = new RelayCommand(async (obj) =>
+            AddPerson = new CoreCommand(async (obj) =>
             {
                 var result = await this.SqliteDb.AddOrUpdate<Person>(NewPerson);
                 if (result.Success)

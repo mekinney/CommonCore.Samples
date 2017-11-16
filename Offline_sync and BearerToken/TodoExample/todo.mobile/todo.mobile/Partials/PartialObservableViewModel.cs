@@ -5,6 +5,7 @@ namespace Xamarin.Forms.CommonCore
 {
     public partial class ObservableViewModel
     {
+        
         public TodoBusinessLogic TodoLogic
         {
             get

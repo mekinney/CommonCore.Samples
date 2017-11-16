@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace couchdbDemo
 {
-    public class AppViewModel: ObservableViewModel
+    public class AppViewModel: CoreViewModel
     {
         private IDisposable queryToken;
 
@@ -33,7 +33,7 @@ namespace couchdbDemo
             });
 
 
-            AddPerson = new RelayCommand(async (obj) => {
+            AddPerson = new CoreCommand(async (obj) => {
                 var result = await this.CouchDb.AddOrUpdate<Person>(NewPerson);
                 if (result!=null)
                 {
@@ -43,7 +43,7 @@ namespace couchdbDemo
                 }
             });
 
-            ViewPeople = new RelayCommand((obj) => { 
+            ViewPeople = new CoreCommand((obj) => { 
                 Navigation.PushNonAwaited<PageTwo>();
             });
 

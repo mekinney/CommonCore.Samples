@@ -3,13 +3,13 @@ using CommonCore.Websockets;
 
 namespace Xamarin.Forms.CommonCore
 {
-    public partial class ObservableViewModel
+    public partial class CoreViewModel
     {
         public IChatService Chat
         {
             get
             {
-                return InjectionManager.GetService<IChatService, ChatService>(true);
+                return CoreDependencyService.GetService<IChatService, ChatService>(true);
             }
         }
     }

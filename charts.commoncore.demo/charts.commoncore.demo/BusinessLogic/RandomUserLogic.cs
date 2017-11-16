@@ -9,7 +9,7 @@ using SkiaSharp;
 
 namespace charts.commoncore.demo
 {
-    public class RandomUserLogic : BusinessBase
+    public class RandomUserLogic : CoreBusiness
     {
         private List<RandomUser> userList;
 

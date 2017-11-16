@@ -10,7 +10,7 @@ namespace Xamarin.Forms.CommonCore
         public string DroidBanner { get; set; }
         public string DroidInterstitial { get; set; }
     }
-    public partial class ConfigurationModel
+    public partial class CoreConfiguration
     {
         public AdmobSettings Admob { get; set; }
         public string InAppPurchaseProductId { get; set; }

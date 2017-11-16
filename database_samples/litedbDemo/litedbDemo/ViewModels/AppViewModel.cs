@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace litedbDemo
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
 
         public Person NewPerson { get; set; } = new Person();
@@ -20,7 +20,7 @@ namespace litedbDemo
         {
             LoadAllPeople("AppViewModel", null).ContinueWith((t) => { });
 
-            AddPerson = new RelayCommand(async (obj) =>
+            AddPerson = new CoreCommand(async (obj) =>
             {
                 var result = await this.LiteNoSqlService.Insert(NewPerson);
                 if (result.Success)
@@ -41,7 +41,7 @@ namespace litedbDemo
                 }
             });
 
-            ViewPeople = new RelayCommand(async (obj) =>
+            ViewPeople = new CoreCommand(async (obj) =>
             {
                 await Navigation.PushAsync(new PageTwo());
             });

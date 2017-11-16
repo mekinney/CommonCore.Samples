@@ -7,7 +7,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace tabbedReference
 {
-    public class AppViewModel : ObservableViewModel, ISearchProvider
+    public class AppViewModel : CoreViewModel, ISearchProvider
     {
         public RandomUser SelectedRandomUser { get; set; } = new RandomUser();
         public ObservableCollection<RandomUser> RandomUsers { get; set; } = new ObservableCollection<RandomUser>();
@@ -26,7 +26,7 @@ namespace tabbedReference
 
             GetFavorites().ContinueWith((t) => { });
 
-            SearchCommand = new RelayCommand((obj) => {
+            SearchCommand = new CoreCommand((obj) => {
 
                 var search = obj;
             });

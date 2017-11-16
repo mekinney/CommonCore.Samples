@@ -6,7 +6,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace charts.commoncore.demo
 {
-    public class ChartsPage: BoundPage<AppViewModel>
+    public class ChartsPage: CorePage<AppViewModel>
     {
         public ChartsPage()
         {

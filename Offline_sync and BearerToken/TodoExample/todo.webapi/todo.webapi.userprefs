@@ -2,20 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.todo.webapi PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="todo.webapi/Controllers/UserController.cs">
     <Files>
-      <File FileName="todo.webapi/Controllers/UserController.cs" Line="115" Column="1" />
       <File FileName="todo.webapi/readme.txt" Line="8" Column="105" />
-      <File FileName="todo.webapi/Data/TodoFiles.cs" Line="1" Column="1" />
-      <File FileName="todo.webapi/Controllers/TodoController.cs" Line="6" Column="32" />
+      <File FileName="todo.webapi/Data/TodoFiles.cs" Line="60" Column="74" />
+      <File FileName="todo.webapi/Controllers/TodoController.cs" Line="33" Column="44" />
+      <File FileName="todo.webapi/Startup.cs" Line="1" Column="1" />
+      <File FileName="todo.webapi/Controllers/UserController.cs" Line="139" Column="82" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/UserController.cs" relfile="todo.webapi/Controllers/UserController.cs" line="92" column="1" />
-      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/UserController.cs" relfile="todo.webapi/Controllers/UserController.cs" line="100" column="1" />
-      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/UserController.cs" relfile="todo.webapi/Controllers/UserController.cs" line="59" column="1" />
-      <Breakpoint file="/Users/Les/Desktop/TodoExample/todo.webapi/todo.webapi/Controllers/UserController.cs" relfile="todo.webapi/Controllers/UserController.cs" line="138" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

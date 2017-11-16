@@ -30,6 +30,12 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\ProfilePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TodoViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AddTodoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TodoPageCell.cs">
+      <DependentUpon>TodoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\DateLongConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
@@ -41,6 +47,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\Nav\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Converters\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />

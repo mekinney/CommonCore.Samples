@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace sqliteDemo
 {
-    public class PageTwo: BoundPage<AppViewModel>
+    public class PageTwo: CorePage<AppViewModel>
     {
         public PageTwo()
         {

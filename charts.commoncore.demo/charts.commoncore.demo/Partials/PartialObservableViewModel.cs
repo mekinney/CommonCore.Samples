@@ -1,15 +1,16 @@
 ﻿using System;
 using charts.commoncore.demo;
+using Xamarin.Forms.CommonCore;
 
 namespace Xamarin.Forms.CommonCore
 {
-    public partial class ObservableViewModel
+    public partial class CoreViewModel
     {
         public RandomUserLogic AppLogic
         {
             get
             {
-                return InjectionManager.GetBusinessLayer<RandomUserLogic>();
+                return CoreDependencyService.GetBusinessLayer<RandomUserLogic>();
             }
         }
     }

@@ -16,7 +16,7 @@ namespace todo.mobile
             get { return AppSettings.Config.WebApi[AppSettings.TodoAPIBase]; }
         }
 
-        public async Task<(Todo todo, Exception error)> AddOrUpdateTodo(Todo todo)
+        public async Task<(Todo todo, bool success, Exception error)> AddOrUpdateTodo(Todo todo)
         {
             Exception ex = null;
             var httpResult = await HttpService.Post<Dictionary<Guid,int>>($"{TodoBase}/AddOrUpdate", todo);
@@ -35,7 +35,7 @@ namespace todo.mobile
                 ex = dbResult.Error; //Only concerned if locally not saved at this point
             }
 
-            return (todo, ex);
+            return (todo, ex != null ? false : true, ex);
         }
 
 
@@ -55,7 +55,7 @@ namespace todo.mobile
         public async Task<List<Todo>> SyncOfflineData()
         {
 
-            var result = await this.HttpService.Get<List<Todo>>($"{TodoBase}/GetAllUpdatedByUser?userId={CoreSettings.CurrentUser.UserId}&utcTickStamp={CoreSettings.SyncTimeStamp}");
+            var result = await this.HttpService.Get<List<Todo>>($"{TodoBase}/GetAllUpdatedByUser?userId={AppSettings.AppUser.Id}&utcTickStamp={CoreSettings.SyncTimeStamp}");
             if(result.Success){
                 var updates = await CreateUpdateLists(result.Response);
                 await this.SqliteDb.AddOrUpdate<Todo>(updates.localUpdates);

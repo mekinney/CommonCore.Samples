@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace CommonCore.XamlReferenceGuide
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
         public ObservableCollection<DisplayInfo> Data { get; set; } = new ObservableCollection<DisplayInfo>();
         public DisplayInfo SelectedDisplayInfo { get; set; }
@@ -20,14 +20,14 @@ namespace CommonCore.XamlReferenceGuide
         {
             PopulateData();
 
-            ViewListControl = new RelayCommand((obj) => {
+            ViewListControl = new CoreCommand((obj) => {
                 Navigation.PushNonAwaited<ListControlPage>();
             });
-            ViewBehaviors = new RelayCommand((obj) => { 
+            ViewBehaviors = new CoreCommand((obj) => { 
                 Navigation.PushNonAwaited<BehaviorsPage>();
             });
 
-            ViewSelectedDisplay = new RelayCommand((obj) => {
+            ViewSelectedDisplay = new CoreCommand((obj) => {
                 if (SelectedDisplayInfo != null)
                 {
                     this.DialogPrompt.ShowMessage(new Prompt()

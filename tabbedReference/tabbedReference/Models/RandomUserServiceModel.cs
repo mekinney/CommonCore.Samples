@@ -76,7 +76,7 @@ namespace tabbedReference
 		public Info info { get; set; }
 	}
 
-	public class RandomUser : SqlDataModel
+	public class RandomUser : CoreSqlModel
 	{
 		public string FirstName { get; set; }
 		public string LastName { get; set; }

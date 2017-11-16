@@ -22,14 +22,17 @@ namespace todo.mobile
             };
             var navTitle = new Label()
             {
-                Text = "Common Core",
+                Text = "Jack Sparrow",
                 TextColor = Color.White,
-                Margin = 5
+                FontSize = 24,
+                Margin = new Thickness(5,15,5,0)
             };
             var navSubtitle = new Label()
             {
-                Text = "Options Menu",
-                TextColor = Color.White
+                Text = "Administrator",
+                TextColor = Color.White,
+                FontSize = 14,
+                Margin = new Thickness(5, 0, 5, 0)
             };
 
             var topPanel = new StackLayout()
@@ -46,6 +49,7 @@ namespace todo.mobile
                 ItemTemplate = new DataTemplate(typeof(AppMenuCell)),
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 SeparatorVisibility = SeparatorVisibility.None,
+                RowHeight = 50
             };
             listView.SetBinding(CoreListView.ItemsSourceProperty, "MasterPageItems");
             listView.SetBinding(CoreListView.ItemClickCommandProperty, "NavClicked");

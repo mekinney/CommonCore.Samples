@@ -7,23 +7,14 @@
     <Files>
       <File FileName="monetizationDemo/Admob/AdBanner.cs" Line="1" Column="1" />
       <File FileName="monetizationDemo/Admob/AdBanneRenderer.iOS.cs" Line="50" Column="74" />
-      <File FileName="monetizationDemo/Partials/PartialConfigurationModel.cs" Line="16" Column="23" />
+      <File FileName="monetizationDemo/Partials/PartialConfigurationModel.cs" Line="13" Column="43" />
       <File FileName="monetizationDemo/Admob/AdBanneRenderer.Droid.cs" Line="52" Column="33" />
-      <File FileName="monetizationDemo/Views/HomePage.cs" Line="69" Column="15" />
+      <File FileName="monetizationDemo/Views/HomePage.cs" Line="9" Column="42" />
       <File FileName="monetizationDemo/Admob/IAdInterstitial.cs" Line="10" Column="6" />
       <File FileName="monetizationDemo/Admob/AdInterstitial.iOS.cs" Line="38" Column="1" />
-      <File FileName="monetizationDemo/ViewModels/AppViewModel.cs" Line="48" Column="51" />
-      <File FileName="monetizationDemo/Partials/PartialObservableViewModel.cs" Line="1" Column="1" />
+      <File FileName="monetizationDemo/ViewModels/AppViewModel.cs" Line="23" Column="16" />
+      <File FileName="monetizationDemo/Partials/PartialObservableViewModel.cs" Line="5" Column="6" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="monetizationDemo" expanded="True">
-            <Node name="monetizationDemo.iOS" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

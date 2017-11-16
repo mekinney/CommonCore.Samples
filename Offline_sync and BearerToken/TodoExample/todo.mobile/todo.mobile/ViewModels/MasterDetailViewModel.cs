@@ -51,6 +51,14 @@ namespace todo.mobile
         private void SetNavigation()
         {
             var lst = new List<AppMenuItem>();
+
+            lst.Add(new AppMenuItem
+            {
+                Title = "List",
+                IconSource = "todos.png",
+                TargetType = typeof(TodoPage)
+            });
+
             lst.Add(new AppMenuItem
             {
                 Title = "Profile",

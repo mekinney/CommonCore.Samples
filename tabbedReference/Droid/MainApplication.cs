@@ -81,7 +81,6 @@ namespace tabbedReference.Droid
 		{
 			AppSettings.AppIcon = Resource.Drawable.icon;
 			AppContext = this.ApplicationContext;
-			LocalNotify.MainType = typeof(MainActivity);
 			CachedImageRenderer.Init();
 
 		}

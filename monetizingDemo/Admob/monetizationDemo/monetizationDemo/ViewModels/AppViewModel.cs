@@ -8,7 +8,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace monetizationDemo.ViewModels
 {
-    public class AppViewModel : ObservableViewModel
+    public class AppViewModel : CoreViewModel
     {
         IAdInterstitial adInterstitial;
         public ICommand ShowInterstitial { get; set; }
@@ -18,10 +18,10 @@ namespace monetizationDemo.ViewModels
         {
             adInterstitial = this.AdInterstitial;
 
-            ShowInterstitial = new RelayCommand((obj) => { 
+            ShowInterstitial = new CoreCommand((obj) => { 
                 adInterstitial.ShowAd();
             });
-            RemoveAds = new RelayCommand(async(obj) => {
+            RemoveAds = new CoreCommand(async(obj) => {
                 await MakePurchase();
             });
         }

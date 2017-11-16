@@ -6,7 +6,7 @@ namespace Xamarin.Forms.CommonCore
         public string IOSPublisherKey { get; set; }
         public string DroidPublisherKey { get; set; }
     }
-    public partial class ConfigurationModel
+    public partial class CoreConfiguration
     {
         public AdBuzzieSettings AdBuzzie { get; set; }
         public string InAppPurchaseProductId { get; set; }

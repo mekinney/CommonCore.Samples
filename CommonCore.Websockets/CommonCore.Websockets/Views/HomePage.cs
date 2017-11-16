@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace CommonCore.Websockets
 {
-    public class HomePage : BoundPage<AppViewModel>
+    public class HomePage : CorePage<AppViewModel>
     {
         public HomePage()
         {

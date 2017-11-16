@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Xamarin.Forms.CommonCore
 {
-    public partial class ObservableViewModel
+    public partial class CoreViewModel
     {
 
     }

@@ -4,7 +4,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace litedbDemo
 {
-    public class PageOne : BoundPage<AppViewModel>
+    public class PageOne : CorePage<AppViewModel>
     {
         public PageOne()
         {

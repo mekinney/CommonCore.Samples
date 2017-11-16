@@ -6,7 +6,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace CommonCore.XamlReferenceGuide.Views
 {
-    public partial class ListControlPage : BoundPage
+    public partial class ListControlPage : CorePage
     {
         public ListControlPage()
         {

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<core:BoundPage 
+<core:CorePage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     ViewModel="CommonCore.XamlReferenceGuide.AppViewModel" 
     xmlns:core="clr-namespace:Xamarin.Forms.CommonCore;assembly=CommonCore.XamlReferenceGuide" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="CommonCore.XamlReferenceGuide.Views.ListControlPage" 
     Title="Core List View">
-    <core:BoundPage.ToolbarItems>
+    <core:CorePage.ToolbarItems>
         <ToolbarItem Order="Primary" Text="View" Priority="0" Command="{Binding ViewSelectedDisplay}" />
-    </core:BoundPage.ToolbarItems>
+    </core:CorePage.ToolbarItems>
     <StackLayout>
         <core:CoreListView ItemsSource="{Binding Data}" SelectedItem="{Binding SelectedDisplayInfo, Mode=TwoWay}" MaintainSelection="true">
             <core:CoreListView.ItemTemplate>
@@ -24,4 +24,4 @@
             </core:CoreListView.ItemTemplate>
         </core:CoreListView>
     </StackLayout>
-</core:BoundPage>
+</core:CorePage>

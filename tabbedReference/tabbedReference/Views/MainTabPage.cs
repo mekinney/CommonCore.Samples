@@ -5,7 +5,7 @@ using Xamarin.Forms.CommonCore;
 namespace tabbedReference
 {
     
-    public class MainTabPage: BaseTabbedPage
+    public class MainTabPage: CoreTabbedPage
     {
         public MainTabPage()
         {
@@ -28,9 +28,6 @@ namespace tabbedReference
         {
             base.OnCurrentPageChanged();
             this.Title = this.CurrentPage.Title;
-            //if(this.Title=="Home"){
-            //    InjectionManager.GetViewModel<AppViewModel>();
-            //}
 
         }
     }

@@ -8,7 +8,7 @@ using Xamarin.Forms.CommonCore;
 
 namespace monetizationDemo.Views
 {
-    public class HomePage : BoundPage<AppViewModel>
+    public class HomePage : CorePage<AppViewModel>
     {
         public HomePage()
         {
@@ -61,7 +61,7 @@ namespace monetizationDemo.Views
         {
             base.OnAppearing();
 
-            var fileSrv = InjectionManager.GetService<IFileStore, FileStore>();
+            var fileSrv = CoreDependencyService.GetService<IFileStore, FileStore>();
             fileSrv?.GetAsync<InAppBillingPurchase>("adsRemoved").ContinueWith((t) => {
                 var result = t.Result;
                 if(result.Error!=null){

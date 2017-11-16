@@ -36,18 +36,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\DisplayInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Partials\PartialConfigurationModel.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Partials\PartialObservableViewModel.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Settings\AppSettings.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Styles\AppStyles.txt" />
-    <None Include="$(MSBuildThisFileDirectory)Styles\AppStyles.xaml.txt" />
     <None Include="$(MSBuildThisFileDirectory)ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Config\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Partials\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Styles\" />
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />

@@ -21,7 +21,7 @@ namespace charts.commoncore.demo
             throw new NotImplementedException();
         }
     }
-    public class NationalitySelectionPage: BoundPage<AppViewModel>
+    public class NationalitySelectionPage: CorePage<AppViewModel>
     {
         private BoolToImageConvert imageConverter = new BoolToImageConvert();
         public NationalitySelectionPage()

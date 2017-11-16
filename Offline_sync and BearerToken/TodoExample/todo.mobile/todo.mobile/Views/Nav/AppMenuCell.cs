@@ -20,14 +20,14 @@ namespace todo.mobile
 
         public AppMenuCell()
         {
-
+            Height = 50;
             img = new CachedImage()
             {
                 Margin = new Thickness(10, 0, 3, 5),
-                HeightRequest = 22,
-                WidthRequest = 22,
-                DownsampleHeight = 22,
-                DownsampleWidth = 22,
+                HeightRequest = 32,
+                WidthRequest = 32,
+                DownsampleHeight = 32,
+                DownsampleWidth = 32,
                 Aspect = Aspect.AspectFit,
                 CacheDuration = TimeSpan.FromDays(30),
                 VerticalOptions = LayoutOptions.Center,
@@ -38,6 +38,7 @@ namespace todo.mobile
             {
                 Margin = 5,
                 VerticalOptions = LayoutOptions.Center,
+                FontSize = 24
             };
 
             View = new StackLayout()
