@@ -1,7 +1,7 @@
 using System;
 using Xamarin.Forms.CommonCore;
 using Xamarin.Forms;
-using Xamarin.Forms.CommonCore.Styles;
+using Xamarin.Forms.CommonCore;
 
 namespace tabbedReference
 {

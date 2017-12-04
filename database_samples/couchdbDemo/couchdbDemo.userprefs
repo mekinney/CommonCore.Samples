@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="couchdbDemo/Config/AppSettings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xam.Plugins.Settings.3.1.1/readme.txt">
     <Files>
-      <File FileName="couchdbDemo/ViewModels/AppViewModel.cs" Line="44" Column="16" />
-      <File FileName="couchdbDemo/Models/Person.cs" Line="1" Column="1" />
-      <File FileName="couchdbDemo/Views/PageOne.cs" Line="7" Column="36" />
-      <File FileName="couchdbDemo/Views/PageTwo.cs" Line="7" Column="35" />
-      <File FileName="couchdbDemo/Views/PageTwoCell.cs" Line="30" Column="42" />
-      <File FileName="couchdbDemo/couchdbDemo.cs" Line="1" Column="1" />
-      <File FileName="couchdbDemo/Partials/CouchDbObservableViewModel.cs" Line="12" Column="69" />
-      <File FileName="couchdbDemo/CouchDb/CouchDb.cs" Line="1" Column="1" />
-      <File FileName="couchdbDemo/Config/AppSettings.cs" Line="13" Column="6" />
+      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />

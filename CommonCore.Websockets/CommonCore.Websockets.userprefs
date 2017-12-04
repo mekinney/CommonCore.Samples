@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C5F7DCE8-8951-4836-95B8-2EEBF4F21161}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xam.Plugins.Settings.3.1.1/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs">
     <Files>
       <File FileName="CommonCore.Websockets/Views/ChatPage.cs" Line="7" Column="37" />
       <File FileName="CommonCore.Websockets/Config/config.dev.json" Line="12" Column="2" />
@@ -13,8 +13,7 @@
       <File FileName="CommonCore.Websockets/Services/IChatService.cs" Line="1" Column="1" />
       <File FileName="CommonCore.Websockets/Settings/AppSettings.cs" Line="1" Column="1" />
       <File FileName="CommonCore.Websockets/Views/Cells/MessageViewCell.cs" Line="1" Column="1" />
-      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
-      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="18" Column="30" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.53510EE6-45BE-4275-A7F4-A61ECDAD416A" />

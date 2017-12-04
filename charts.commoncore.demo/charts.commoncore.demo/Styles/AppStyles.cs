@@ -1,7 +1,6 @@
 using System;
 using Xamarin.Forms.CommonCore;
 using Xamarin.Forms;
-using Xamarin.Forms.CommonCore.Styles;
 
 namespace charts.commoncore.demo
 {

@@ -1,0 +1,17 @@
+﻿{
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "SqliteSettings": {
+    "SQLiteDatabase": "app.db3"
+  },
+  "WebApi": {
+    "todoAPI": "http://homedev:5000/api/todo",
+    "userAPI": "http://homedev:5000/api/user",
+    "uploadAPI": "http://homedev:5000/api/upload",
+  }
+}
