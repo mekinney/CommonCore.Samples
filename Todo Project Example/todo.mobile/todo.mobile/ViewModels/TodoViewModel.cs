@@ -9,8 +9,10 @@ namespace todo.mobile
 {
     public class TodoViewModel : CoreViewModel
     {
+        public FontItem EmptyDataIcon { get; set; }
         public Todo CurrentItem { get; set; } = new Todo();
         public ObservableCollection<Todo> CurrentTodoList { get; set; }
+        public bool DataExists { get; set; }
 
         public ICommand SaveCurrentItem { get; set; }
         public ICommand FABClicked { get; set; }
@@ -18,10 +20,11 @@ namespace todo.mobile
         public TodoViewModel()
         {
             SaveCurrentItem = new CoreCommand(async(obj) => {
-                CurrentItem.Id = AppSettings.AppUser.Id;
+                CurrentItem.UserId = AppSettings.AppUser.Id;
                 var saveResult = await this.TodoLogic.AddOrUpdateTodo(CurrentItem);
                 if(saveResult.success){
                     CurrentTodoList.Add(saveResult.todo);
+                    DataExists = CurrentTodoList.Count > 0 ? true : false;
                     NavigateBack();
                 }
                 else{
@@ -42,16 +45,12 @@ namespace todo.mobile
         public override void LoadResources(string parameter = null)
         {
             Task.Run(async () => {
-
-
-
                 this.LoadingMessageHUD = "Syncing data with server...";
-                this.IsLoadingHUD = true; 
-
-                var uploadResult = await this.TodoLogic.TestUploadFile();
-
-                CurrentTodoList = await this.TodoLogic.SyncOfflineData().ToObservable();
-                this.IsLoadingHUD = false; 
+                this.IsLoadingHUD = true;
+                CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
+                DataExists = CurrentTodoList.Count > 0 ? true : false;
+                this.IsLoadingHUD = false;
+                EmptyDataIcon = FontUtil.GetFont("fa-frown-o", FontType.FontAwesome);
             });
         }
 

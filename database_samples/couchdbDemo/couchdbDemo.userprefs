@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xam.Plugins.Settings.3.1.1/readme.txt">
-    <Files>
-      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
-      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="28" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

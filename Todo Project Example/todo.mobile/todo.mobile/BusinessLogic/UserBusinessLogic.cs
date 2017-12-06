@@ -8,15 +8,12 @@ namespace todo.mobile
 {
     public class UserBusinessLogic : CoreBusiness
     {
-        private string UserBase
-        {
-            get { return AppSettings.Config.WebApi[AppSettings.UserAPIBase]; }
-        }
+        private string userBase = AppSettings.Config.WebApi[AppSettings.UserAPIBase];
 
         public async Task GetAllUsers()
         {
             Exception ex = null;
-            var httpResult = await HttpService.Get<List<User>>($"{UserBase}/GetAll");
+            var httpResult = await HttpService.Get<List<User>>($"{userBase}/GetAll");
             if (httpResult.Success)
             {
                 var lst = httpResult.Response;
@@ -27,7 +24,7 @@ namespace todo.mobile
         {
             User usr = null;
             var hashedPwd = this.EncryptionService.GetHashString(password);
-            var url = $"{UserBase}/CreateAccount?username={userName}&password={hashedPwd}";
+            var url = $"{userBase}/CreateAccount?username={userName}&password={hashedPwd}";
             var httpResult = await HttpService.GetRaw(url);
             var success = httpResult.Success;
             if (success)
@@ -81,7 +78,7 @@ namespace todo.mobile
         {
             
             bool success = false;
-            var url = $"{UserBase}/Authorize?grant_type=refresh_token&refresh_token={AppSettings.AppUser.Token.RefreshToken}";
+            var url = $"{userBase}/Authorize?grant_type=refresh_token&refresh_token={AppSettings.AppUser.Token.RefreshToken}";
             var httpResult = await HttpService.GetRaw(url);
             success = httpResult.Success;
             if (success)
@@ -102,7 +99,7 @@ namespace todo.mobile
         private async Task<bool> AuthenticateUser(string userName, string password)
         {
             var hashedPwd = this.EncryptionService.GetHashString(password);
-            var url = $"{UserBase}/Authorize?grant_type=password&username={userName}&password={hashedPwd}";
+            var url = $"{userBase}/Authorize?grant_type=password&username={userName}&password={hashedPwd}";
             var httpResult = await HttpService.GetRaw(url);
             var success = httpResult.Success;
             if (success)

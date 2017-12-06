@@ -9,7 +9,7 @@ using Xamarin.Forms.PlatformConfiguration;
 #if __IOS__
 using FFImageLoading.Forms.Touch;
 #else
-    using FFImageLoading.Forms.Droid;
+using FFImageLoading.Forms.Droid;
 #endif
 
 namespace todo.mobile
@@ -18,7 +18,7 @@ namespace todo.mobile
     {
         public App()
         {
-            CachedImageRenderer.Init();
+            InitRenderers();
 
             //MainPage = new AppMasterDetailPage();
             MainPage = new NavigationPage(new LoginPage());
@@ -26,6 +26,7 @@ namespace todo.mobile
 
         protected override void OnStart()
         {
+
             CoreSettings.ScreenSize = new Size(MainPage.Width, MainPage.Height);
             MainPage.SizeChanged += AppScreenSizeChanged;
             CrossConnectivity.Current.ConnectivityChanged += ConnectivityChanged;
@@ -53,6 +54,12 @@ namespace todo.mobile
         private void AppScreenSizeChanged(object sender, EventArgs args)
         {
             CoreSettings.ScreenSize = new Size(MainPage.Width, MainPage.Height);
+        }
+
+
+        private void InitRenderers()
+        {
+            CachedImageRenderer.Init();
         }
     }
 }

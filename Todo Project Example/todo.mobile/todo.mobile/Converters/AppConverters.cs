@@ -13,5 +13,13 @@ namespace todo.mobile.Converters
                 return CoreDependencyService.GetConverter<DateLongConverter>();
             }
         }
+
+        public static ReverseBooleanConverter ReverseBoolean
+        {
+            get
+            {
+                return CoreDependencyService.GetConverter<ReverseBooleanConverter>();
+            }
+        }
     }
 }

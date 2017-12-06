@@ -12,13 +12,17 @@ namespace todo.mobile
 
         public TodoPageCell()
         {
+            this.Height = 65;
             title = new Label()
             {
+                Margin = new Thickness(0,8,0,0),
                 FontSize = 22
             };
             date = new Label()
             {
-                FontSize = 18,
+                FontSize = 14,
+                TextColor = Color.DarkGray,
+                Margin = new Thickness(0, 0, 0, 8),
             };
 
             var rightPanel = new StackLayout()
@@ -28,16 +32,16 @@ namespace todo.mobile
 
             var img = new CachedImage()
             {
-                Margin = new Thickness(10, 0, 3, 5),
-                HeightRequest = 32,
-                WidthRequest = 32,
-                DownsampleHeight = 32,
-                DownsampleWidth = 32,
+                Margin = new Thickness(10, 0, 3, 0),
+                HeightRequest = 55,
+                WidthRequest = 55,
+                DownsampleHeight = 55,
+                DownsampleWidth = 55,
                 Aspect = Aspect.AspectFit,
                 CacheDuration = TimeSpan.FromDays(30),
                 VerticalOptions = LayoutOptions.Center,
                 DownsampleUseDipUnits = true,
-                Source = ""
+                Source = "todorowimage.png"
             };
 
             View = new StackLayout()

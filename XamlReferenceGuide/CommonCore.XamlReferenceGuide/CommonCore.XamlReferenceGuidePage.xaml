@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<core:CorePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:core="clr-namespace:Xamarin.Forms.CommonCore;assembly=CommonCore.XamlReferenceGuide" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CommonCore.XamlReferenceGuide" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" x:Class="CommonCore.XamlReferenceGuide.CommonCore_XamlReferenceGuidePage" ViewModel="CommonCore.XamlReferenceGuide.AppViewModel">
+<core:CorePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:core="clr-namespace:Xamarin.Forms.CommonCore;assembly=CommonCore.XamlReferenceGuide" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:CommonCore.XamlReferenceGuide" 
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
+    x:Class="CommonCore.XamlReferenceGuide.CommonCore_XamlReferenceGuidePage" 
+    ViewModel="CommonCore.XamlReferenceGuide.AppViewModel">
     <ScrollView>
         <StackLayout Padding="20">
             <ffimageloading:CachedImage Margin="20,60,60,20" HeightRequest="200" WidthRequest="200" CacheDuration="30" RetryCount="3" RetryDelay="250" Source="angrymonkey300.png">
