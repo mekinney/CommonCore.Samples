@@ -27,10 +27,13 @@ namespace todo.mobile
 
             var lst = new CoreListView()
             {
+                IsPullToRefreshEnabled=true,
                 ItemTemplate = new DataTemplate(typeof(TodoPageCell)),
                 RowHeight = 65
             };
             lst.SetBinding(CoreListView.ItemsSourceProperty, "CurrentTodoList");
+            lst.SetBinding(CoreListView.IsRefreshingProperty,"IsRefreshing");
+            lst.SetBinding(CoreListView.RefreshCommandProperty,"RefreshData");
             lst.SetBinding(CoreListView.IsVisibleProperty, "DataExists");
             lst.Effects.Add(new HideListSeparatorEffect());
 #if __IOS__

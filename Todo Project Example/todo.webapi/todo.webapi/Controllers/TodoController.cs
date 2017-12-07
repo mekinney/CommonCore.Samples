@@ -4,7 +4,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Caching.Memory;
 using todo.webapi.Data;
+using todo.webapi.Hubs;
 
 namespace todo.webapi.Controllers
 {
@@ -12,10 +15,14 @@ namespace todo.webapi.Controllers
     public class TodoController : Controller
     {
         private readonly ITodoRepository _todoRepo;
+        private readonly IHubContext<DataNotificationHub> _hub;
+        private readonly IMemoryCache _cache;
 
-        public TodoController(ITodoRepository todoRepo)
+        public TodoController(ITodoRepository todoRepo, IHubContext<DataNotificationHub> hub, IMemoryCache cache)
         {
             _todoRepo = todoRepo;
+            _hub = hub;
+            _cache = cache;
         }
 
         [HttpGet]
@@ -67,6 +74,41 @@ namespace todo.webapi.Controllers
                 return BadRequest(response.error);
             else
                 return Ok(response.dict);
+        }
+
+        [HttpGet]
+        [Route("api/Todo/TestUpdate")]
+        public async Task<IActionResult> TestUpdate(int id, string text, long timeStamp, bool markedForDelete=false)
+        {
+            var response = await _todoRepo.GetById(id);
+            if(response!=null){
+                response.Description = text;
+                response.UTCTickStamp = timeStamp == default(long) ? DateTime.UtcNow.Ticks : timeStamp;
+                response.MarkedForDelete = markedForDelete;
+            }
+
+            var updateResponse = await _todoRepo.AddOrUpdate(response);
+
+            if (updateResponse.error != null)
+                return BadRequest(updateResponse.error);
+            else
+                return Ok(updateResponse.dict);
+        }
+
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("api/Todo/TestHub")]
+        public async Task<IActionResult> TestHub(int userId)
+        {
+            string connectionId = null;
+            if (_cache.TryGetValue(userId, out connectionId))
+            {
+                if(!string.IsNullOrEmpty(connectionId)){
+                    await this._hub.Clients.Client(connectionId).InvokeAsync("Send", "Update Occurred");
+                }
+            }
+            return Ok();
         }
 
     }

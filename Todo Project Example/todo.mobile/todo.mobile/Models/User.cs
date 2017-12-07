@@ -3,7 +3,24 @@ using Xamarin.Forms.CommonCore;
 
 namespace todo.mobile
 {
-    public class User
+    public class Profile : User
+    {
+        public string Password { get; set; }
+
+        public Profile()
+        {
+
+        }
+        public Profile(User usr)
+        {
+            foreach(var prop in typeof(User).GetProperties())
+            {
+                if(prop.Name!="TokenIsValid")
+                    prop.SetValue(this, prop.GetValue(usr));
+            }
+        }
+    }
+    public class User: CoreModel
     {
         public int Id { get; set; }
         public Guid CorrelationID { get; set; } = Guid.NewGuid();

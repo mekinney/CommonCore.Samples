@@ -154,7 +154,7 @@ namespace todo.webapi.Controllers
                       signingCredentials: creds);
   
                 var refreshToken = Guid.NewGuid().ToString().Replace("-", string.Empty).Trim();
-                var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(45));
+                var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromDays(3));
                 _cache.Set(refreshToken, oAuth.username, cacheEntryOptions);
 
                 return new OAuthResponse()

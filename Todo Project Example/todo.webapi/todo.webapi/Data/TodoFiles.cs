@@ -17,6 +17,7 @@ namespace todo.webapi.Data
         public int UserId { get; set; }
         public long UTCTickStamp { get; set; }
         public string CorrelationID { get; set; }
+        public bool MarkedForDelete { get; set; }
     }
 
     public class TodoContext: DbContext
@@ -33,6 +34,7 @@ namespace todo.webapi.Data
     public interface ITodoRepository
     {
         Task<List<Todo>> GetAll();
+        Task<Todo> GetById(int id);
         Task<List<Todo>> GetAllUpdatedByUser(int userId, long utcTickStamp);
         Task<(Dictionary<string, int> dict, Exception error)> Delete(int id);
         Task<(Dictionary<string, int> dict, Exception error)> AddOrUpdate(Todo todo);
@@ -48,6 +50,10 @@ namespace todo.webapi.Data
             _context = context;
         }
 
+        public async Task<Todo> GetById(int id)
+        {
+            return await _context.Todos.FirstOrDefaultAsync(x => x.Id == id);
+        }
         public async Task<List<Todo>> GetAll()
         {
             return await _context.Todos.ToListAsync();

@@ -13,9 +13,11 @@ namespace todo.mobile
         public Todo CurrentItem { get; set; } = new Todo();
         public ObservableCollection<Todo> CurrentTodoList { get; set; }
         public bool DataExists { get; set; }
+        public bool IsRefreshing { get; set; }
 
         public ICommand SaveCurrentItem { get; set; }
         public ICommand FABClicked { get; set; }
+        public ICommand RefreshData { get; set; }
 
         public TodoViewModel()
         {
@@ -25,6 +27,7 @@ namespace todo.mobile
                 if(saveResult.success){
                     CurrentTodoList.Add(saveResult.todo);
                     DataExists = CurrentTodoList.Count > 0 ? true : false;
+                    CurrentItem = new Todo();
                     NavigateBack();
                 }
                 else{
@@ -40,6 +43,13 @@ namespace todo.mobile
                 await Navigation.PushAsync(new AddTodoPage(), true);
             });
 
+            RefreshData = new CoreCommand(async(obj) => {
+                IsRefreshing = true;
+                CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
+                IsRefreshing = false;
+                DataExists = CurrentTodoList.Count > 0 ? true : false;
+            });
+
         }
 
         public override void LoadResources(string parameter = null)
@@ -51,6 +61,7 @@ namespace todo.mobile
                 DataExists = CurrentTodoList.Count > 0 ? true : false;
                 this.IsLoadingHUD = false;
                 EmptyDataIcon = FontUtil.GetFont("fa-frown-o", FontType.FontAwesome);
+                await this.HubCommunication.StartListening();
             });
         }
 
@@ -59,6 +70,16 @@ namespace todo.mobile
             {
                 await Navigation.PopAsync();
             });
+        }
+
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            if(key==AppSettings.DataUpdated){
+                Task.Run(async () => {
+                    CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
+                    DataExists = CurrentTodoList.Count > 0 ? true : false;
+                });
+            }
         }
 
     }

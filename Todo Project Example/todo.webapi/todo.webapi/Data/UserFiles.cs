@@ -67,6 +67,7 @@ namespace todo.webapi.Data
         public async Task<(Dictionary<string, int> dict, Exception error)> AddOrUpdate(User user)
         {
             Exception excep = null;
+
             try
             {
                 if (user.Id == default(int))

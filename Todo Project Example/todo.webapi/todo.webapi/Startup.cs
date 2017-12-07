@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using todo.webapi.Data;
+using todo.webapi.Hubs;
 
 namespace todo.webapi
 {
@@ -62,6 +63,8 @@ namespace todo.webapi
                 c.OperationFilter<AuthorizationHeaderParameterOperationFilter>();
             });
 
+            services.AddSignalR();
+
             services.AddMvc();
         }
 
@@ -76,6 +79,12 @@ namespace todo.webapi
             app.UseCors(
                 options => options.WithOrigins("*").AllowAnyMethod()
             );
+
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<DataNotificationHub>("datanotification");
+            });
+
             app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(c =>

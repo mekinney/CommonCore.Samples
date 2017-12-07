@@ -20,6 +20,21 @@ namespace todo.mobile
             }
         }
 
+        public async Task<(bool Success, Exception error)> UpdateProfile(Profile user)
+        {
+            var url = $"{userBase}/AddOrUpdate";
+            var hashedPwd = this.EncryptionService.GetHashString(user.Password);
+            user.Password = hashedPwd;
+            var httpResult = await HttpService.Post<Dictionary<string, int>>(url, user);
+            if(httpResult.Success)
+            {
+                return (true, null);
+            }
+            else
+            {
+                return (false, httpResult.Error);
+            }
+        }
         public async Task<(User user, bool Success, Exception error)> RegisterNewUser(string userName, string password)
         {
             User usr = null;

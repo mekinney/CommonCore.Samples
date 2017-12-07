@@ -11,7 +11,7 @@ namespace todo.mobile
         public AddTodoPage()
         {
             this.Title = "Add Todo Item";
-            var marginEdge = 30;
+            var marginEdge = 20;
 
             var img = new CachedImage()
             {
@@ -22,12 +22,13 @@ namespace todo.mobile
             {
                 Text = "Create a new item and specify the date for completion.",
                 FontSize = 22,
-                Margin = 5
+                Margin = 5,
+                TextColor = Color.DarkGray
             };
 
             var topPanel = new StackLayout()
             {
-                Margin = new Thickness(30, 25, 30, 25),
+                Margin = new Thickness(20, 25, 20, 25),
                 Orientation = StackOrientation.Horizontal,
                 Children = { img, txtTitle }
             };

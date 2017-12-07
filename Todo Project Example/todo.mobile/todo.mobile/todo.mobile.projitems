@@ -38,6 +38,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DateLongConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\AppConverters.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\ReverseBooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\HubCommunicationLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />

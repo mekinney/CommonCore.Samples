@@ -18,9 +18,9 @@ namespace todo.mobile
     {
         public App()
         {
-            InitRenderers();
+         
 
-            //MainPage = new AppMasterDetailPage();
+            InitRenderers();
             MainPage = new NavigationPage(new LoginPage());
         }
 

@@ -20,5 +20,14 @@ namespace Xamarin.Forms.CommonCore
                 return CoreDependencyService.GetBusinessLayer<UserBusinessLogic>();
             }
         }
+
+        public HubCommunicationLogic HubCommunication
+        {
+            get
+            {
+                return CoreDependencyService.GetBusinessLayer<HubCommunicationLogic>();
+            }
+        }
+
     }
 }

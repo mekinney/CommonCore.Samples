@@ -33,7 +33,8 @@ namespace todo.mobile
 
         public async Task DeleteTodo(Todo todo)
         {
-            var httpResult = await HttpService.Get<Dictionary<Guid,int>>($"{todoBase}/Delete?id={todo.Id}");
+            todo.MarkedForDelete = true;
+            var httpResult = await HttpService.Post<Dictionary<Guid, int>>($"{todoBase}/AddOrUpdate", todo);
             if(httpResult.Success)
             {
                 await this.SqliteDb.DeleteByCorrelationID<Todo>(todo.CorrelationID);
@@ -51,7 +52,12 @@ namespace todo.mobile
             httpResult.Error?.LogException("TodoBusinessLogic - GetAllByCurrentUser - GetAllUpdatedByUser");
             if (httpResult.Success && httpResult.Response.Count > 0)
             {
-                var dbResult = await this.SqliteDb.AddOrUpdate<Todo>(httpResult.Response);
+                var markedForDelete = httpResult.Response.Where(x => x.MarkedForDelete == true);
+                foreach (var deletedItem in markedForDelete)
+                    await this.SqliteDb.DeleteByCorrelationID<Todo>(deletedItem.CorrelationID);
+
+                var updatedItems = httpResult.Response.Where(x => x.MarkedForDelete == false);
+                var dbResult = await this.SqliteDb.AddOrUpdate<Todo>(updatedItems);
                 exempt = httpResult.Response.Select(x => x.CorrelationID).ToList();
             }
 
@@ -73,7 +79,7 @@ namespace todo.mobile
                 }
             }
             CoreSettings.SyncTimeStamp = DateTime.UtcNow.Ticks;
-            return sqlResult.Response;
+            return sqlResult.Response.Where(x => x.MarkedForDelete == false).ToList();
        
         }
 
