@@ -1,0 +1,34 @@
+﻿{
+  "AnalyticsEnabled": false,
+  "AESEncryptionKey": "123",
+  "HttpSettings": {
+    "DisplayRawJson": false,
+    "HttpTimeOut": 0,
+    "HttpAllowAutoRedirect": false,
+    "IOSHttpHandler": "ModernHttpClient",
+    "AndroidHttpHandler": "ModernHttpClient"
+  },
+  "SocialMedia": {
+    "GoogleSettings": {
+      "GoogleAppId": "",
+      "OAuthClientID_iOS": "",
+      "OAuthClientID_Android": "",
+      "OAuthClientID_UWP": ""
+    },
+    "FaceBookAppId": "",
+    "MicrosoftAppId": ""
+  },
+  "MobileCenter_HockeyApp": {
+    "IOSAppId": "3bda5207-786f-4daa-beed-c0d23311d170",
+    "AndroidAppId": "51f1e9c9-3d58-468d-bf41-f44db21fee8a",
+    "UWPAppId": ""
+  },
+  "WebApi": {
+    "customName": "https://someurl.com",
+    "customName2": "https://someurl2.com"
+  },
+  "CustomSettings": {
+    "CustomName": "somevalue",
+    "customName2": "somevalue2"
+  }
+}

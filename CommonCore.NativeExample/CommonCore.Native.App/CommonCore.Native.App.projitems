@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{B6258C30-65A8-417B-8D9A-80F5B624D41D}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CommonCore.Native.App</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\SomeBusinessLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\SomeValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SomeObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partials\BasePartialClasses.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SomeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles\AppStyles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Converters\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Partials\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Settings\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Styles\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
+  </ItemGroup>
+</Project>
