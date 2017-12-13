@@ -17,15 +17,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\PageOne.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwoCell.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)LiteDb\ILiteNoSql.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)LiteDb\LiteNoSql.cs">
-      <DependentUpon>ILiteNoSql.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Config\config.dev.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)LiteDb\" />
   </ItemGroup>
 </Project>

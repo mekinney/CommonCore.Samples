@@ -1,5 +1,6 @@
 ﻿using System;
 using LiteDB;
+using Xamarin.Forms.CommonCore;
 
 namespace litedbDemo
 {

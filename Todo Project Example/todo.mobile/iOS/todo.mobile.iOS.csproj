@@ -89,9 +89,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="BTProgressHUD">
-      <HintPath>..\packages\BTProgressHUD.1.2.0.6\lib\Xamarin.iOS10\BTProgressHUD.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="ModernHttpClient">
       <HintPath>..\packages\modernhttpclient.2.4.2\lib\Xamarin.iOS10\ModernHttpClient.dll</HintPath>
@@ -162,9 +159,6 @@
     <Reference Include="SQLitePCLRaw.provider.sqlite3">
       <HintPath>..\packages\SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
     </Reference>
-    <Reference Include="SQLitePCLRaw.batteries_green">
-      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
-    </Reference>
     <Reference Include="SQLitePCLRaw.batteries_v2">
       <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll</HintPath>
     </Reference>
@@ -206,9 +200,6 @@
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="MsgPack">
-      <HintPath>..\packages\MsgPack.Cli.0.9.0-beta2\lib\Xamarin.iOS10\MsgPack.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
       <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
@@ -261,9 +252,6 @@
     <Reference Include="Microsoft.AspNetCore.Sockets.Abstractions">
       <HintPath>..\packages\Microsoft.AspNetCore.Sockets.Abstractions.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.Sockets.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
-      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Common.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNetCore.SignalR.Client.Core">
       <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Client.Core.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.Core.dll</HintPath>
     </Reference>
@@ -272,6 +260,18 @@
     </Reference>
     <Reference Include="Microsoft.AspNetCore.SignalR.Client">
       <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Client.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="BTProgressHUD">
+      <HintPath>..\packages\BTProgressHUD.1.2.0.6\lib\Xamarin.iOS10\BTProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="MsgPack">
+      <HintPath>..\packages\MsgPack.Cli.0.9.0-beta2\lib\Xamarin.iOS10\MsgPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Common.1.0.0-alpha2-final\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -333,6 +333,7 @@
     <BundleResource Include="Resources\todorowimage%402x.png" />
     <BundleResource Include="Resources\todorowimage%403x.png" />
   </ItemGroup>
+  <Import Project="..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Logging\Xamarin.Forms.CommonCore.Logging.projitems" Label="Shared" Condition="Exists('..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Logging\Xamarin.Forms.CommonCore.Logging.projitems')" />
   <Import Project="..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Fonts\Xamarin.Forms.CommonCore.Fonts.projitems" Label="Shared" Condition="Exists('..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Fonts\Xamarin.Forms.CommonCore.Fonts.projitems')" />
   <Import Project="..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Sqlite\Xamarin.Forms.CommonCore.Sqlite.projitems" Label="Shared" Condition="Exists('..\..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Sqlite\Xamarin.Forms.CommonCore.Sqlite.projitems')" />
   <Import Project="..\..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />

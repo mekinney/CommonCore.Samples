@@ -193,9 +193,6 @@
     <Reference Include="SQLitePCLRaw.core">
       <HintPath>..\packages\SQLitePCLRaw.core.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.core.dll</HintPath>
     </Reference>
-    <Reference Include="SQLitePCLRaw.provider.sqlite3">
-      <HintPath>..\packages\SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
-    </Reference>
     <Reference Include="SQLitePCLRaw.batteries_green">
       <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
     </Reference>
@@ -229,6 +226,9 @@
     <Reference Include="FFImageLoading.Forms.Touch">
       <HintPath>..\packages\Xamarin.FFImageLoading.Forms.2.2.25\lib\Xamarin.iOS10\FFImageLoading.Forms.Touch.dll</HintPath>
     </Reference>
+    <Reference Include="SQLitePCLRaw.provider.sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.9\lib\Xamarin.iOS10\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -256,6 +256,7 @@
     <BundleResource Include="Resources\checked.png" />
     <BundleResource Include="Resources\unchecked.png" />
   </ItemGroup>
+  <Import Project="..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Logging\Xamarin.Forms.CommonCore.Logging.projitems" Label="Shared" Condition="Exists('..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Logging\Xamarin.Forms.CommonCore.Logging.projitems')" />
   <Import Project="..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems" Label="Shared" Condition="Exists('..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.projitems')" />
   <Import Project="..\charts.commoncore.demo\charts.commoncore.demo.projitems" Label="Shared" Condition="Exists('..\charts.commoncore.demo\charts.commoncore.demo.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

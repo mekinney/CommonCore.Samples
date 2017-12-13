@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{E269C53E-C068-48C0-AAFE-F20CD6686DEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/Config/config.dev.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Plugin.Permissions.2.1.0/readme.txt">
     <Files>
       <File FileName="sqliteDemo/Config/config.dev.json" Line="1" Column="1" />
       <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Config/config.dev.json.txt" Line="1" Column="1" />
@@ -10,7 +10,17 @@
       <File FileName="sqliteDemo/Styles/AppStyles.cs" Line="6" Column="21" />
       <File FileName="sqliteDemo/Settings/AppSettings.cs" Line="1" Column="1" />
       <File FileName="sqliteDemo/Views/PageTwoCell.cs" Line="34" Column="46" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="13" Column="55" />
+      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="14" Column="59" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sqliteDemo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

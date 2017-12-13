@@ -9,7 +9,6 @@ namespace litedbDemo
 {
     public class AppViewModel : CoreViewModel
     {
-
         public Person NewPerson { get; set; } = new Person();
         public ObservableCollection<Person> People { get; set; } = new ObservableCollection<Person>();
 
@@ -22,7 +21,7 @@ namespace litedbDemo
 
             AddPerson = new CoreCommand(async (obj) =>
             {
-                var result = await this.LiteNoSqlService.Insert(NewPerson);
+                var result = await this.LiteDb.Insert(NewPerson);
                 if (result.Success)
                 {
                     NewPerson = new Person();
@@ -53,7 +52,7 @@ namespace litedbDemo
             if (key == AppSettings.DeletePersonTag && obj != null)
             {
                 var pk = (string)obj;
-                this.LiteNoSqlService.Delete<Person>(pk).ContinueWith(async (t) =>
+                this.LiteDb.Delete<Person>(pk).ContinueWith(async (t) =>
                 {
                     if (t.Result.Success)
                     {
@@ -74,7 +73,7 @@ namespace litedbDemo
 
         private async Task LoadAllPeople(string caller, Action callBack)
         {
-			var allResult = await this.LiteNoSqlService.GetAll<Person>();
+            var allResult = await this.LiteDb.GetAll<Person>();
 			if (allResult.Error==null)
 			{
 				People = allResult.Response.ToObservable<Person>();

@@ -13,6 +13,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore.Sq
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore.Fonts", "..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Fonts\Xamarin.Forms.CommonCore.Fonts.shproj", "{99401032-3D63-4739-B1AC-221EB3A38F2B}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore.Logging", "..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.Logging\Xamarin.Forms.CommonCore.Logging.shproj", "{2C560267-3C1F-417E-9D8E-E5EA5A816FD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

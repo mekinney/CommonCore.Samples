@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "litedbDemo.Droid", "Droid\l
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore.LiteDb", "..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.LiteDb\Xamarin.Forms.CommonCore.LiteDb.shproj", "{34DF0CDA-A2BE-4BB4-BFE2-C6C771AEC62C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

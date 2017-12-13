@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realmDemo.Droid", "Droid\re
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore", "..\..\..\CommonCore\Xamarin.Forms.CommonCore\Xamarin.Forms.CommonCore.shproj", "{9FBF1BE8-6CC0-4DC2-BC5B-AB11181D64E3}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamarin.Forms.CommonCore.RealmDb", "..\..\..\CommonCore\CommonCore Extensions\Xamarin.Forms.CommonCore.RealmDb\Xamarin.Forms.CommonCore.RealmDb.shproj", "{00E65E84-E712-4A9E-82CC-DEEE473DD262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

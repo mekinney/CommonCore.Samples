@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{1A980183-2C4D-49FD-A026-7564B25DAE6E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/Pages/Base/BasePages.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Native/IOS/MVVMExtensions.cs">
     <Files>
-      <File FileName="CommonCore.Native.IOSExample/ViewController.cs" Line="37" Column="1" />
-      <File FileName="CommonCore.Native.DroidExample/HomeFragment.cs" Line="34" Column="1" />
-      <File FileName="CommonCore.Native.IOSExample/LaunchScreen.storyboard" />
-      <File FileName="CommonCore.Native.IOSExample/AppDelegate.cs" Line="24" Column="22" />
-      <File FileName="../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Native/IOS/MVVMExtensions.cs" Line="744" Column="7" />
-      <File FileName="CommonCore.Native.IOSExample/Main.cs" Line="12" Column="1" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Pages/Base/BasePages.cs" Line="6" Column="20" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Pages/Base/BasePageRenderer.Droid.cs" Line="1" Column="1" />
+      <File FileName="CommonCore.Native.App/ViewModels/SomeViewModel.cs" Line="16" Column="13" />
+      <File FileName="CommonCore.Native.IOSExample/ViewController.cs" Line="30" Column="10" />
+      <File FileName="../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Native/IOS/MVVMExtensions.cs" Line="17" Column="6" />
+      <File FileName="../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Native/Android/MVVMExtensions.Droid.cs" Line="119" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

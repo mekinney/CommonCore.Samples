@@ -13,6 +13,7 @@ namespace CommonCore.Native.App
 
         public SomeViewModel()
         {
+            SomeText = "This is a test";
             SomeAction = new CoreCommand(async (obj) =>
             {
                 LoadingMessageHUD = "Some action...";

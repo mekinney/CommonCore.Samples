@@ -22,8 +22,8 @@ namespace CommonCore.Native.IOSExample
             base.ViewDidLoad();
 
             bind = new BindingManager<ViewController, SomeViewModel>();
-            bind.BindProperty(() => txtBinding.Text, () => VM.SomeText);
-            bind.BindProperty(() => lblBinding.Text, () => VM.SomeText);
+            bind.BindProperty(() => txtBinding.Text, nameof(txtBinding.EditingChanged), () => VM.SomeText);
+            bind.BindProperty(() => lblBinding.Text, null, () => VM.SomeText);
         }
 
         public override void DidReceiveMemoryWarning()

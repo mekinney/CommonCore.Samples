@@ -22,7 +22,7 @@ namespace CommonCore.Native.DroidExample
             base.OnCreate();
             RegisterActivityLifecycleCallbacks(this);
 
-            LinkerPrepare.Init(this.ApplicationContext);
+            //LinkerPrepare.Init(this.ApplicationContext);
             Xamarin.Forms.Forms.Init(this, null);
             //A great place to initialize Xamarin.Insights and Dependency Services!
         }

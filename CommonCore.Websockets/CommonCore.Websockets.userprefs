@@ -1,24 +1,5 @@
 ﻿<Properties StartupConfiguration="{C5F7DCE8-8951-4836-95B8-2EEBF4F21161}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.Websockets.WebApp/Services/ChatService.cs">
-    <Files>
-      <File FileName="CommonCore.Websockets/Views/ChatPage.cs" Line="7" Column="37" />
-      <File FileName="CommonCore.Websockets/ViewModels/AppViewModel.cs" Line="22" Column="54" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Controls/CoreListView.cs" Line="38" Column="9" />
-      <File FileName="CommonCore.Websockets/Services/ChatService.cs" Line="60" Column="25" />
-      <File FileName="CommonCore.Websockets/CommonCore.Websockets.cs" Line="9" Column="35" />
-      <File FileName="CommonCore.Websockets/Views/HomePage.cs" Line="7" Column="37" />
-      <File FileName="CommonCore.Websockets/Partials/PartialConfigurationModel.cs" Line="4" Column="43" />
-      <File FileName="CommonCore.Websockets/Partials/PartialObservableViewModel.cs" Line="12" Column="45" />
-      <File FileName="CommonCore.Websockets/Services/IChatService.cs" Line="1" Column="1" />
-      <File FileName="CommonCore.Websockets/Settings/AppSettings.cs" Line="1" Column="1" />
-      <File FileName="CommonCore.Websockets/Views/Cells/MessageViewCell.cs" Line="1" Column="1" />
-      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="20" Column="1" />
-      <File FileName="CommonCore.Websockets.WebApp/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="CommonCore.Websockets.WebApp/Services/ChatService.cs" Line="1" Column="1" />
-      <File FileName="CommonCore.Websockets.WebApp/Startup.cs" Line="1" Column="1" />
-      <File FileName="CommonCore.Websockets.WebApp/Program.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.11E980B5-2AC0-4C25-BBCE-58E696C69621" />
   <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.Droid PreferredExecutionTarget="Android.192.168.57.101:5555" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

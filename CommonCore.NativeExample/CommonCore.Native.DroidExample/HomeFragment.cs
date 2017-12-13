@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using Android.OS;
 using Android.Views;
 using DroidTextView = Android.Widget.TextView;
@@ -34,15 +33,14 @@ namespace CommonCore.Native.DroidExample
             bind = new BindingManager<HomeFragment, SomeViewModel>();
             var view = inflater.Inflate(Resource.Layout.home, container, false);
             this.CreateControls<HomeFragment>(view);
-            bind.BindProperty(() => txtBinding.Text, () => VM.SomeText);
-            bind.BindProperty(() => lblDisplay.Text, () => VM.SomeText);
+
+            bind.BindProperty(() => txtBinding.Text, nameof(txtBinding.TextChanged), () => VM.SomeText);
+            bind.BindProperty(() => lblDisplay.Text, null, () => VM.SomeText);
             return view;
         }
 
         public override void OnResume()
         {
-            txtBinding.Text = VM.SomeText;
-            lblDisplay.Text = VM.SomeText;
             bind.RegisterBindingEvents(this, VM);
             base.OnResume();
         }

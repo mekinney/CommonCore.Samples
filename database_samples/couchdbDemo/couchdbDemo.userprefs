@@ -1,5 +1,18 @@
 ﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs">
+    <Files>
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="13" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="couchdbDemo" expanded="True">
+            <Node name="couchdbDemo.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

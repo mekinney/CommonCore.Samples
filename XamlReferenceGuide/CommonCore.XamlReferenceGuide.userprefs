@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{B0283CE5-F45A-41C7-82F3-0C3989680F35}|Default">
   <MonoDevelop.Ide.ItemProperties.CommonCore.XamlReferenceGuide.Droid PreferredExecutionTarget="Android.N624" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xam.Plugins.Settings.3.1.1/readme.txt">
-    <Files>
-      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
-      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-            <Node name="CommonCore.XamlReferenceGuide.iOS" selected="True" />
-          </Node>
+          <Node name="CommonCore.XamlReferenceGuide" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

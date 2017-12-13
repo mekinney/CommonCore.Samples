@@ -12,7 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)realmDemo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Config\AppSettings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Person.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Partials\RealmObservableViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\PageOne.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\PageTwo.cs" />

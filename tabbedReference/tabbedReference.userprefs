@@ -1,7 +1,18 @@
 ﻿<Properties StartupConfiguration="{E7AC2360-B0FF-41F5-BE4F-FA6A51A63D93}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.tabbedReference.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.N624" />
   <MonoDevelop.Ide.ItemProperties.tabbedReference.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tabbedReference/ViewModels/AppViewModel.cs">
+    <Files>
+      <File FileName="tabbedReference/ViewModels/AppViewModel.cs" Line="44" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tabbedReference" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
