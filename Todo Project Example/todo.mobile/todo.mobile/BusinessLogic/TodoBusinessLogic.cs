@@ -8,8 +8,8 @@ namespace todo.mobile
 {
     public class TodoBusinessLogic : CoreBusiness
     {
-        private string todoBase = AppSettings.Config.WebApi[AppSettings.TodoAPIBase];
-        private string uploadBase = AppSettings.Config.WebApi[AppSettings.UploadAPIBase];
+        private string todoBase = CoreSettings.Config.WebApi[CoreSettings.TodoAPIBase];
+        private string uploadBase = CoreSettings.Config.WebApi[CoreSettings.UploadAPIBase];
 
         public async Task<(Todo todo, bool success, Exception error)> AddOrUpdateTodo(Todo todo)
         {
@@ -48,7 +48,7 @@ namespace todo.mobile
         public async Task<List<Todo>> GetAllByCurrentUser()
         {
             var exempt = new List<Guid>();
-            var httpResult = await this.HttpService.Get<List<Todo>>($"{todoBase}/GetAllUpdatedByUser?userId={AppSettings.AppUser.Id}&utcTickStamp={CoreSettings.SyncTimeStamp}");
+            var httpResult = await this.HttpService.Get<List<Todo>>($"{todoBase}/GetAllUpdatedByUser?userId={CoreSettings.AppUser.Id}&utcTickStamp={CoreSettings.SyncTimeStamp}");
             httpResult.Error?.LogException("TodoBusinessLogic - GetAllByCurrentUser - GetAllUpdatedByUser");
             if (httpResult.Success && httpResult.Response.Count > 0)
             {

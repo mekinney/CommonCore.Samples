@@ -15,10 +15,10 @@ namespace todo.mobile
                 Master = new AppMenuPage();
                 Detail = new NavigationPage(new TodoPage())
                 {
-                    BarBackgroundColor = AppStyles.NavigationBarColor,
+                    BarBackgroundColor = CoreStyles.NavigationBarColor,
                     BarTextColor = Color.White
                 };
-                AppSettings.AppNav = Detail.Navigation;
+                CoreSettings.AppNav = Detail.Navigation;
                 AppMasterDetailPage.CurrentDetail = Detail;
 
             }

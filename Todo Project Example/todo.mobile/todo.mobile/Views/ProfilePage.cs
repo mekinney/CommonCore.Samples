@@ -33,33 +33,33 @@ namespace todo.mobile
             var lblFName = new Label()
             {
                 Text = "First Name",
-                Style = AppStyles.LabelHeader,
+                Style = CoreStyles.LabelHeader,
             };
             var txtFName = new CoreUnderlineEntry()
             {
-                Style = AppStyles.TodoEntryStyle
+                Style = CoreStyles.TodoEntryStyle
             };
             txtFName.SetBinding(CoreUnderlineEntry.TextProperty, "CurrentUser.FirstName");
 
             var lblLName = new Label()
             {
                 Text = "Last Name",
-                Style = AppStyles.LabelHeader,
+                Style = CoreStyles.LabelHeader,
             };
             var txtLName = new CoreUnderlineEntry()
             {
-                Style = AppStyles.TodoEntryStyle
+                Style = CoreStyles.TodoEntryStyle
             };
             txtLName.SetBinding(CoreUnderlineEntry.TextProperty, "CurrentUser.LastName");
 
             var lblPassword = new Label()
             {
                 Text = "Password",
-                Style = AppStyles.LabelHeader
+                Style = CoreStyles.LabelHeader
             };
             var txtPassword = new CoreUnderlineEntry()
             {
-                Style = AppStyles.TodoEntryStyle,
+                Style = CoreStyles.TodoEntryStyle,
                 IsPassword=true
             };
             txtPassword.SetBinding(CoreUnderlineEntry.TextProperty, "Password");
@@ -67,11 +67,11 @@ namespace todo.mobile
             var lblConfirmPassword = new Label()
             {
                 Text = "Confirm Password",
-                Style = AppStyles.LabelHeader,
+                Style = CoreStyles.LabelHeader,
             };
             var txtConfirmPassword = new CoreUnderlineEntry()
             {
-                Style = AppStyles.TodoEntryStyle
+                Style = CoreStyles.TodoEntryStyle
             };
             txtConfirmPassword.SetBinding(CoreUnderlineEntry.TextProperty, "ConfirmPassword");
 
@@ -79,7 +79,7 @@ namespace todo.mobile
             var btnSave = new CoreButton()
             {
                 Text = "SAVE",
-                Style = AppStyles.LightOrangeButton,
+                Style = CoreStyles.LightOrangeButton,
                 Margin = new Thickness(marginEdge, 10, marginEdge, 25),
             };
             btnSave.SetBinding(CoreButton.CommandProperty, "SaveProfile");

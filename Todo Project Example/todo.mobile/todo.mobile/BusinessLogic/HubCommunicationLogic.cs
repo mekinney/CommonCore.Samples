@@ -8,7 +8,7 @@ namespace todo.mobile
 {
     public class HubCommunicationLogic : CoreBusiness
     {
-        private string userBase = AppSettings.Config.WebApi[AppSettings.HubAPIBase];
+        private string userBase = CoreSettings.Config.WebApi[CoreSettings.HubAPIBase];
         private HubConnection hub;
 
         public HubCommunicationLogic()
@@ -20,7 +20,7 @@ namespace todo.mobile
             
             hub.On<string>("Send", data =>
             {
-                CoreDependencyService.SendViewModelMessage<TodoViewModel>(AppSettings.DataUpdated, "data");
+                CoreDependencyService.SendViewModelMessage<TodoViewModel>(CoreSettings.DataUpdated, "data");
             });
 
         }
@@ -28,7 +28,7 @@ namespace todo.mobile
         public async Task StartListening()
         {
             await hub.StartAsync();
-            await hub.InvokeAsync("RegisterId",AppSettings.AppUser.Id.ToString());
+            await hub.InvokeAsync("RegisterId",CoreSettings.AppUser.Id.ToString());
         }
 
     }

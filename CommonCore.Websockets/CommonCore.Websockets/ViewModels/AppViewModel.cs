@@ -32,21 +32,22 @@ namespace CommonCore.Websockets
 
         public override void OnViewMessageReceived(string key, object obj)
         {
-            if(key== AppSettings.WebSocketStateChanged)
-            {
-                if(obj!=null)
-                {
-                    IsConnect = (bool)obj;
-                }
+            switch(key){
+                case CoreSettings.WebSocketStateChanged:
+                    if (obj != null)
+                    {
+                        IsConnect = (bool)obj;
+                    }
+                    break;
+                case CoreSettings.WebSocketMessageReceived:
+                    if (obj != null)
+                    {
+                        Messages.Add((Message)obj);
+                        MessageViewIndex = Messages.Count - 1;
+                    }
+                    break;
             }
-            if(key== AppSettings.WebSocketMessageReceived)
-            {
-                if (obj != null)
-                {
-                    Messages.Add((Message)obj);
-                    MessageViewIndex = Messages.Count - 1;
-                }
-            }
+
         }
     }
 }

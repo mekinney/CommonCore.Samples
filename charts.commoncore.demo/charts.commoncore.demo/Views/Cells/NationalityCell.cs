@@ -1,6 +1,7 @@
 ﻿using System;
 using FFImageLoading.Forms;
 using Xamarin.Forms;
+using Xamarin.Forms.CommonCore;
 
 namespace charts.commoncore.demo
 {
@@ -19,7 +20,7 @@ namespace charts.commoncore.demo
                 LoadingPlaceholder = "unchecked.png",
                 CacheDuration = TimeSpan.FromDays(10),
             };
-            img.SetBinding(CachedImage.SourceProperty, new Binding(path: "IsSelected", converter: AppSettings.ImageConverter));
+            img.SetBinding(CachedImage.SourceProperty, new Binding(path: "IsSelected", converter: CoreSettings.ImageConverter));
 
             var lbl = new Label()
             {

@@ -2,10 +2,10 @@ using System;
 using Xamarin.Forms.CommonCore;
 using Xamarin.Forms;
 
-namespace charts.commoncore.demo
+namespace Xamarin.Forms.CommonCore
 {
-	public class AppStyles: CoreStyles
-	{
+    public partial class CoreStyles
+    {
         private static Style addressCell;
 
         public static Style AddressCell

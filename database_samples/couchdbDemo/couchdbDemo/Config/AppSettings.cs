@@ -1,14 +1,11 @@
 ﻿using System;
-using Xamarin.Forms.CommonCore;
 
-namespace couchdbDemo
+
+namespace Xamarin.Forms.CommonCore
 {
-    public class AppSettings : CoreSettings
+    public partial class CoreSettings
     {
         public const string DeletePersonTag = "deletePerson";
 
-        public AppSettings()
-        {
-        }
     }
 }

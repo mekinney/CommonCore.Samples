@@ -51,5 +51,9 @@ namespace CommonCore.XamlReferenceGuide
             Data = list.ToObservable<DisplayInfo>();
         }
 
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            
+        }
     }
 }

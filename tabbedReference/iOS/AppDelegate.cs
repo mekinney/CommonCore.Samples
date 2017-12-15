@@ -15,11 +15,11 @@ namespace tabbedReference.iOS
         {
             
 #if DEBUG
-			AppSettings.CurrentBuid = "dev";
+			CoreSettings.CurrentBuid = "dev";
 #elif QA
-            AppSettings.CurrentBuid = "qa";
+            CoreSettings.CurrentBuid = "qa";
 #elif RELEASE
-            AppSettings.CurrentBuid = "prod";
+            CoreSettings.CurrentBuid = "prod";
 #endif
 
 			global::Xamarin.Forms.Forms.Init();

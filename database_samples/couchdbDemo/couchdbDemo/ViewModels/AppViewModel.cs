@@ -52,7 +52,7 @@ namespace couchdbDemo
         public override void OnViewMessageReceived(string key, object obj)
         {
             
-            if(key==AppSettings.DeletePersonTag && obj!=null)
+            if(key==CoreSettings.DeletePersonTag && obj!=null)
             {
                 var pk = (string)obj;
                 Task.Run(async () =>

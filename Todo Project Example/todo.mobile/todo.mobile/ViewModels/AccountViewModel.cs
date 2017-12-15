@@ -12,8 +12,8 @@ namespace todo.mobile
         public string ConfirmPassword { get; set; }
         public User CurrentUser 
         { 
-            get { return AppSettings.AppUser; }
-            set { AppSettings.AppUser = value; }
+            get { return CoreSettings.AppUser; }
+            set { CoreSettings.AppUser = value; }
         }
         public ICommand LoginUser { get; set; }
         public ICommand RegisterUser { get; set; }
@@ -136,6 +136,11 @@ namespace todo.mobile
                     });
                 }
             }
+        }
+
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            
         }
     }
 }

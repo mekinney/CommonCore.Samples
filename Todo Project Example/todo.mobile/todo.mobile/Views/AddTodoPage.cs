@@ -36,22 +36,22 @@ namespace todo.mobile
             var lblDescription = new Label()
             {
                 Text = "Description",
-                Style = AppStyles.LabelHeader,
+                Style = CoreStyles.LabelHeader,
             };
             var txtDescription = new CoreUnderlineEntry()
             {
-                Style = AppStyles.TodoEntryStyle
+                Style = CoreStyles.TodoEntryStyle
             };
             txtDescription.SetBinding(CoreUnderlineEntry.TextProperty, "CurrentItem.Description");
 
             var lblDueDate = new Label()
             {
                 Text = "Due Date",
-                Style = AppStyles.LabelHeader,
+                Style = CoreStyles.LabelHeader,
             };
             var pickerDueDate = new CoreDatePicker()
             {
-                Style = AppStyles.TodoPickerStyle
+                Style = CoreStyles.TodoPickerStyle
             };
             pickerDueDate.SetBinding(CoreDatePicker.DateProperty, new Binding(path: "CurrentItem.CompleteByDate", mode: BindingMode.TwoWay, converter: AppConverters.DateLong));
 
@@ -63,7 +63,7 @@ namespace todo.mobile
             var btnSave = new CoreButton()
             {
                 Text = "SAVE",
-                Style = AppStyles.LightOrangeButton,
+                Style = CoreStyles.LightOrangeButton,
                 Margin = new Thickness(marginEdge, 10, marginEdge, 25),
             };
             btnSave.SetBinding(CoreButton.CommandProperty, "SaveCurrentItem");

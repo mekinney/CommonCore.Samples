@@ -16,8 +16,8 @@ namespace todo.mobile
             var fab = new CoreFloatingActionButton()
             {
                 Size = FABControlSize.Normal,
-                ColorNormal = AppStyles.NavigationBarColor,
-                ColorPressed = AppStyles.NavigationBarColor.MultiplyAlpha(0.4),
+                ColorNormal = CoreStyles.NavigationBarColor,
+                ColorPressed = CoreStyles.NavigationBarColor.MultiplyAlpha(0.4),
                 ImageName = "plus.png",
             };
 

@@ -31,7 +31,7 @@ namespace sqliteDemo
                     Command = new Command((obj) =>
                     {
                         var p = (Person) this.BindingContext;
-                        CoreDependencyService.SendViewModelMessage<AppViewModel>(AppSettings.DeletePersonTag, p.Id);
+                        CoreDependencyService.SendViewModelMessage<AppViewModel>(CoreSettings.DeletePersonTag, p.Id);
                     })
                 });
 

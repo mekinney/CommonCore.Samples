@@ -23,7 +23,7 @@ namespace CommonCore.Native.App
             });
         }
 
-        public override void LoadResources(string parameter = null)
+        public void LoadResources()
         {
             var items = this.SomeLogic.GetSomeData();
             if (items.error == null)
@@ -36,6 +36,16 @@ namespace CommonCore.Native.App
                     Title="Error",
                     Message = items.error.Message
                 });
+            }
+        }
+
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            switch (key)
+            {
+                case CoreSettings.LoadResources:
+                    LoadResources();
+                    break;
             }
         }
     }

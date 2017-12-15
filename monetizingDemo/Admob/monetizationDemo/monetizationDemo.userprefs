@@ -1,9 +1,9 @@
-﻿<Properties StartupConfiguration="{9DB99B1E-5943-4CBD-A988-F388BDA50238}|Default">
+﻿<Properties StartupConfiguration="{120FA61B-DFA4-4C34-B844-53B3238EA936}|Default">
   <MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A794C2D-6526-4E9C-A04A-01CFA3CA1D5D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.monetizationDemo.iOS>
-  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="monetizationDemo/Views/HomePage.cs">
+  <MonoDevelop.Ide.ItemProperties.monetizationDemo.Droid PreferredExecutionTarget="Android.N724" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="monetizationDemo/ViewModels/AppViewModel.cs">
     <Files>
       <File FileName="monetizationDemo/Admob/AdBanner.cs" Line="1" Column="1" />
       <File FileName="monetizationDemo/Admob/AdBanneRenderer.iOS.cs" Line="50" Column="74" />
@@ -12,9 +12,24 @@
       <File FileName="monetizationDemo/Views/HomePage.cs" Line="9" Column="42" />
       <File FileName="monetizationDemo/Admob/IAdInterstitial.cs" Line="10" Column="6" />
       <File FileName="monetizationDemo/Admob/AdInterstitial.iOS.cs" Line="38" Column="1" />
-      <File FileName="monetizationDemo/ViewModels/AppViewModel.cs" Line="23" Column="16" />
+      <File FileName="monetizationDemo/ViewModels/AppViewModel.cs" Line="92" Column="13" />
       <File FileName="monetizationDemo/Partials/PartialObservableViewModel.cs" Line="5" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="monetizationDemo" expanded="True">
+            <Node name="monetizationDemo" expanded="True">
+              <Node name="Config" expanded="True" />
+              <Node name="Partials" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="monetizationDemo.Droid" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

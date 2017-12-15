@@ -1,12 +1,19 @@
 ﻿<Properties StartupConfiguration="{1CDA03B2-E0A4-46C6-9DB9-9787FCA05E16}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="charts.commoncore.demo/BusinessLogic/RandomUserLogic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="charts.commoncore.demo/ViewModels/AppViewModel.cs">
     <Files>
       <File FileName="charts.commoncore.demo/Views/NationalitySelectionPage.cs" Line="24" Column="52" />
       <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Extensions/CoreExtensions.cs" Line="1" Column="1" />
       <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Extensions/CoreExtensions.Droid.cs" Line="1" Column="1" />
       <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Extensions/CoreExtensions.IOS.cs" Line="1" Column="1" />
-      <File FileName="charts.commoncore.demo/Styles/AppStyles.cs" Line="4" Column="1" />
+      <File FileName="charts.commoncore.demo/Styles/AppStyles.cs" Line="8" Column="6" />
       <File FileName="charts.commoncore.demo/BusinessLogic/RandomUserLogic.cs" Line="37" Column="26" />
+      <File FileName="charts.commoncore.demo/ViewModels/AppViewModel.cs" Line="34" Column="1" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialStyles.cs.txt" Line="5" Column="1" />
+      <File FileName="charts.commoncore.demo/Settings/AppSettings.cs" Line="9" Column="31" />
+      <File FileName="charts.commoncore.demo/Views/Cells/NationalityCell.cs" Line="4" Column="25" />
+      <File FileName="charts.commoncore.demo/Views/Cells/RandomUserCell.cs" Line="33" Column="51" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/IHttpService.cs" Line="22" Column="40" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Services/HttpService.cs" Line="22" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

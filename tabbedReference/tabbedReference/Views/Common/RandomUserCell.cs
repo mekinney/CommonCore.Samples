@@ -38,7 +38,7 @@ namespace tabbedReference
 
             lblFullAddress = new Label()
             {
-                Style = AppStyles.AddressCell
+                Style = CoreStyles.AddressCell
             };
 
             var rightPanel = new StackLayout()

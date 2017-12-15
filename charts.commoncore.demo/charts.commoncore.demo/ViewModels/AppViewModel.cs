@@ -24,7 +24,7 @@ namespace charts.commoncore.demo
             GetNationalityData = new CoreCommand(LoadNationalityData);
         }
 
-        public override void LoadResources(string parameter = null)
+        private void LoadResources()
         {
             this.LoadingMessageHUD = "Loading...";
             this.IsLoadingHUD = true;
@@ -56,7 +56,7 @@ namespace charts.commoncore.demo
 
         }
 
-        public override void ReleaseResources(string parameter = null)
+        private void ReleaseResources()
         {
             Nationalities?.Dispose();
             Users?.Dispose();
@@ -82,6 +82,18 @@ namespace charts.commoncore.demo
                 Entries = entries
             };
             Navigation.PushNonAwaited<NationalityChartPage>();
+        }
+
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            switch(key){
+                case CoreSettings.LoadResources:
+                    LoadResources();
+                    break;
+                case CoreSettings.ReleaseResources:
+                    ReleaseResources();
+                    break;
+            }
         }
     }
 }

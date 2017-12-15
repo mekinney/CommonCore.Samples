@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="{72B92A5C-6E94-448D-8BB8-ADF0C4B4A115}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Users/Les/Desktop/:Volumes:Personal240:CommonCore.Samples:database_samples:realmDemo:realmDemo:Partials:RealmObservableViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="realmDemo/Views/PageTwoCell.cs">
     <Files>
-      <File FileName="../../../../../Users/Les/Desktop/:Volumes:Personal240:CommonCore.Samples:database_samples:realmDemo:realmDemo:Partials:RealmObservableViewModel.cs" Line="8" Column="1" />
-      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
-      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="23" Column="43" />
       <File FileName="../../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.RealmDb/Partials/RealmPartials.cs" Line="8" Column="31" />
-      <File FileName="realmDemo/Config/AppSettings.cs" Line="8" Column="8" />
       <File FileName="../../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Sqlite/_init/readme.txt" Line="5" Column="1" />
       <File FileName="iOS/FodyWeavers.xml" Line="1" Column="1" />
       <File FileName="../../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.RealmDb/_init/readme.txt" Line="10" Column="19" />
+      <File FileName="realmDemo/ViewModels/AppViewModel.cs" Line="44" Column="13" />
+      <File FileName="realmDemo/Models/Person.cs" Line="1" Column="1" />
+      <File FileName="realmDemo/realmDemo.cs" Line="1" Column="1" />
+      <File FileName="realmDemo/Views/PageTwoCell.cs" Line="30" Column="82" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="realmDemo" expanded="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

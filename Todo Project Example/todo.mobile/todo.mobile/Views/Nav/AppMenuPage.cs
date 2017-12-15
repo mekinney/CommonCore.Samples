@@ -12,7 +12,7 @@ namespace todo.mobile
           
             Icon = "hamburger.png";
             Title = "Reference Guide";
-            BackgroundColor = AppStyles.NavigationBarColor;
+            BackgroundColor = CoreStyles.NavigationBarColor;
             Padding = new Thickness(0, 40, 0, 0);
 
             var personImage = new CachedImage()
@@ -38,14 +38,14 @@ namespace todo.mobile
             var topPanel = new StackLayout()
             {
                 Padding = new Thickness(10, 0, 10, 10),
-                BackgroundColor = AppStyles.NavigationBarColor,
+                BackgroundColor = CoreStyles.NavigationBarColor,
                 Orientation = StackOrientation.Horizontal,
                 Children = { personImage, new StackLayout() { Children = { navTitle, navSubtitle } } }
             };
 
             var listView = new CoreListView
             {
-                BackgroundColor = AppStyles.LightOrangeBackground,
+                BackgroundColor = CoreStyles.LightOrangeBackground,
                 ItemTemplate = new DataTemplate(typeof(AppMenuCell)),
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 SeparatorVisibility = SeparatorVisibility.None,

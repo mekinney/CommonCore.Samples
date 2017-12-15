@@ -1,11 +1,9 @@
 using System;
-using Xamarin.Forms.CommonCore;
 using Xamarin.Forms;
-using Xamarin.Forms.CommonCore;
 
-namespace tabbedReference
+namespace Xamarin.Forms.CommonCore
 {
-    public class AppStyles : CoreStyles
+    public partial class CoreStyles
     {
         private static Style addressCell;
 

@@ -12,7 +12,7 @@ namespace todo.mobile
             var marginEdge = 30;
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
-            this.BackgroundColor = AppStyles.LightOrangeBackground;
+            this.BackgroundColor = CoreStyles.LightOrangeBackground;
 
             var img = new Image()
             {
@@ -33,7 +33,7 @@ namespace todo.mobile
             var txtUserName = new CoreUnderlineEntry()
             {
                 Placeholder = "User Name",
-                Style = AppStyles.LoginEntryStyle,
+                Style = CoreStyles.LoginEntryStyle,
             };
             txtUserName.SetBinding(CoreUnderlineEntry.TextProperty, "UserName");
 
@@ -41,7 +41,7 @@ namespace todo.mobile
             {
                 Placeholder = "Password",
                 IsPassword = true,
-                Style = AppStyles.LoginEntryStyle,
+                Style = CoreStyles.LoginEntryStyle,
             };
             txtPassword.SetBinding(CoreUnderlineEntry.TextProperty, "Password");
 
@@ -49,7 +49,7 @@ namespace todo.mobile
             {
                 Placeholder = "Confirm Password",
                 IsPassword = true,
-                Style = AppStyles.LoginEntryStyle,
+                Style = CoreStyles.LoginEntryStyle,
             };
             txtConfirmPassword.SetBinding(CoreUnderlineEntry.TextProperty, "ConfirmPassword");
 
@@ -62,7 +62,7 @@ namespace todo.mobile
             var btnCreate = new CoreButton()
             {
                 Text = "CREATE",
-                Style = AppStyles.LightOrangeButton,
+                Style = CoreStyles.LightOrangeButton,
                 Margin = new Thickness(marginEdge, 10, marginEdge, 25)
             };
             btnCreate.SetBinding(CoreButton.CommandProperty, "RegisterUser");

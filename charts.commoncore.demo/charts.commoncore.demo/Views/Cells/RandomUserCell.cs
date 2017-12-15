@@ -39,7 +39,7 @@ namespace charts.commoncore.demo
 
             lblFullAddress = new Label()
             {
-                Style = AppStyles.AddressCell
+                Style = CoreStyles.AddressCell
             };
 
             var rightPanel = new StackLayout()

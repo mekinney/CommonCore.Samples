@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{A7AA47FB-80D8-4BA4-9C3B-770BE3B0DDEF}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="couchdbDemo/Config/AppSettings.cs">
     <Files>
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="13" Column="55" />
+      <File FileName="couchdbDemo/ViewModels/AppViewModel.cs" Line="55" Column="33" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialSettings.cs.txt" Line="4" Column="1" />
+      <File FileName="couchdbDemo/Config/AppSettings.cs" Line="4" Column="1" />
+      <File FileName="couchdbDemo/Views/PageTwoCell.cs" Line="30" Column="90" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="couchdbDemo" expanded="True">
-            <Node name="couchdbDemo.Droid" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.couchdbDemo.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

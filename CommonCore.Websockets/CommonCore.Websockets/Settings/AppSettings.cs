@@ -1,9 +1,8 @@
 ﻿using System;
-using Xamarin.Forms.CommonCore;
 
-namespace CommonCore.Websockets
+namespace Xamarin.Forms.CommonCore
 {
-    public class AppSettings : CoreSettings
+    public partial class CoreSettings
     {
         public const string WebSocketMessageReceived = "WebSocketMessageReceived";
         public const string WebSocketStateChanged = "WebSocketStateChanged";

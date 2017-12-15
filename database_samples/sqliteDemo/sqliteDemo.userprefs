@@ -1,26 +1,19 @@
 ﻿<Properties StartupConfiguration="{E269C53E-C068-48C0-AAFE-F20CD6686DEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Plugin.Permissions.2.1.0/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/Views/PageTwoCell.cs">
     <Files>
       <File FileName="sqliteDemo/Config/config.dev.json" Line="1" Column="1" />
       <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Config/config.dev.json.txt" Line="1" Column="1" />
-      <File FileName="sqliteDemo/ViewModels/AppViewModel.cs" Line="24" Column="33" />
+      <File FileName="sqliteDemo/ViewModels/AppViewModel.cs" Line="62" Column="28" />
       <File FileName="sqliteDemo/Models/Person.cs" Line="6" Column="27" />
       <File FileName="sqliteDemo/Views/PageOne.cs" Line="7" Column="36" />
       <File FileName="sqliteDemo/Views/PageTwo.cs" Line="7" Column="35" />
       <File FileName="sqliteDemo/Styles/AppStyles.cs" Line="6" Column="21" />
-      <File FileName="sqliteDemo/Settings/AppSettings.cs" Line="1" Column="1" />
-      <File FileName="sqliteDemo/Views/PageTwoCell.cs" Line="34" Column="46" />
+      <File FileName="sqliteDemo/Settings/AppSettings.cs" Line="2" Column="1" />
+      <File FileName="sqliteDemo/Views/PageTwoCell.cs" Line="34" Column="86" />
       <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/Pages/CoreTelephonyPageRenderer.Droid.cs" Line="13" Column="55" />
-      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
-      <File FileName="packages/Xam.Plugins.Settings.3.1.1/readme.txt" Line="14" Column="59" />
+      <File FileName="../../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Sqlite/_init/readme.txt" Line="8" Column="27" />
+      <File FileName="../../../CommonCore/CommonCore Extensions/Xamarin.Forms.CommonCore.Sqlite/Partials/SqlitePartials.cs" Line="6" Column="40" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="sqliteDemo" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

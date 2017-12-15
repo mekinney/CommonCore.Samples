@@ -86,5 +86,10 @@ namespace monetizationDemo.ViewModels
                 await billing?.DisconnectAsync();
             }
         }
+
+        public override void OnViewMessageReceived(string key, object obj)
+        {
+            
+        }
     }
 }

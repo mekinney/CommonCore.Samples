@@ -14,7 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\HomePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\FavoritesPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Config\AppSettings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Styles\AppStyles.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\RandomUserServiceModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppViewModel.cs" />

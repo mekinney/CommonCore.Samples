@@ -22,7 +22,7 @@ namespace todo.mobile
         public TodoViewModel()
         {
             SaveCurrentItem = new CoreCommand(async(obj) => {
-                CurrentItem.UserId = AppSettings.AppUser.Id;
+                CurrentItem.UserId = CoreSettings.AppUser.Id;
                 var saveResult = await this.TodoLogic.AddOrUpdateTodo(CurrentItem);
                 if(saveResult.success){
                     CurrentTodoList.Add(saveResult.todo);
@@ -52,19 +52,6 @@ namespace todo.mobile
 
         }
 
-        public override void LoadResources(string parameter = null)
-        {
-            Task.Run(async () => {
-                this.LoadingMessageHUD = "Syncing data with server...";
-                this.IsLoadingHUD = true;
-                CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
-                DataExists = CurrentTodoList.Count > 0 ? true : false;
-                this.IsLoadingHUD = false;
-                EmptyDataIcon = FontUtil.GetFont("fa-frown-o", FontType.FontAwesome);
-                await this.HubCommunication.StartListening();
-            });
-        }
-
         public void NavigateBack(){
             Device.BeginInvokeOnMainThread(async () =>
             {
@@ -74,12 +61,26 @@ namespace todo.mobile
 
         public override void OnViewMessageReceived(string key, object obj)
         {
-            if(key==AppSettings.DataUpdated){
-                Task.Run(async () => {
-                    CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
-                    DataExists = CurrentTodoList.Count > 0 ? true : false;
-                });
+            switch(key){
+                case CoreSettings.LoadResources:
+                    Task.Run(async () => {
+                        this.LoadingMessageHUD = "Syncing data with server...";
+                        this.IsLoadingHUD = true;
+                        CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
+                        DataExists = CurrentTodoList.Count > 0 ? true : false;
+                        this.IsLoadingHUD = false;
+                        EmptyDataIcon = FontUtil.GetFont("fa-frown-o", FontType.FontAwesome);
+                        await this.HubCommunication.StartListening();
+                    });
+                    break;
+                case CoreSettings.DataUpdated:
+                    Task.Run(async () => {
+                        CurrentTodoList = await this.TodoLogic.GetAllByCurrentUser().ToObservable();
+                        DataExists = CurrentTodoList.Count > 0 ? true : false;
+                    });
+                    break;
             }
+
         }
 
     }

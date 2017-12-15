@@ -1,10 +1,10 @@
 using System;
-using Xamarin.Forms.CommonCore;
+
 using Xamarin.Forms;
 
-namespace todo.mobile
+namespace Xamarin.Forms.CommonCore
 {
-    public class AppStyles : CoreStyles
+    public partial class CoreStyles
     {
         public static Color NavigationBarColor { get; set; } = Color.FromHex("#AD9255");
         public static Color LightOrangeBackground { get; set; } = Color.FromHex("#EDEBDE");
@@ -20,8 +20,8 @@ namespace todo.mobile
                 new Setter(){Property=CoreButton.ShadowOffsetProperty ,Value=1},
                 new Setter(){Property=CoreButton.ShadowOpacityProperty ,Value=1},
                 new Setter(){Property=CoreButton.FontSizeProperty ,Value=22},
-                new Setter(){Property=CoreButton.ShadowRadiusProperty ,Value= CoreSettings.OnPlatform<float>(5f,8f,5f)},
-                new Setter(){Property=CoreButton.CornerRadiusProperty ,Value= CoreSettings.OnPlatform<float>(5f,8f,5f)},
+                new Setter(){Property=CoreButton.ShadowRadiusProperty ,Value= CoreSettings.On<float>(5f,8f,5f)},
+                new Setter(){Property=CoreButton.CornerRadiusProperty ,Value= CoreSettings.On<float>(5f,8f,5f)},
             }
         };
 

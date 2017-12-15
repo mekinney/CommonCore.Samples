@@ -16,7 +16,7 @@ namespace tabbedReference
 				ItemTemplate = new DataTemplate(typeof(UsersCell)),
 				AutomationId = "lstView",
                 ItemClickCommand= new Command(async(obj) => {
-                    await AppSettings.AppNav.PushAsync(new HomeDetailPage());
+                    await CoreSettings.AppNav.PushAsync(new HomeDetailPage());
                 })
 			};
 			lstView.SetBinding(CoreListView.ItemsSourceProperty, "RandomUsers");

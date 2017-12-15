@@ -17,7 +17,7 @@ namespace CommonCore.Websockets
         public DateTime MessagDateTime { get; set; }
         public bool IsIncoming => UserId != CoreSettings.InstallationId;
         public string Name { get; set; }
-        public string UserId { get; set; } = AppSettings.InstallationId;
+        public string UserId { get; set; } = CoreSettings.InstallationId;
     }
 
     public class ChatService : IChatService
@@ -61,7 +61,7 @@ namespace CommonCore.Websockets
                         try
                         {
                             var msg = JsonConvert.DeserializeObject<Message>(serialisedMessae);
-                            CoreDependencyService.SendViewModelMessage(AppSettings.WebSocketMessageReceived, msg);
+                            CoreDependencyService.SendViewModelMessage(CoreSettings.WebSocketMessageReceived, msg);
                         }
                         catch (Exception ex)
                         {
@@ -75,7 +75,7 @@ namespace CommonCore.Websockets
             void UpdateClientState()
             {
                 var isConnected = client.State == WebSocketState.Open ? true : false;
-                CoreDependencyService.SendViewModelMessage(AppSettings.WebSocketStateChanged, isConnected);
+                CoreDependencyService.SendViewModelMessage(CoreSettings.WebSocketStateChanged, isConnected);
             }
         }
 

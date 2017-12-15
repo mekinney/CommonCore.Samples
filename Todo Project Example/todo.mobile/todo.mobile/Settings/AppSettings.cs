@@ -1,10 +1,11 @@
 ﻿using System;
+using todo.mobile;
 using Xamarin.Forms;
-using Xamarin.Forms.CommonCore;
 
-namespace todo.mobile
+
+namespace Xamarin.Forms.CommonCore
 {
-    public class AppSettings : CoreSettings
+    public partial class CoreSettings
     {
         public const string DataUpdated = "dataUpdated";
         public const string TodoAPIBase = "todoAPI";

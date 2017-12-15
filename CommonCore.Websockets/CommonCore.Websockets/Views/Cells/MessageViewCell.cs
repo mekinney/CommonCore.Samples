@@ -52,7 +52,7 @@ namespace CommonCore.Websockets
             { 
                 HasShadow = true,
                 CornerRadius = 3,
-                WidthRequest = AppSettings.ScreenSize.Width * 0.55,
+                WidthRequest = CoreSettings.ScreenSize.Width * 0.55,
                 VerticalOptions = LayoutOptions.Center,
                 Content = new StackLayout(){
                     Children = { lbl }
@@ -97,7 +97,7 @@ namespace CommonCore.Websockets
                 Children = {
                     contentPanel,
                     new StackLayout(){
-                        WidthRequest = AppSettings.ScreenSize.Width * 0.40,
+                        WidthRequest = CoreSettings.ScreenSize.Width * 0.40,
                         HorizontalOptions = LayoutOptions.EndAndExpand
                     } }
             };
@@ -115,7 +115,7 @@ namespace CommonCore.Websockets
                 Orientation = StackOrientation.Horizontal,
                 Children = {
                     new StackLayout(){
-                        WidthRequest = AppSettings.ScreenSize.Width * 0.40,
+                        WidthRequest = CoreSettings.ScreenSize.Width * 0.40,
                         HorizontalOptions = LayoutOptions.EndAndExpand
                     }, 
                     contentPanel }

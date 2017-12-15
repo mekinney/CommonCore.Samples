@@ -99,28 +99,31 @@ namespace tabbedReference
 
         }
 
-        public override void ReleaseResources(string parameter = null)
+        public override void OnViewMessageReceived(string key, object obj)
         {
-            Task.Run(async () =>
-            {
-                await this.FileStore.SaveAsync<List<RandomUser>>("RandomUser", RandomUsers.ToList());
-                RandomUsers.Clear();
-            });
-        }
-        public override void LoadResources(string parameter = null)
-        {
-            Task.Run(async () =>
-            {
-                var temp = await this.FileStore.GetAsync<List<RandomUser>>("RandomUser");
-                if (temp.Error==null)
-                {
-                    RandomUsers = temp.Response.ToObservable<RandomUser>();
-                }
-                else
-                {
-                    await GetRandomUsers();
-                }
-            });
+            switch(key){
+                case CoreSettings.LoadResources:
+                    Task.Run(async () =>
+                    {
+                        var temp = await this.FileStore.GetAsync<List<RandomUser>>("RandomUser");
+                        if (temp.Error == null)
+                        {
+                            RandomUsers = temp.Response.ToObservable<RandomUser>();
+                        }
+                        else
+                        {
+                            await GetRandomUsers();
+                        }
+                    });
+                    break;
+                case CoreSettings.ReleaseResources:
+                    Task.Run(async () =>
+                    {
+                        await this.FileStore.SaveAsync<List<RandomUser>>("RandomUser", RandomUsers.ToList());
+                        RandomUsers.Clear();
+                    });
+                    break;
+            }
         }
     }
 }

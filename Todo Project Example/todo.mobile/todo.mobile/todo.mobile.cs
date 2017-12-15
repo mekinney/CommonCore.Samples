@@ -36,19 +36,17 @@ namespace todo.mobile
         {
             MainPage.SizeChanged -= AppScreenSizeChanged;
             CrossConnectivity.Current.ConnectivityChanged -= ConnectivityChanged;
-            this.SaveViewModelState();
         }
 
         protected override void OnResume()
         {
             MainPage.SizeChanged += AppScreenSizeChanged;
             CrossConnectivity.Current.ConnectivityChanged += ConnectivityChanged;
-            this.LoadViewModelState();
         }
 
         private void ConnectivityChanged(object sender, ConnectivityChangedEventArgs args)
         {
-            CoreSettings.IsConnected = args.IsConnected;
+            this.SetConnectionStatus(args.IsConnected);
         }
 
         private void AppScreenSizeChanged(object sender, EventArgs args)

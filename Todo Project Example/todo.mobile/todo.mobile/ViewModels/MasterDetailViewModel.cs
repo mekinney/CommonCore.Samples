@@ -37,10 +37,10 @@ namespace todo.mobile
             {
                 var np = new NavigationPage((Page)Activator.CreateInstance(item.TargetType))
                 {
-                    BarBackgroundColor = AppStyles.NavigationBarColor,
+                    BarBackgroundColor = CoreStyles.NavigationBarColor,
                     BarTextColor = Color.White
                 };
-                AppSettings.AppNav = np.Navigation;
+                CoreSettings.AppNav = np.Navigation;
                 navPages.Add(item.TargetType.Name, np);
             }
             page.Detail = navPages[item.TargetType.Name];
