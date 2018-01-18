@@ -59,6 +59,21 @@ namespace todo.mobile
             });
         }
 
+        public async Task DeleteItem(Todo item)
+        {
+            var result = await this.TodoLogic.DeleteTodo(item);
+            if (result.Success)
+            {
+                CurrentTodoList = result.Response.ToObservable<Todo>();
+            }
+            else{
+                this.DialogPrompt.ShowMessage(new Prompt(){
+                    Title="Error",
+                    Message = "There was an error reading the database"
+                });
+            }
+        }
+
         public override void OnViewMessageReceived(string key, object obj)
         {
             switch(key){

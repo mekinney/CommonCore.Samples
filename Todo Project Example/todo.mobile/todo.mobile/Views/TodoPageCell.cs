@@ -44,6 +44,17 @@ namespace todo.mobile
                 Source = "todorowimage.png"
             };
 
+            this.ContextActions.Add(new MenuItem()
+            {
+                Text = "Delete",
+                IsDestructive = true,
+                Command = new Command(async(obj) => {
+                    var item = (Todo)BindingContext;
+                    await CoreDependencyService.GetViewModel<TodoViewModel>().DeleteItem(item);
+                })
+            });
+
+
             View = new StackLayout()
             {
                 Orientation = StackOrientation.Horizontal,

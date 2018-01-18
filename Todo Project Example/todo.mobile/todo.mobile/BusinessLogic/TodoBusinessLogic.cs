@@ -31,7 +31,7 @@ namespace todo.mobile
         }
 
 
-        public async Task DeleteTodo(Todo todo)
+        public async Task<(List<Todo> Response, bool Success, Exception Error)> DeleteTodo(Todo todo)
         {
             todo.MarkedForDelete = true;
             var httpResult = await HttpService.Post<Dictionary<Guid, int>>($"{todoBase}/AddOrUpdate", todo);
@@ -43,6 +43,9 @@ namespace todo.mobile
                 todo.MarkedForDelete = true;
                 await this.SqliteDb.AddOrUpdate<Todo>(todo);
             }
+
+            return await this.SqliteDb.GetByQuery<Todo>(x=>x.MarkedForDelete==false);
+  
         }
 
         public async Task<List<Todo>> GetAllByCurrentUser()

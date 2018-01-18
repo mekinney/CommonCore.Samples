@@ -1,51 +1,12 @@
-﻿<Properties StartupConfiguration="{07991F35-005C-4CC9-A54A-C518FAD85FBB}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Views/SomePage.cs.txt">
+﻿<Properties StartupConfiguration="{CD41DC3E-2A5A-467C-9BEC-92718F8078A3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo.mobile/ViewModels/TodoViewModel.cs">
     <Files>
-      <File FileName="todo.mobile/Styles/AppStyles.cs" Line="24" Column="94" />
-      <File FileName="todo.mobile/Settings/AppSettings.cs" Line="15" Column="24" />
-      <File FileName="todo.mobile/ViewModels/AccountViewModel.cs" Line="143" Column="13" />
-      <File FileName="todo.mobile/ViewModels/MasterDetailViewModel.cs" Line="37" Column="14" />
-      <File FileName="todo.mobile/ViewModels/TodoViewModel.cs" Line="54" Column="9" />
-      <File FileName="todo.mobile/BusinessLogic/HubCommunicationLogic.cs" Line="17" Column="35" />
-      <File FileName="todo.mobile/BusinessLogic/UserBusinessLogic.cs" Line="138" Column="77" />
-      <File FileName="todo.mobile/todo.mobile.cs" Line="49" Column="56" />
-      <File FileName="todo.mobile/BusinessLogic/TodoBusinessLogic.cs" Line="51" Column="122" />
-      <File FileName="todo.mobile/Views/AddTodoPage.cs" Line="39" Column="35" />
-      <File FileName="todo.mobile/Views/LoginPage.cs" Line="63" Column="35" />
-      <File FileName="todo.mobile/Views/ProfilePage.cs" Line="62" Column="35" />
-      <File FileName="todo.mobile/Views/RegisterPage.cs" Line="65" Column="35" />
-      <File FileName="todo.mobile/Views/TodoPage.cs" Line="20" Column="42" />
-      <File FileName="todo.mobile/Views/TodoPageCell.cs" Line="1" Column="1" />
-      <File FileName="todo.mobile/Views/Nav/AppMasterDetailPage.cs" Line="21" Column="21" />
-      <File FileName="todo.mobile/Views/Nav/AppMenuPage.cs" Line="15" Column="41" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/ReadMe.txt" Line="137" Column="56" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Views/SomePage.cs.txt" Line="28" Column="93" />
+      <File FileName="todo.mobile/Views/TodoPage.cs" Line="9" Column="56" />
+      <File FileName="todo.mobile/ViewModels/TodoViewModel.cs" Line="92" Column="1" />
+      <File FileName="todo.mobile/Views/TodoPageCell.cs" Line="59" Column="14" />
+      <File FileName="todo.mobile/BusinessLogic/TodoBusinessLogic.cs" Line="56" Column="1" />
+      <File FileName="todo.mobile/BusinessLogic/HubCommunicationLogic.cs" Line="23" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="todo.mobile" expanded="True">
-            <Node name="todo.mobile" expanded="True">
-              <Node name="BusinessLogic" expanded="True" />
-              <Node name="Settings" expanded="True" />
-              <Node name="Styles" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Nav" expanded="True" />
-                <Node name="TodoPage.cs" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Xamarin.Forms.CommonCore" expanded="True">
-              <Node name="_init" expanded="True">
-                <Node name="Views" expanded="True">
-                  <Node name="SomePage.cs.txt" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

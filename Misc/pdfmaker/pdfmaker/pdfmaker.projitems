@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{E2AF87F4-6A79-4FA7-9D82-A4AE68B64151}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>pdfmaker</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)pdfmaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\CoreWebView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\CoreWebViewRenderer.Droid.cs">
+      <DependentUpon>CoreWebView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\CoreWebViewRenderer.IOS.cs">
+      <DependentUpon>CoreWebView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\IFileReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\FileReader.Droid.cs">
+      <DependentUpon>IFileReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Dependencies\FileReader.IOS.cs">
+      <DependentUpon>IFileReader.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Controls\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Dependencies\" />
+  </ItemGroup>
+</Project>
