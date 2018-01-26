@@ -98,8 +98,8 @@ namespace todo.webapi.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("api/Todo/TestHub")]
-        public async Task<IActionResult> TestHub(int userId)
+        [Route("api/Todo/NotifyUser")]
+        public async Task<IActionResult> NotifyUser(int userId)
         {
             string connectionId = null;
             if (_cache.TryGetValue(userId, out connectionId))

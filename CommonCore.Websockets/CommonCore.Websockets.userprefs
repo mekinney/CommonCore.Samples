@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{C5F7DCE8-8951-4836-95B8-2EEBF4F21161}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.Websockets/CommonCore.Websockets.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../CommonCore/Xamarin.Forms.CommonCore/Controls/CorePickerRenderer.Droid.cs">
     <Files>
       <File FileName="CommonCore.Websockets/ViewModels/AppViewModel.cs" Line="54" Column="1" />
       <File FileName="CommonCore.Websockets/Settings/AppSettings.cs" Line="1" Column="14" />
       <File FileName="CommonCore.Websockets/Views/Cells/MessageViewCell.cs" Line="100" Column="52" />
-      <File FileName="CommonCore.Websockets/Services/ChatService.cs" Line="78" Column="72" />
-      <File FileName="CommonCore.Websockets/CommonCore.Websockets.cs" Line="38" Column="56" />
+      <File FileName="CommonCore.Websockets/Services/ChatService.cs" Line="2" Column="7" />
+      <File FileName="CommonCore.Websockets/CommonCore.Websockets.cs" Line="10" Column="10" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Dependencies/Communication.Droid.cs" Line="12" Column="16" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Controls/CoreCardViewRenderer.Droid.cs" Line="97" Column="73" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Dependencies/MapNavigate.Droid.cs" Line="32" Column="18" />
+      <File FileName="../../CommonCore/Xamarin.Forms.CommonCore/Controls/CorePickerRenderer.Droid.cs" Line="4" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CommonCore.Websockets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.11E980B5-2AC0-4C25-BBCE-58E696C69621" />

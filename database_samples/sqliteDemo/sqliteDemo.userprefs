@@ -2,7 +2,6 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="sqliteDemo/Views/PageTwoCell.cs">
     <Files>
       <File FileName="sqliteDemo/Config/config.dev.json" Line="1" Column="1" />
-      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Config/config.dev.json.txt" Line="1" Column="1" />
       <File FileName="sqliteDemo/ViewModels/AppViewModel.cs" Line="62" Column="28" />
       <File FileName="sqliteDemo/Models/Person.cs" Line="6" Column="27" />
       <File FileName="sqliteDemo/Views/PageOne.cs" Line="7" Column="36" />

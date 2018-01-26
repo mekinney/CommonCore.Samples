@@ -1,24 +1,14 @@
 ﻿<Properties StartupConfiguration="{B0283CE5-F45A-41C7-82F3-0C3989680F35}|Default">
   <MonoDevelop.Ide.ItemProperties.CommonCore.XamlReferenceGuide.Droid PreferredExecutionTarget="Android.N724" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CommonCore.XamlReferenceGuide/ViewModels/AppViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Plugin.Permissions.2.2.1/readme.txt">
     <Files>
       <File FileName="CommonCore.XamlReferenceGuide/ViewModels/AppViewModel.cs" Line="24" Column="31" />
+      <File FileName="CommonCore.XamlReferenceGuide/ReadMe.txt" Line="1" Column="1" />
+      <File FileName="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml" Line="19" Column="17" />
+      <File FileName="CommonCore.XamlReferenceGuide/CommonCore.XamlReferenceGuidePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="CommonCore.XamlReferenceGuide/App.xaml.cs" Line="11" Column="10" />
+      <File FileName="packages/Plugin.Permissions.2.2.1/readme.txt" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-            <Node name="CommonCore.XamlReferenceGuide" expanded="True">
-              <Node name="ViewModels" expanded="True" />
-            </Node>
-            <Node name="CommonCore.XamlReferenceGuide.iOS" selected="True" />
-            <Node name="Xamarin.Forms.CommonCore" expanded="True">
-              <Node name="Extensions" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

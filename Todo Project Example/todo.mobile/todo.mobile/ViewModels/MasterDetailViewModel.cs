@@ -29,7 +29,7 @@ namespace todo.mobile
 
             if(item.TargetType==null)
             {
-                Application.Current.MainPage = new LoginPage();
+                Application.Current.MainPage = new NavigationPage(new LoginPage());
                 return;
             }
 

@@ -53,6 +53,7 @@ namespace todo.mobile
             var exempt = new List<Guid>();
             var httpResult = await this.HttpService.Get<List<Todo>>($"{todoBase}/GetAllUpdatedByUser?userId={CoreSettings.AppUser.Id}&utcTickStamp={CoreSettings.SyncTimeStamp}");
             httpResult.Error?.LogException("TodoBusinessLogic - GetAllByCurrentUser - GetAllUpdatedByUser");
+            var temp = httpResult.Response;
             if (httpResult.Success && httpResult.Response.Count > 0)
             {
                 var markedForDelete = httpResult.Response.Where(x => x.MarkedForDelete == true);

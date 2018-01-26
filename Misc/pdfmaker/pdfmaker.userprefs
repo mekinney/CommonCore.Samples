@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{36A5DEB3-4381-4DDB-9E12-50E717DE10AA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdfmaker/pdfmaker.cs">
     <Files>
       <File FileName="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" Line="22" Column="10" />
       <File FileName="pdfmaker/Controls/CoreWebViewRenderer.IOS.cs" Line="36" Column="1" />
@@ -12,8 +12,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Les/Desktop/pdfmaker/pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" relfile="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" line="112" column="1" />
-      <Breakpoint file="/Users/Les/Desktop/pdfmaker/pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" relfile="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" line="125" column="50" />
+      <Breakpoint file="/Volumes/Personal240/CommonCore.Samples/Misc/pdfmaker/pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" relfile="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" line="112" column="1" />
+      <Breakpoint file="/Volumes/Personal240/CommonCore.Samples/Misc/pdfmaker/pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" relfile="pdfmaker/Controls/CoreWebViewRenderer.Droid.cs" line="125" column="50" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

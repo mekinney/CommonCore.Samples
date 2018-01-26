@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.ObjectModel;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Xamarin.Forms;
 using Xamarin.Forms.CommonCore;
 using System.Linq;
 
@@ -24,7 +22,6 @@ namespace CommonCore.Websockets
     {
         readonly ClientWebSocket client;
         readonly CancellationTokenSource cts;
-        private string messageText;
 
         public ChatService()
         {

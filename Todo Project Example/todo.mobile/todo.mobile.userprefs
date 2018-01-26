@@ -1,11 +1,28 @@
 ﻿<Properties StartupConfiguration="{CD41DC3E-2A5A-467C-9BEC-92718F8078A3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="todo.mobile/ViewModels/TodoViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo.mobile/ViewModels/MasterDetailViewModel.cs">
     <Files>
       <File FileName="todo.mobile/Views/TodoPage.cs" Line="9" Column="56" />
-      <File FileName="todo.mobile/ViewModels/TodoViewModel.cs" Line="92" Column="1" />
+      <File FileName="todo.mobile/ViewModels/TodoViewModel.cs" Line="79" Column="1" />
       <File FileName="todo.mobile/Views/TodoPageCell.cs" Line="59" Column="14" />
-      <File FileName="todo.mobile/BusinessLogic/TodoBusinessLogic.cs" Line="56" Column="1" />
+      <File FileName="todo.mobile/BusinessLogic/TodoBusinessLogic.cs" Line="68" Column="1" />
       <File FileName="todo.mobile/BusinessLogic/HubCommunicationLogic.cs" Line="23" Column="1" />
+      <File FileName="todo.mobile/Partials/PartialObservableViewModel.cs" Line="1" Column="1" />
+      <File FileName="todo.mobile/Partials/PartialConfigurationModel.cs" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialViewModel.cs.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialStyles.cs.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialSettings.cs.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialExtensions.cs.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/_init/Partials/BasePartialConfig.cs.txt" Line="1" Column="1" />
+      <File FileName="../../../CommonCore/Xamarin.Forms.CommonCore/BusinessLayer/CoreBusiness.cs" Line="7" Column="40" />
+      <File FileName="todo.mobile/BusinessLogic/UserBusinessLogic.cs" Line="1" Column="1" />
+      <File FileName="todo.mobile/todo.mobile.cs" Line="20" Column="24" />
+      <File FileName="Droid/MainApplication.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="9" Column="2" />
+      <File FileName="todo.mobile/ViewModels/AccountViewModel.cs" Line="1" Column="1" />
+      <File FileName="todo.mobile/Views/Nav/AppMenuCell.cs" Line="1" Column="1" />
+      <File FileName="todo.mobile/Views/Nav/AppMenuPage.cs" Line="8" Column="48" />
+      <File FileName="todo.mobile/ViewModels/MasterDetailViewModel.cs" Line="20" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
